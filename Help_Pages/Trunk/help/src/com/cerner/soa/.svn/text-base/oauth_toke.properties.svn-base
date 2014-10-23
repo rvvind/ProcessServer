@@ -1,0 +1,10 @@
+#OAUTH Token information
+#key = ebd74452-d907-47ef-94ae-7de52988458b
+#signature = vl-f8LxN8Oix8_Dt6PP-85g2MJs5xUyI%26
+#tokenhost = https://api.devcernercare.com/oauth/access
+#principal = ebd74452-d907-47ef-94ae-7de52988458b
+
+key = key
+signature = signature
+tokenhost = tokenhost
+principal = principal

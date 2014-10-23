@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scaj2ee:IntegrationModuleDeploymentConfiguration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:scaj2ee="http://www.ibm.com/xmlns/prod/websphere/sca/j2ee/6.0.2">
+  <appProject>
+    <authorizationTable>
+      <authorizations role="//@appProject/@securityrole.0"/>
+    </authorizationTable>
+    <securityrole description="" roleName="SBL_ContactWidget_myContacts"/>
+  </appProject>
+  <wsImports>
+    <componentScopedRefsBindings>
+      <componentScopedRefs componentNameLink="Module">
+        <serviceRefs serviceRefLink="sca/import/ContactListUpsertImport1">
+          <portQnameBindings portQnameLocalNameLink="ContactListUpsert" overriddenEndpointURI="jms:/queue?destination=jms/WSRQ&amp;connectionFactory=jms/WSCF&amp;targetService=ContactListUpsert"/>
+        </serviceRefs>
+        <serviceRefs serviceRefLink="sca/import/ContactListDeleteImport1">
+          <portQnameBindings portQnameLocalNameLink="ContactListDelete" overriddenEndpointURI="jms:/queue?destination=jms/WSRQ&amp;connectionFactory=jms/WSCF&amp;targetService=ContactListDelete"/>
+        </serviceRefs>
+        <serviceRefs serviceRefLink="sca/import/ContactListQueryImport1">
+          <portQnameBindings portQnameLocalNameLink="ContactListQuery" overriddenEndpointURI="jms:/queue?destination=jms/WSRQ&amp;connectionFactory=jms/WSCF&amp;targetService=ContactListQuery"/>
+        </serviceRefs>
+      </componentScopedRefs>
+    </componentScopedRefsBindings>
+    <componentScopedRefsExtensions>
+      <componentScopedRefs componentNameLink="Module">
+        <serviceRefs serviceRefLink="sca/import/ContactListUpsertImport1">
+          <portQnameBindings portQnameLocalNameLink="ContactListUpsert"/>
+        </serviceRefs>
+        <serviceRefs serviceRefLink="sca/import/ContactListDeleteImport1">
+          <portQnameBindings portQnameLocalNameLink="ContactListDelete"/>
+        </serviceRefs>
+        <serviceRefs serviceRefLink="sca/import/ContactListQueryImport1">
+          <portQnameBindings portQnameLocalNameLink="ContactListQuery"/>
+        </serviceRefs>
+      </componentScopedRefs>
+    </componentScopedRefsExtensions>
+  </wsImports>
+  <wsExports>
+    <wsDescExtensions>
+      
+    </wsDescExtensions>
+    <wsDescBindings>
+      
+    </wsDescBindings>
+  </wsExports>
+</scaj2ee:IntegrationModuleDeploymentConfiguration>

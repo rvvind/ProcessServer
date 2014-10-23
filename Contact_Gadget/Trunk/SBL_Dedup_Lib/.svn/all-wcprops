@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/5920/SOA/Process%20Server/Contact_Gadget/Trunk/SBL_Dedup_Lib
+END
+SBL_Dedup_Invoke.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/5920/SOA/Process%20Server/Contact_Gadget/Trunk/SBL_Dedup_Lib/SBL_Dedup_Invoke.wsdl
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/5920/SOA/Process%20Server/Contact_Gadget/Trunk/SBL_Dedup_Lib/.project
+END
+http___wservice.cerner.com_Contact_Dedup_CERN.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/4731/SOA/Process%20Server/Contact_Gadget/Trunk/SBL_Dedup_Lib/http___wservice.cerner.com_Contact_Dedup_CERN.wsdl
+END
+http___wservice_Endpoint.cerner.com_Contact_Dedup_CERN.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/5920/SOA/Process%20Server/Contact_Gadget/Trunk/SBL_Dedup_Lib/http___wservice_Endpoint.cerner.com_Contact_Dedup_CERN.wsdl
+END
+GenericSettings.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/4731/SOA/Process%20Server/Contact_Gadget/Trunk/SBL_Dedup_Lib/GenericSettings.xsd
+END
+SharedLib_root_objDef.cmt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/5920/SOA/Process%20Server/Contact_Gadget/Trunk/SBL_Dedup_Lib/SharedLib_root_objDef.cmt
+END
+PropertySet.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/4731/SOA/Process%20Server/Contact_Gadget/Trunk/SBL_Dedup_Lib/PropertySet.xsd
+END
+sca.library.attributes
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/5920/SOA/Process%20Server/Contact_Gadget/Trunk/SBL_Dedup_Lib/sca.library.attributes
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/5920/SOA/Process%20Server/Contact_Gadget/Trunk/SBL_Dedup_Lib/.classpath
+END
+PropertySetTopElmt.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/4731/SOA/Process%20Server/Contact_Gadget/Trunk/SBL_Dedup_Lib/PropertySetTopElmt.xsd
+END
+Invoke.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/4731/SOA/Process%20Server/Contact_Gadget/Trunk/SBL_Dedup_Lib/Invoke.wsdl
+END
+MatchInfo.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/4731/SOA/Process%20Server/Contact_Gadget/Trunk/SBL_Dedup_Lib/MatchInfo.xsd
+END
+Deduplication_spcProxy_spcCERN_Dedup_Input.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/4731/SOA/Process%20Server/Contact_Gadget/Trunk/SBL_Dedup_Lib/Deduplication_spcProxy_spcCERN_Dedup_Input.xsd
+END
+Deduplication_spcProxy_spcCERN_Dedup_Output.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/4731/SOA/Process%20Server/Contact_Gadget/Trunk/SBL_Dedup_Lib/Deduplication_spcProxy_spcCERN_Dedup_Output.xsd
+END
+DeDup_Input.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/4731/SOA/Process%20Server/Contact_Gadget/Trunk/SBL_Dedup_Lib/DeDup_Input.xsd
+END
+DeDup_Output.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/4731/SOA/Process%20Server/Contact_Gadget/Trunk/SBL_Dedup_Lib/DeDup_Output.xsd
+END

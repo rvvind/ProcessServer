@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><xsd:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.siebel.com/xml/Contact%20Web%20Access%20WPS%20CERN" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsdLocal1="http://www.siebel.com/xml/Contact%20Web%20Access%20WPS%20CERN">
+  <xsd:include schemaLocation="ListOfWebSecurityOfficersCern.xsd"/>
+  <xsd:include schemaLocation="ListOfWebAccessCern.xsd"/>
+  <xsd:include schemaLocation="string100.xsd"/>
+  <xsd:include schemaLocation="string10.xsd"/>
+  <xsd:include schemaLocation="string30.xsd"/>
+  <xsd:complexType name="Account">
+    <xsd:sequence>
+      <xsd:element maxOccurs="1" minOccurs="0" name="Id" type="xsdLocal1:string30"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="Mnemonic" type="xsdLocal1:string10"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="Name" type="xsdLocal1:string100"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="ListOfWebAccessCern" type="xsdLocal1:ListOfWebAccessCern"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="ListOfWebSecurityOfficersCern" type="xsdLocal1:ListOfWebSecurityOfficersCern"/>
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>

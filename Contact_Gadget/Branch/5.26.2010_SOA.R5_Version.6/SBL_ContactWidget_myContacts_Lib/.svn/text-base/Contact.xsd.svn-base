@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns="http://schemas.xmlsoap.org/wsdl/"
+	xmlns:xsdLocal1="http://www.siebel.com/xml/Contact%20List%20WPS%20CERN"
+	attributeFormDefault="unqualified" elementFormDefault="qualified"
+	targetNamespace="http://www.siebel.com/xml/Contact%20List%20WPS%20CERN">
+	<xsd:include schemaLocation="ListOfContact_BusinessAddress.xsd" />
+	<xsd:include schemaLocation="string30.xsd" />
+	<xsd:include schemaLocation="string100.xsd" />
+	<xsd:include schemaLocation="string75.xsd" />
+	<xsd:include schemaLocation="string10.xsd" />
+	<xsd:include schemaLocation="string15.xsd" />
+	<xsd:include schemaLocation="string50.xsd" />
+	<xsd:complexType name="Contact">
+		<xsd:sequence>
+			<xsd:element maxOccurs="1" minOccurs="0" name="Id"
+				type="xsdLocal1:string30" />
+			<xsd:element maxOccurs="1" minOccurs="0"
+				name="MobilePhoneNum" type="xsd:string" />
+			<xsd:element maxOccurs="1" minOccurs="0" name="PrimaryEmail"
+				type="xsdLocal1:string50" />
+			<xsd:element maxOccurs="1" minOccurs="0" name="FirstName"
+				type="xsdLocal1:string50" />
+			<xsd:element maxOccurs="1" minOccurs="0"
+				name="IntegrationId" type="xsdLocal1:string30" />
+			<xsd:element maxOccurs="1" minOccurs="0" name="JobTitle"
+				type="xsdLocal1:string75" />
+			<xsd:element maxOccurs="1" minOccurs="0" name="LastName"
+				type="xsdLocal1:string50" />
+			<xsd:element maxOccurs="1" minOccurs="0" name="LoginName"
+				type="xsdLocal1:string50" />
+			<xsd:element maxOccurs="1" minOccurs="0" name="MM"
+				type="xsdLocal1:string15" />
+			<xsd:element maxOccurs="1" minOccurs="0" name="Mnemonic"
+				type="xsdLocal1:string10" />
+			<xsd:element maxOccurs="1" minOccurs="0" name="AccountName"
+				type="xsdLocal1:string100" />
+			<xsd:element maxOccurs="1" minOccurs="0" name="Role"
+				type="xsdLocal1:string30" />
+			<xsd:element maxOccurs="1" minOccurs="0" name="WorkPhone"
+				type="xsd:string" />
+			<xsd:element maxOccurs="1" minOccurs="0"
+				name="ListOfContact_BusinessAddress"
+				type="xsdLocal1:ListOfContact_BusinessAddress" />
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:schema>

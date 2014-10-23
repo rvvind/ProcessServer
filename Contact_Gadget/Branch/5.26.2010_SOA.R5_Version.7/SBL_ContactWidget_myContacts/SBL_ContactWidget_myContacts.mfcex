@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extensionmodel:ExtensionMap xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:extensionmodel="http:///extensionmodel.ecore" xmlns:sb="http://com.ibm.wbit.stickyboard.model/model/StickyBoard.xsd" namespace="http://com.ibm.wbit.stickyboard.model/model/StickyBoard.xsd">
+  <extensions>
+    <extendedObject href="SBL_ContactWidget_myContacts.mfc#//@interfaceMediationFlow"/>
+    <extensionObject xsi:type="sb:StickyDocument">
+      <stickyBoard id="{http://SBL_ContactWidget_myContacts_Lib/Invoke}Invoke:ContactListUpsert::request"/>
+      <stickyBoard id="{http://SBL_ContactWidget_myContacts_Lib/Invoke}Invoke:ContactListQuery::request"/>
+      <stickyBoard id="{http://SBL_ContactWidget_myContacts_Lib/Invoke}Invoke:ContactListDelete::request"/>
+    </extensionObject>
+  </extensions>
+</extensionmodel:ExtensionMap>

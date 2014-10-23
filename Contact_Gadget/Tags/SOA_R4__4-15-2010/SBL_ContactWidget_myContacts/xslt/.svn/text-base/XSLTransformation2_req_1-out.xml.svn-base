@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<body xmlns:io2="http://wservice.cerner.com/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:out="wsdl.http://SBL_ContactWidget_myContacts_Lib/Invoke" xmlns:out2="http://SBL_ContactWidget_myContacts_Lib/Invoke" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:io="http://www.siebel.com/xml/Contact%20List%20WPS%20CERN">
+  <out2:ContactListUpsertResponse>
+    <io2:Contact_spcList_spcUpsert_spcWPS_spcCERN_ContactListUpsert_Output>
+      <xsdLocal1:ListOfContactListWpsCern xmlns:xsdLocal1="http://www.siebel.com/xml/Contact%20List%20WPS%20CERN" xmlns:tns="http://wservice.cerner.com/" xmlns:tns_1="wsdl.http://wservice.cerner.com/">
+        <xsdLocal1:ContactListCern>
+          <xsdLocal1:Id>xsdLocal1:Id</xsdLocal1:Id>
+          <xsdLocal1:FirstName>xsdLocal1:FirstName</xsdLocal1:FirstName>
+          <xsdLocal1:LastName>xsdLocal1:LastName</xsdLocal1:LastName>
+          <xsdLocal1:ListOfContact>
+            <xsdLocal1:Contact>
+              <xsdLocal1:Id>xsdLocal1:Id</xsdLocal1:Id>
+              <xsdLocal1:FirstName>xsdLocal1:FirstName</xsdLocal1:FirstName>
+              <xsdLocal1:IntegrationId>xsdLocal1:IntegrationId</xsdLocal1:IntegrationId>
+              <xsdLocal1:JobTitle>xsdLocal1:JobTitle</xsdLocal1:JobTitle>
+              <xsdLocal1:LastName>xsdLocal1:LastName</xsdLocal1:LastName>
+              <xsdLocal1:MM>xsdLocal1:MM</xsdLocal1:MM>
+              <xsdLocal1:MnemonicCERN>xsdLocal1:MnemonicCERN</xsdLocal1:MnemonicCERN>
+              <xsdLocal1:WorkPhone>xsdLocal1:WorkPhone</xsdLocal1:WorkPhone>
+              <xsdLocal1:ListOfContact_BusinessAddress>
+                <xsdLocal1:Contact_BusinessAddress IsPrimaryMVG="">
+                  <xsdLocal1:City>xsdLocal1:City</xsdLocal1:City>
+                  <xsdLocal1:Country>xsdLocal1:Country</xsdLocal1:Country>
+                  <xsdLocal1:ZIPPostalCode>xsdLocal1:ZIPPostalCode</xsdLocal1:ZIPPostalCode>
+                  <xsdLocal1:State>xsdLocal1:State</xsdLocal1:State>
+                  <xsdLocal1:ClientAddress>xsdLocal1:ClientAddress</xsdLocal1:ClientAddress>
+                  <xsdLocal1:AddressLine2>xsdLocal1:AddressLine2</xsdLocal1:AddressLine2>
+                </xsdLocal1:Contact_BusinessAddress>
+              </xsdLocal1:ListOfContact_BusinessAddress>
+            </xsdLocal1:Contact>
+          </xsdLocal1:ListOfContact>
+        </xsdLocal1:ContactListCern>
+      </xsdLocal1:ListOfContactListWpsCern>
+    </io2:Contact_spcList_spcUpsert_spcWPS_spcCERN_ContactListUpsert_Output>
+  </out2:ContactListUpsertResponse>
+</body>

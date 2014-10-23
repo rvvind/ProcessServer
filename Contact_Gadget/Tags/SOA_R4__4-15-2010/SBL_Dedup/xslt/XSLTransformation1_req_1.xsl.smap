@@ -1,0 +1,16 @@
+* SMAP
+XSLTransformation1_req_1.xsl
+XMLMAP
+*S XMLMAP
+*F
++ 1 XSLTransformation1_req_1.map
+/SBL_Dedup/xslt/XSLTransformation1_req_1.map
+*L
+6:57,4
+4:49,4
+7:61,3
+1:33,1
+5:53,4
+2:41,4
+3:45,4
+*E

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scdl:export xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Binding="http://SBL_ContactWidget_Lib/Invoke/Binding" xmlns:jaxws="http://www.ibm.com/xmlns/prod/websphere/scdl/jaxws/6.0.0" xmlns:ns1="http://SBL_ContactWidget_Lib/Invoke" xmlns:scdl="http://www.ibm.com/xmlns/prod/websphere/scdl/6.0.0" xmlns:webservice="http://www.ibm.com/xmlns/prod/websphere/scdl/webservice/6.0.0" xmlns:wsdl="http://www.ibm.com/xmlns/prod/websphere/scdl/wsdl/6.0.0" displayName="Invoke" name="Invoke" target="SBL_ContactWidget">
+  <interfaces>
+    <interface xsi:type="wsdl:WSDLPortType" preferredInteractionStyle="sync" portType="ns1:Invoke"/>
+  </interfaces>
+  <esbBinding xsi:type="jaxws:JaxWsExportBinding" port="ns1:Invoke_InvokeHttpPort" service="ns1:Invoke_InvokeHttpService">
+    <policySetRef policySetName="Cerner_UNT"/>
+    <handlerChain>
+      <handler>
+        <handlerName>JAXWS_WSSHandler</handlerName>
+        <handlerClass>JAXWS_WSSHandler</handlerClass>
+      </handler>
+    </handlerChain>
+  </esbBinding>
+</scdl:export>

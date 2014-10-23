@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:Input.mednode="mednode://mednodes/Input.mednode/Input" xmlns:InputFault.mednode="mednode://mednodes/InputFault.mednode/InputFault" xmlns:InputResponse.mednode="mednode://mednodes/InputResponse.mednode/InputResponse" xmlns:MessageLogger.mednode="mednode://mednodes/MessageLogger.mednode/MessageLogger" xmlns:SBL_ContactWidget.medflow="SBL_ContactWidget.medflow" xmlns:ServiceInvoke.mednode="mednode://mednodes/ServiceInvoke.mednode/ServiceInvoke" xmlns:XSLTransformation.mednode="mednode://mednodes/XSLTransformation.mednode/XSLTransformation" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:eflow2="http://www.ibm.com/2006/eflow" xmlns:type="http://www.ibm.com/2006/eflow/type" xmlns:utility="http://www.ibm.com/2006/eflow/utility" name="root" nsURI="SBL_ContactWidget.medflow" nsPrefix="SBL_ContactWidget.medflow">
+  <eClassifiers xmi:type="eflow2:FCMComposite" name="root_I_31">
+    <eSuperTypes href="http://www.ibm.com/2006/eflow#//FCMBlock"/>
+    <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="Property.name" name="name" lowerBound="1" defaultValueLiteral="">
+      <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <composition>
+      <type xmi:type="type:CompositeType" xmi:id="CompositeType_59">
+        <elements id="message">
+          <type xmi:type="type:WSDLMessageType" wsdlMessage="{http://SBL_ContactWidget_Lib/Invoke}ContactUpsertRequestMsg"/>
+        </elements>
+      </type>
+      <type xmi:type="type:CompositeType" xmi:id="CompositeType_60">
+        <elements id="message">
+          <type xmi:type="type:WSDLMessageType" wsdlMessage="{http://SBL_ContactWidget_Lib/Invoke}ContactUpsertResponseMsg"/>
+        </elements>
+      </type>
+      <type xmi:type="type:CompositeType" xmi:id="CompositeType_61">
+        <elements id="message">
+          <type xmi:type="type:WSDLMessageType" wsdlMessage="{http://SBL_ContactWidget_Lib/Invoke}ContactUpsert_fault1Msg"/>
+        </elements>
+      </type>
+      <type xmi:type="type:CompositeType" xmi:id="CompositeType_62">
+        <elements id="message">
+          <type xmi:type="type:WSDLMessageType" wsdlMessage="{http://wservice.cerner.com/}Contact_spcUpsert_spcWPS_spcCERN_ContactUpsert_Input"/>
+        </elements>
+      </type>
+      <type xmi:type="type:CompositeType" xmi:id="CompositeType_63">
+        <elements id="message">
+          <type xmi:type="type:WSDLMessageType" wsdlMessage="{http://wservice.cerner.com/}Contact_spcUpsert_spcWPS_spcCERN_ContactUpsert_Output"/>
+        </elements>
+      </type>
+      <nodes xmi:type="Input.mednode:Input" xmi:id="Input_15" name="Invoke_ContactUpsert_Input">
+        <location/>
+        <outTerminals terminalNodeID="OutTerminal.out" explicitType="true" type="CompositeType_59"/>
+        <translation xmi:type="utility:ConstantString" string="ContactUpsert : Invoke"/>
+      </nodes>
+      <nodes xmi:type="InputResponse.mednode:InputResponse" xmi:id="InputResponse_15" name="Invoke_ContactUpsert_InputResponse">
+        <location x="781" y="29"/>
+        <inTerminals terminalNodeID="InTerminal.in" explicitType="true" type="CompositeType_60"/>
+        <translation xmi:type="utility:ConstantString" string="ContactUpsert : Invoke"/>
+      </nodes>
+      <nodes xmi:type="InputFault.mednode:InputFault" xmi:id="InputFault_15" name="Invoke_ContactUpsert_InputFault">
+        <location x="807" y="215"/>
+        <inTerminals terminalNodeID="InTerminal.dynamic:in:ContactUpsert_fault1Msg" dynamic="true" explicitType="true" label="ContactUpsert_fault1Msg" longDescription="" type="CompositeType_61"/>
+        <translation xmi:type="utility:ConstantString" string="ContactUpsert : Invoke"/>
+      </nodes>
+      <nodes xmi:type="MessageLogger.mednode:MessageLogger" xmi:id="MessageLogger_15" name="ContactUpsert">
+        <location x="107" y="79"/>
+        <outTerminals terminalNodeID="OutTerminal.out" type="CompositeType_59"/>
+        <outTerminals terminalNodeID="OutTerminal.Failure" type="CompositeType_59"/>
+        <inTerminals terminalNodeID="InTerminal.in" type="CompositeType_59"/>
+        <translation xmi:type="utility:ConstantString" string="ContactUpsert"/>
+      </nodes>
+      <nodes xmi:type="ServiceInvoke.mednode:ServiceInvoke" xmi:id="ServiceInvoke_9" name="ServiceInvoke1" referenceName="ContactUpsertPartner" operationName="ContactUpsert">
+        <location x="414" y="188"/>
+        <outTerminals terminalNodeID="OutTerminal.timeout" explicitType="true" type="CompositeType_62"/>
+        <outTerminals terminalNodeID="OutTerminal.Failure" type="CompositeType_62"/>
+        <outTerminals terminalNodeID="OutTerminal.dynamic:out:out" dynamic="true" explicitType="true" label="out" longDescription="Propagates the updated message, if the service call is successful." type="CompositeType_63"/>
+        <inTerminals terminalNodeID="InTerminal.in" explicitType="true" type="CompositeType_62"/>
+        <translation xmi:type="utility:ConstantString" string="ServiceInvoke1"/>
+      </nodes>
+      <nodes xmi:type="XSLTransformation.mednode:XSLTransformation" xmi:id="XSLTransformation_25" name="XSLTransformation1" root="/body" XMXMap="xslt/XSLTransformation1_req_2.map" associatedXSL="xslt/XSLTransformation1_req_2.xsl" XSLTransform="xslt/XSLTransformation1_req_2.xsl" SMOVersion="SMO61">
+        <location x="245" y="144"/>
+        <outTerminals terminalNodeID="OutTerminal.out" explicitType="true" type="CompositeType_62"/>
+        <outTerminals terminalNodeID="OutTerminal.Failure" type="CompositeType_59"/>
+        <inTerminals terminalNodeID="InTerminal.in" type="CompositeType_59"/>
+        <translation xmi:type="utility:ConstantString" string="XSLTransformation1"/>
+      </nodes>
+      <nodes xmi:type="XSLTransformation.mednode:XSLTransformation" xmi:id="XSLTransformation_26" name="XSLTransformation2" root="/body" XMXMap="xslt/XSLTransformation2_req_2.map" associatedXSL="xslt/XSLTransformation2_req_2.xsl" XSLTransform="xslt/XSLTransformation2_req_2.xsl" SMOVersion="SMO61">
+        <location x="599" y="100"/>
+        <outTerminals terminalNodeID="OutTerminal.out" explicitType="true" type="CompositeType_60"/>
+        <outTerminals terminalNodeID="OutTerminal.Failure" type="CompositeType_63"/>
+        <inTerminals terminalNodeID="InTerminal.in" type="CompositeType_63"/>
+        <translation xmi:type="utility:ConstantString" string="XSLTransformation2"/>
+      </nodes>
+      <nodes xmi:type="XSLTransformation.mednode:XSLTransformation" xmi:id="XSLTransformation_27" name="XSLTransformation3" root="/" XMXMap="xslt/XSLTransformation3_req_2.map" associatedXSL="xslt/XSLTransformation3_req_2.xsl" XSLTransform="xslt/XSLTransformation3_req_2.xsl" SMOVersion="SMO61">
+        <location x="613" y="267"/>
+        <outTerminals terminalNodeID="OutTerminal.out" explicitType="true" type="CompositeType_61"/>
+        <outTerminals terminalNodeID="OutTerminal.Failure" type="CompositeType_62"/>
+        <inTerminals terminalNodeID="InTerminal.in" type="CompositeType_62"/>
+        <translation xmi:type="utility:ConstantString" string="XSLTransformation3"/>
+      </nodes>
+      <connections xmi:type="eflow2:FCMConnection" xmi:id="FCMConnection_74" targetNode="MessageLogger_15" sourceNode="Input_15" sourceTerminalName="OutTerminal.out" targetTerminalName="InTerminal.in"/>
+      <connections xmi:type="eflow2:FCMConnection" xmi:id="FCMConnection_75" targetNode="XSLTransformation_25" sourceNode="MessageLogger_15" sourceTerminalName="OutTerminal.out" targetTerminalName="InTerminal.in"/>
+      <connections xmi:type="eflow2:FCMConnection" xmi:id="FCMConnection_76" targetNode="XSLTransformation_25" sourceNode="MessageLogger_15" sourceTerminalName="OutTerminal.Failure" targetTerminalName="InTerminal.in"/>
+      <connections xmi:type="eflow2:FCMConnection" xmi:id="FCMConnection_77" targetNode="XSLTransformation_26" sourceNode="ServiceInvoke_9" sourceTerminalName="OutTerminal.dynamic:out:out" targetTerminalName="InTerminal.in"/>
+      <connections xmi:type="eflow2:FCMConnection" xmi:id="FCMConnection_78" targetNode="XSLTransformation_27" sourceNode="ServiceInvoke_9" sourceTerminalName="OutTerminal.timeout" targetTerminalName="InTerminal.in"/>
+      <connections xmi:type="eflow2:FCMConnection" xmi:id="FCMConnection_79" targetNode="XSLTransformation_27" sourceNode="ServiceInvoke_9" sourceTerminalName="OutTerminal.Failure" targetTerminalName="InTerminal.in"/>
+      <connections xmi:type="eflow2:FCMConnection" xmi:id="FCMConnection_80" targetNode="ServiceInvoke_9" sourceNode="XSLTransformation_25" sourceTerminalName="OutTerminal.out" targetTerminalName="InTerminal.in"/>
+      <connections xmi:type="eflow2:FCMConnection" xmi:id="FCMConnection_81" targetNode="InputResponse_15" sourceNode="XSLTransformation_26" sourceTerminalName="OutTerminal.out" targetTerminalName="InTerminal.in"/>
+      <connections xmi:type="eflow2:FCMConnection" xmi:id="FCMConnection_82" targetNode="InputFault_15" sourceNode="XSLTransformation_27" sourceTerminalName="OutTerminal.out" targetTerminalName="InTerminal.dynamic:in:ContactUpsert_fault1Msg"/>
+    </composition>
+    <propertyOrganizer>
+      <propertyDescriptor describedAttribute="Property.name"/>
+    </propertyOrganizer>
+  </eClassifiers>
+  <eClassifiers xmi:type="eflow2:FCMComposite" name="root_I_32">
+    <eSuperTypes href="http://www.ibm.com/2006/eflow#//FCMBlock"/>
+    <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="Property.name" name="name" lowerBound="1" defaultValueLiteral="">
+      <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <composition>
+      <type xmi:type="type:CompositeType" xmi:id="CompositeType_64">
+        <elements id="message">
+          <type xmi:type="type:WSDLMessageType" wsdlMessage="{http://SBL_ContactWidget_Lib/Invoke}ContactQueryRequestMsg"/>
+        </elements>
+      </type>
+      <type xmi:type="type:CompositeType" xmi:id="CompositeType_65">
+        <elements id="message">
+          <type xmi:type="type:WSDLMessageType" wsdlMessage="{http://SBL_ContactWidget_Lib/Invoke}ContactQueryResponseMsg"/>
+        </elements>
+      </type>
+      <type xmi:type="type:CompositeType" xmi:id="CompositeType_66">
+        <elements id="message">
+          <type xmi:type="type:WSDLMessageType" wsdlMessage="{http://SBL_ContactWidget_Lib/Invoke}ContactQuery_fault1Msg"/>
+        </elements>
+      </type>
+      <type xmi:type="type:CompositeType" xmi:id="CompositeType_67">
+        <elements id="message">
+          <type xmi:type="type:WSDLMessageType" wsdlMessage="{http://wservice.cerner.com/}Contact_spcQuery_spcWPS_spcCERN_ContactQuery_Input"/>
+        </elements>
+      </type>
+      <type xmi:type="type:CompositeType" xmi:id="CompositeType_68">
+        <elements id="message">
+          <type xmi:type="type:WSDLMessageType" wsdlMessage="{http://wservice.cerner.com/}Contact_spcQuery_spcWPS_spcCERN_ContactQuery_Output"/>
+        </elements>
+      </type>
+      <nodes xmi:type="Input.mednode:Input" xmi:id="Input_16" name="Invoke_ContactQuery_Input">
+        <location/>
+        <outTerminals terminalNodeID="OutTerminal.out" explicitType="true" type="CompositeType_64"/>
+        <translation xmi:type="utility:ConstantString" string="ContactQuery : Invoke"/>
+      </nodes>
+      <nodes xmi:type="InputResponse.mednode:InputResponse" xmi:id="InputResponse_16" name="Invoke_ContactQuery_InputResponse">
+        <location x="783" y="11"/>
+        <inTerminals terminalNodeID="InTerminal.in" explicitType="true" type="CompositeType_65"/>
+        <translation xmi:type="utility:ConstantString" string="ContactQuery : Invoke"/>
+      </nodes>
+      <nodes xmi:type="InputFault.mednode:InputFault" xmi:id="InputFault_16" name="Invoke_ContactQuery_InputFault">
+        <location x="803" y="184"/>
+        <inTerminals terminalNodeID="InTerminal.dynamic:in:ContactQuery_fault1Msg" dynamic="true" explicitType="true" label="ContactQuery_fault1Msg" longDescription="" type="CompositeType_66"/>
+        <translation xmi:type="utility:ConstantString" string="ContactQuery : Invoke"/>
+      </nodes>
+      <nodes xmi:type="MessageLogger.mednode:MessageLogger" xmi:id="MessageLogger_16" name="ContactQuery">
+        <location x="113" y="85"/>
+        <outTerminals terminalNodeID="OutTerminal.out" type="CompositeType_64"/>
+        <outTerminals terminalNodeID="OutTerminal.Failure" type="CompositeType_64"/>
+        <inTerminals terminalNodeID="InTerminal.in" type="CompositeType_64"/>
+        <translation xmi:type="utility:ConstantString" string="ContactQuery"/>
+      </nodes>
+      <nodes xmi:type="XSLTransformation.mednode:XSLTransformation" xmi:id="XSLTransformation_28" name="XSLTransformation1" root="/body" XMXMap="xslt/XSLTransformation1_req_1.map" associatedXSL="xslt/XSLTransformation1_req_1.xsl" XSLTransform="xslt/XSLTransformation1_req_1.xsl" SMOVersion="SMO61">
+        <location x="228" y="158"/>
+        <outTerminals terminalNodeID="OutTerminal.out" explicitType="true" type="CompositeType_67"/>
+        <outTerminals terminalNodeID="OutTerminal.Failure" type="CompositeType_64"/>
+        <inTerminals terminalNodeID="InTerminal.in" type="CompositeType_64"/>
+        <translation xmi:type="utility:ConstantString" string="XSLTransformation1"/>
+      </nodes>
+      <nodes xmi:type="ServiceInvoke.mednode:ServiceInvoke" xmi:id="ServiceInvoke_10" name="ServiceInvoke1" referenceName="ContactQueryPartner" operationName="ContactQuery">
+        <location x="410" y="187"/>
+        <outTerminals terminalNodeID="OutTerminal.timeout" explicitType="true" type="CompositeType_67"/>
+        <outTerminals terminalNodeID="OutTerminal.Failure" type="CompositeType_67"/>
+        <outTerminals terminalNodeID="OutTerminal.dynamic:out:out" dynamic="true" explicitType="true" label="out" longDescription="Propagates the updated message, if the service call is successful." type="CompositeType_68"/>
+        <inTerminals terminalNodeID="InTerminal.in" explicitType="true" type="CompositeType_67"/>
+        <translation xmi:type="utility:ConstantString" string="ServiceInvoke1"/>
+      </nodes>
+      <nodes xmi:type="XSLTransformation.mednode:XSLTransformation" xmi:id="XSLTransformation_29" name="XSLTransformation2" root="/body" XMXMap="xslt/XSLTransformation2_req_1.map" associatedXSL="xslt/XSLTransformation2_req_1.xsl" XSLTransform="xslt/XSLTransformation2_req_1.xsl" SMOVersion="SMO61">
+        <location x="577" y="87"/>
+        <outTerminals terminalNodeID="OutTerminal.out" explicitType="true" type="CompositeType_65"/>
+        <outTerminals terminalNodeID="OutTerminal.Failure" type="CompositeType_68"/>
+        <inTerminals terminalNodeID="InTerminal.in" type="CompositeType_68"/>
+        <translation xmi:type="utility:ConstantString" string="XSLTransformation2"/>
+      </nodes>
+      <nodes xmi:type="XSLTransformation.mednode:XSLTransformation" xmi:id="XSLTransformation_30" name="XSLTransformation3" root="/" XMXMap="xslt/XSLTransformation3_req_1.map" associatedXSL="xslt/XSLTransformation3_req_1.xsl" XSLTransform="xslt/XSLTransformation3_req_1.xsl" SMOVersion="SMO61">
+        <location x="577" y="273"/>
+        <outTerminals terminalNodeID="OutTerminal.out" explicitType="true" type="CompositeType_66"/>
+        <outTerminals terminalNodeID="OutTerminal.Failure" type="CompositeType_67"/>
+        <inTerminals terminalNodeID="InTerminal.in" type="CompositeType_67"/>
+        <translation xmi:type="utility:ConstantString" string="XSLTransformation3"/>
+      </nodes>
+      <connections xmi:type="eflow2:FCMConnection" xmi:id="FCMConnection_83" targetNode="MessageLogger_16" sourceNode="Input_16" sourceTerminalName="OutTerminal.out" targetTerminalName="InTerminal.in"/>
+      <connections xmi:type="eflow2:FCMConnection" xmi:id="FCMConnection_84" targetNode="XSLTransformation_28" sourceNode="MessageLogger_16" sourceTerminalName="OutTerminal.out" targetTerminalName="InTerminal.in"/>
+      <connections xmi:type="eflow2:FCMConnection" xmi:id="FCMConnection_85" targetNode="XSLTransformation_28" sourceNode="MessageLogger_16" sourceTerminalName="OutTerminal.Failure" targetTerminalName="InTerminal.in"/>
+      <connections xmi:type="eflow2:FCMConnection" xmi:id="FCMConnection_86" targetNode="ServiceInvoke_10" sourceNode="XSLTransformation_28" sourceTerminalName="OutTerminal.out" targetTerminalName="InTerminal.in"/>
+      <connections xmi:type="eflow2:FCMConnection" xmi:id="FCMConnection_87" targetNode="XSLTransformation_29" sourceNode="ServiceInvoke_10" sourceTerminalName="OutTerminal.dynamic:out:out" targetTerminalName="InTerminal.in"/>
+      <connections xmi:type="eflow2:FCMConnection" xmi:id="FCMConnection_88" targetNode="XSLTransformation_30" sourceNode="ServiceInvoke_10" sourceTerminalName="OutTerminal.timeout" targetTerminalName="InTerminal.in"/>
+      <connections xmi:type="eflow2:FCMConnection" xmi:id="FCMConnection_89" targetNode="InputResponse_16" sourceNode="XSLTransformation_29" sourceTerminalName="OutTerminal.out" targetTerminalName="InTerminal.in"/>
+      <connections xmi:type="eflow2:FCMConnection" xmi:id="FCMConnection_90" targetNode="InputFault_16" sourceNode="XSLTransformation_30" sourceTerminalName="OutTerminal.out" targetTerminalName="InTerminal.dynamic:in:ContactQuery_fault1Msg"/>
+    </composition>
+    <propertyOrganizer>
+      <propertyDescriptor describedAttribute="Property.name"/>
+    </propertyOrganizer>
+  </eClassifiers>
+  <eClassifiers xmi:type="eflow2:FCMComposite" name="root">
+    <eSuperTypes href="http://www.ibm.com/2006/eflow#//FCMBlock"/>
+    <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="Property.name" name="name" lowerBound="1" defaultValueLiteral="">
+      <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <composition>
+      <nodes xmi:type="SBL_ContactWidget.medflow:root_I_31" xmi:id="root_I_31_1" name="{http://SBL_ContactWidget_Lib/Invoke}Invoke:ContactUpsert::request"/>
+      <nodes xmi:type="SBL_ContactWidget.medflow:root_I_32" xmi:id="root_I_32_1" name="{http://SBL_ContactWidget_Lib/Invoke}Invoke:ContactQuery::request"/>
+    </composition>
+    <propertyOrganizer>
+      <propertyDescriptor describedAttribute="Property.name"/>
+    </propertyOrganizer>
+  </eClassifiers>
+</ecore:EPackage>

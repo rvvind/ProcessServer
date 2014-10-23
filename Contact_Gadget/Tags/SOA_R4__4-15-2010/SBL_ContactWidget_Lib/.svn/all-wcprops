@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/4901/SOA/Process%20Server/Contact_Gadget/Tags/SOA_R4__4-15-2010/SBL_ContactWidget_Lib
+END
+Contact_spcQuery_spcWPS_spcCERN_ContactQuery_Input.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/!svn/ver/4901/SOA/Process%20Server/Contact_Gadget/Tags/SOA_R4__4-15-2010/SBL_ContactWidget_Lib/Contact_spcQuery_spcWPS_spcCERN_ContactQuery_Input.xsd
+END
+string75.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/4901/SOA/Process%20Server/Contact_Gadget/Tags/SOA_R4__4-15-2010/SBL_ContactWidget_Lib/string75.xsd
+END
+ListOfContactWpsCernTopElmt.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/4901/SOA/Process%20Server/Contact_Gadget/Tags/SOA_R4__4-15-2010/SBL_ContactWidget_Lib/ListOfContactWpsCernTopElmt.xsd
+END
+Contact_spcQuery_spcWPS_spcCERN_ContactQuery_Output.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/!svn/ver/4901/SOA/Process%20Server/Contact_Gadget/Tags/SOA_R4__4-15-2010/SBL_ContactWidget_Lib/Contact_spcQuery_spcWPS_spcCERN_ContactQuery_Output.xsd
+END
+Contact_AlternatePhone.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/4901/SOA/Process%20Server/Contact_Gadget/Tags/SOA_R4__4-15-2010/SBL_ContactWidget_Lib/Contact_AlternatePhone.xsd
+END
+http___wservice.cerner.com__Contact_WPS_CERN1.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/!svn/ver/4901/SOA/Process%20Server/Contact_Gadget/Tags/SOA_R4__4-15-2010/SBL_ContactWidget_Lib/http___wservice.cerner.com__Contact_WPS_CERN1.wsdl
+END
+http___wservice_Endpoint.cerner.com__Contact_WPS_CERN1.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/!svn/ver/4901/SOA/Process%20Server/Contact_Gadget/Tags/SOA_R4__4-15-2010/SBL_ContactWidget_Lib/http___wservice_Endpoint.cerner.com__Contact_WPS_CERN1.wsdl
+END
+SBL_ContactWidget_Invoke.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/4901/SOA/Process%20Server/Contact_Gadget/Tags/SOA_R4__4-15-2010/SBL_ContactWidget_Lib/SBL_ContactWidget_Invoke.wsdl
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/4901/SOA/Process%20Server/Contact_Gadget/Tags/SOA_R4__4-15-2010/SBL_ContactWidget_Lib/.project
+END
+string100.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/4901/SOA/Process%20Server/Contact_Gadget/Tags/SOA_R4__4-15-2010/SBL_ContactWidget_Lib/string100.xsd
+END
+ListOfContact_Account.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/4901/SOA/Process%20Server/Contact_Gadget/Tags/SOA_R4__4-15-2010/SBL_ContactWidget_Lib/ListOfContact_Account.xsd
+END
+string200.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/4901/SOA/Process%20Server/Contact_Gadget/Tags/SOA_R4__4-15-2010/SBL_ContactWidget_Lib/string200.xsd
+END
+Contact.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/4901/SOA/Process%20Server/Contact_Gadget/Tags/SOA_R4__4-15-2010/SBL_ContactWidget_Lib/Contact.xsd
+END
+Account.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/4901/SOA/Process%20Server/Contact_Gadget/Tags/SOA_R4__4-15-2010/SBL_ContactWidget_Lib/Account.xsd
+END
+ListOfContact_BusinessAddress.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/4901/SOA/Process%20Server/Contact_Gadget/Tags/SOA_R4__4-15-2010/SBL_ContactWidget_Lib/ListOfContact_BusinessAddress.xsd
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/4901/SOA/Process%20Server/Contact_Gadget/Tags/SOA_R4__4-15-2010/SBL_ContactWidget_Lib/.classpath
+END
+ListOfContact_AlternatePhone.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/4901/SOA/Process%20Server/Contact_Gadget/Tags/SOA_R4__4-15-2010/SBL_ContactWidget_Lib/ListOfContact_AlternatePhone.xsd
+END
+Invoke.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/4901/SOA/Process%20Server/Contact_Gadget/Tags/SOA_R4__4-15-2010/SBL_ContactWidget_Lib/Invoke.wsdl
+END
+Contact_Account.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/4901/SOA/Process%20Server/Contact_Gadget/Tags/SOA_R4__4-15-2010/SBL_ContactWidget_Lib/Contact_Account.xsd
+END
+string10.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/4901/SOA/Process%20Server/Contact_Gadget/Tags/SOA_R4__4-15-2010/SBL_ContactWidget_Lib/string10.xsd
+END
+string30.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/4901/SOA/Process%20Server/Contact_Gadget/Tags/SOA_R4__4-15-2010/SBL_ContactWidget_Lib/string30.xsd
+END
+string50.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/4901/SOA/Process%20Server/Contact_Gadget/Tags/SOA_R4__4-15-2010/SBL_ContactWidget_Lib/string50.xsd
+END
+Contact_spcUpsert_spcWPS_spcCERN_ContactUpsert_Input.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/!svn/ver/4901/SOA/Process%20Server/Contact_Gadget/Tags/SOA_R4__4-15-2010/SBL_ContactWidget_Lib/Contact_spcUpsert_spcWPS_spcCERN_ContactUpsert_Input.xsd
+END
+Contact_BusinessAddress.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/4901/SOA/Process%20Server/Contact_Gadget/Tags/SOA_R4__4-15-2010/SBL_ContactWidget_Lib/Contact_BusinessAddress.xsd
+END
+string15.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/4901/SOA/Process%20Server/Contact_Gadget/Tags/SOA_R4__4-15-2010/SBL_ContactWidget_Lib/string15.xsd
+END
+ListOfAccount.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/4901/SOA/Process%20Server/Contact_Gadget/Tags/SOA_R4__4-15-2010/SBL_ContactWidget_Lib/ListOfAccount.xsd
+END
+Contact_spcUpsert_spcWPS_spcCERN_ContactUpsert_Output.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/!svn/ver/4901/SOA/Process%20Server/Contact_Gadget/Tags/SOA_R4__4-15-2010/SBL_ContactWidget_Lib/Contact_spcUpsert_spcWPS_spcCERN_ContactUpsert_Output.xsd
+END
+ListOfContactWpsCern.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/4901/SOA/Process%20Server/Contact_Gadget/Tags/SOA_R4__4-15-2010/SBL_ContactWidget_Lib/ListOfContactWpsCern.xsd
+END

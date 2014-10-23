@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema attributeFormDefault="unqualified"
+	elementFormDefault="qualified"
+	targetNamespace="http://www.siebel.com/xml/Contact%20WPS%20CERN_V3"
+	xmlns="http://schemas.xmlsoap.org/wsdl/"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:xsdLocal1="http://www.siebel.com/xml/Contact%20WPS%20CERN_V3">
+	<xsd:include schemaLocation="ListOfContactNote.xsd" />
+	<xsd:include schemaLocation="string50.xsd" />
+	<xsd:include schemaLocation="ListOfContact_Account.xsd" />
+	<xsd:include schemaLocation="ListOfAccount.xsd" />
+	<xsd:include schemaLocation="ListOfContact_AlternatePhone.xsd" />
+	<xsd:include schemaLocation="string15.xsd" />
+	<xsd:include schemaLocation="ListOfContact_BusinessAddress.xsd" />
+	<xsd:include schemaLocation="string10.xsd" />
+	<xsd:include schemaLocation="string75.xsd" />
+	<xsd:include schemaLocation="string30.xsd" />
+	<xsd:complexType name="Contact">
+		<xsd:sequence>
+			<xsd:element maxOccurs="1" minOccurs="0" name="Id"
+				type="xsdLocal1:string30" />
+			<xsd:element maxOccurs="1" minOccurs="0"
+				name="MobilePhoneNum" type="xsd:string" />
+			<xsd:element maxOccurs="1" minOccurs="0" name="PrimaryEmail"
+				type="xsdLocal1:string50" />
+			<xsd:element maxOccurs="1" minOccurs="0" name="FirstName"
+				type="xsdLocal1:string50" />
+			<xsd:element maxOccurs="1" minOccurs="0" name="HomePhoneNum"
+				type="xsd:string" />
+			<xsd:element maxOccurs="1" minOccurs="0"
+				name="IntegrationId" type="xsdLocal1:string30" />
+			<xsd:element maxOccurs="1" minOccurs="0" name="JobTitle"
+				type="xsdLocal1:string75" />
+			<xsd:element maxOccurs="1" minOccurs="0" name="LastName"
+				type="xsdLocal1:string50" />
+			<xsd:element maxOccurs="1" minOccurs="0" name="LoginName"
+				type="xsdLocal1:string50" />
+			<xsd:element maxOccurs="1" minOccurs="0" name="MrMs"
+				type="xsdLocal1:string15" />
+			<xsd:element maxOccurs="1" minOccurs="0" name="Mnemonic"
+				type="xsdLocal1:string10" />
+			<xsd:element maxOccurs="1" minOccurs="0"
+				name="PreferredCommunications" type="xsdLocal1:string30" />
+			<xsd:element maxOccurs="1" minOccurs="0" name="Role"
+				type="xsdLocal1:string30" />
+			<xsd:element maxOccurs="1" minOccurs="0" name="NeverEmail"
+				type="xsd:string" />
+			<xsd:element maxOccurs="1" minOccurs="0" name="WorkPhoneNum"
+				type="xsd:string" />
+			<xsd:element maxOccurs="1" minOccurs="0"
+				name="WorkPhoneExtension" type="xsdLocal1:string10" />
+			<xsd:element maxOccurs="1" minOccurs="0"
+				name="ListOfContact_Account" type="xsdLocal1:ListOfContact_Account" />
+			<xsd:element maxOccurs="1" minOccurs="0"
+				name="ListOfContact_BusinessAddress"
+				type="xsdLocal1:ListOfContact_BusinessAddress" />
+			<xsd:element maxOccurs="1" minOccurs="0"
+				name="ListOfContact_AlternatePhone"
+				type="xsdLocal1:ListOfContact_AlternatePhone" />
+			<xsd:element maxOccurs="1" minOccurs="0"
+				name="ListOfAccount" type="xsdLocal1:ListOfAccount" />
+			<xsd:element maxOccurs="1" minOccurs="0"
+				name="ListOfContactNote" type="xsdLocal1:ListOfContactNote" />
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:schema>

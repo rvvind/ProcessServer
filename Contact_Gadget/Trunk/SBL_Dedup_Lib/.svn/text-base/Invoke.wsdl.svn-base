@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:bons2="http://SBL_Dedup_Lib" xmlns:tns="http://SBL_Dedup_Lib/Invoke" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Invoke" targetNamespace="http://SBL_Dedup_Lib/Invoke">
+    <wsdl:types>
+    <xsd:schema targetNamespace="http://SBL_Dedup_Lib/Invoke" xmlns:bons2="http://SBL_Dedup_Lib" xmlns:tns="http://SBL_Dedup_Lib/Invoke" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+            <xsd:import namespace="http://SBL_Dedup_Lib" schemaLocation="DeDup_Output.xsd"/>
+            <xsd:import namespace="http://SBL_Dedup_Lib" schemaLocation="DeDup_Input.xsd"/>
+      <xsd:element name="Dedup">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="Deduplication_spcProxy_spcCERN_Dedup_Input" type="bons2:DeDup_Input"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="DedupResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="Deduplication_spcProxy_spcCERN_Dedup_Output" type="bons2:DeDup_Output"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+            <xsd:element name="string_element" nillable="true" type="xsd:string"/>
+        </xsd:schema>
+  </wsdl:types>
+    <wsdl:message name="DedupRequestMsg">
+    <wsdl:part element="tns:Dedup" name="DedupParameters"/>
+  </wsdl:message>
+    <wsdl:message name="DedupResponseMsg">
+    <wsdl:part element="tns:DedupResponse" name="DedupResult"/>
+  </wsdl:message>
+    <wsdl:message name="Dedup_fault1Msg">
+    <wsdl:part element="tns:string_element" name="fault1"/>
+  </wsdl:message>
+    <wsdl:portType name="Invoke">
+    <wsdl:operation name="Dedup">
+      <wsdl:input message="tns:DedupRequestMsg" name="DedupRequest"/>
+      <wsdl:output message="tns:DedupResponseMsg" name="DedupResponse"/>
+            <wsdl:fault message="tns:Dedup_fault1Msg" name="fault1"/>
+        </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

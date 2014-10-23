@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions name="Invoke_InvokeHttp_Service" targetNamespace="http://SBL_ContactWidget_Lib/Invoke" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:this="http://SBL_ContactWidget_Lib/Invoke" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:import location="Invoke.wsdl" namespace="http://SBL_ContactWidget_Lib/Invoke"/>
+  <wsdl:binding name="Invoke_InvokeHttpBinding" type="this:Invoke">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="ContactUpsert">
+      <soap:operation soapAction=""/>
+      <wsdl:input name="ContactUpsertRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="ContactUpsertResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="fault1">
+        <soap:fault name="fault1" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ContactQuery">
+      <soap:operation soapAction=""/>
+      <wsdl:input name="ContactQueryRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="ContactQueryResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="fault1">
+        <soap:fault name="fault1" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ContactQueryV2">
+      <soap:operation soapAction=""/>
+      <wsdl:input name="ContactQueryV2Request">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="ContactQueryV2Response">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="ContactQueryV2Fault1">
+        <soap:fault name="ContactQueryV2Fault1" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ContactUpsertV2">
+      <soap:operation soapAction=""/>
+      <wsdl:input name="ContactUpsertV2Request">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="ContactUpsertV2Response">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="ContactUpsertV2Fault1">
+        <soap:fault name="ContactUpsertV2Fault1" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ContactQueryV3">
+      <soap:operation soapAction=""/>
+      <wsdl:input name="ContactQueryV3Request">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="ContactQueryV3Response">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="ContactQueryV3Fault1">
+        <soap:fault name="ContactQueryV3Fault1" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Invoke_InvokeHttpService">
+    <wsdl:port binding="this:Invoke_InvokeHttpBinding" name="Invoke_InvokeHttpPort">
+      <soap:address location="http://localhost:9080/SBL_ContactWidgetWeb/sca/Invoke"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

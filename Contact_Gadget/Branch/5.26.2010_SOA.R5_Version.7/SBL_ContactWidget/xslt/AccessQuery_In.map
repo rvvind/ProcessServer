@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><mappingRoot domainID="com.ibm.msl.mapping.xml" targetNamespace="http://SBL_ContactWidget/xslt/AccessQuery_In" version="7.0.101" xmlns="http://www.ibm.com/2008/ccl/Mapping" xmlns:map="http://SBL_ContactWidget/xslt/AccessQuery_In">
+    <input path="smo://smo/name%3Dwsdl-primary/message%3D%257Bhttp%253A%252F%252FSBL_ContactWidget_Lib%252FInvoke%257DContactAccessQueryRequestMsg/xpath%3D%252Fbody/smo.xsd"/>
+    <output path="smo://smo/name%3Dwsdl-primary/message%3D%257Bhttp%253A%252F%252Fwservice.cerner.com%257DContact_spcWeb_spcAccess_spcQuery_spcWPS_spcCERN_CNTCT_WA_QRY_Input/xpath%3D%252Fbody/smo.xsd"/>
+    <mappingDeclaration name="AccessQuery_In">
+        <input path="body"/>
+        <output path="body"/>
+        <move>
+            <input path="ContactAccessQuery/Contact_spcWeb_spcAccess_spcQuery_spcWPS_spcCERN_CNTCT_WA_QRY_Input"/>
+            <output path="Contact_spcWeb_spcAccess_spcQuery_spcWPS_spcCERN_CNTCT_WA_QRY_Input"/>
+        </move>
+    </mappingDeclaration>
+</mappingRoot>

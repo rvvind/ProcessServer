@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><mappingRoot domainID="com.ibm.msl.mapping.xml" targetNamespace="http://SBL_ContactWidget/xslt/ContactQueryV3_Input" version="7.0.401" xmlns="http://www.ibm.com/2008/ccl/Mapping" xmlns:map="http://SBL_ContactWidget/xslt/ContactQueryV3_Input">
+    <input path="smo://smo/name%3Dwsdl-primary/message%3D%257Bhttp%253A%252F%252FSBL_ContactWidget_Lib%252FInvoke%257DContactQueryV3RequestMsg/xpath%3D%252Fbody/smo.xsd"/>
+    <output path="smo://smo/name%3Dwsdl-primary/message%3D%257Bhttp%253A%252F%252Fwservice.cerner.com%252FV3%257DContact_spcQuery_spcWPS_spcCERN_ContactQuery_Input/xpath%3D%252Fbody/smo.xsd"/>
+    <mappingDeclaration name="ContactQueryV3_Input">
+        <input path="body"/>
+        <output path="body"/>
+        <move>
+            <input path="ContactQueryV3/Contact_spcQuery_spcWPS_spcCERN_ContactQuery_Input/ComplexSearchSpec"/>
+            <output path="Contact_spcQuery_spcWPS_spcCERN_ContactQuery_Input/ComplexSearchSpec"/>
+        </move>
+        <move>
+            <input path="ContactQueryV3/Contact_spcQuery_spcWPS_spcCERN_ContactQuery_Input/ListOfContactWpsCern"/>
+            <output path="Contact_spcQuery_spcWPS_spcCERN_ContactQuery_Input/ListOfContactWpsCern"/>
+        </move>
+    </mappingDeclaration>
+</mappingRoot>

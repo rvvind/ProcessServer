@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappingRoot xmlns="http://www.ibm.com/2006/ccl/Mapping" xmlns:map="http://SBL_ContactWidget_myContacts/xslt/XSLTransformation3_req_4" domainID="com.ibm.ccl.mapping.codegen.xslt.domain" targetNamespace="http://SBL_ContactWidget_myContacts/xslt/XSLTransformation3_req_4">
+    <input path="smo://smo/name%3Dwsdl-primary/message%3D%257Bhttp%253A%252F%252Fwservice.cerner.com%252F%257DContact_spcList_spcQuery_spcWPS_spcCERN_ContactListQuery_Input/xpath%3D%252F/smo.xsd"/>
+    <output path="smo://smo/name%3Dwsdl-primary/message%3D%257Bhttp%253A%252F%252FSBL_ContactWidget_myContacts_Lib%252FInvoke%257DContactListQuery_fault1Msg/xpath%3D%252F/smo.xsd"/>
+    <annotation key="@testSourceLocation" value="XSLTransformation3_req_4.xml"/>
+    <mappingDeclaration name="XSLTransformation3_req_4">
+        <input path="smo"/>
+        <output path="smo"/>
+        <mapping>
+            <input path="context/failInfo/failureString"/>
+            <output path="body/string_element"/>
+        </mapping>
+    </mappingDeclaration>
+</mappingRoot>

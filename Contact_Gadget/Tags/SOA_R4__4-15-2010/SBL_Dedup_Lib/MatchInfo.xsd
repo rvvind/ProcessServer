@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns="http://schemas.xmlsoap.org/wsdl/"
+	xmlns:xsdLocal1="http://www.siebel.com/xml/Deduplication%20External%20Output%20CERN"
+	attributeFormDefault="unqualified" elementFormDefault="qualified"
+	targetNamespace="http://www.siebel.com/xml/Deduplication%20External%20Output%20CERN">
+	<xsd:complexType name="MatchInfo">
+		<xsd:attribute name="Account" type="xsd:string" />
+		<xsd:attribute name="CellularPhoneNum" type="xsd:string" />
+		<xsd:attribute name="City" type="xsd:string" />
+		<xsd:attribute name="Country" type="xsd:string" />
+		<xsd:attribute name="EmailAddress" type="xsd:string" />
+		<xsd:attribute name="FirstName" type="xsd:string" />
+		<xsd:attribute name="HomePhoneNum" type="xsd:string" />
+		<xsd:attribute name="LastName" type="xsd:string" />
+		<xsd:attribute name="MatcheeRowId" type="xsd:string" />
+		<xsd:attribute name="MatcherRowId" type="xsd:string" />
+		<xsd:attribute name="PostalCode" type="xsd:string" />
+		<xsd:attribute name="Score" type="xsd:string" />
+		<xsd:attribute name="State" type="xsd:string" />
+		<xsd:attribute name="StreetAddress" type="xsd:string" />
+		<xsd:attribute name="WorkPhoneNum" type="xsd:string" />
+	</xsd:complexType>
+</xsd:schema>

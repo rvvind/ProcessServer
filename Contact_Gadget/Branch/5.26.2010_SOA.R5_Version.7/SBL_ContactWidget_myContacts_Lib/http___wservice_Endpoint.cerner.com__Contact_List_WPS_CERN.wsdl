@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?Siebel-Property-Set EscapeNames="false"?>
+
+<definitions xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://wservice.cerner.com/" targetNamespace="http://wservice.cerner.com/">
+  <import location="http___wservice.cerner.com__Contact_List_WPS_CERN.wsdl" namespace="http://wservice.cerner.com/"/>
+  <binding name="ContactListUpsert" type="tns:ContactListUpsert">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/jms"/>
+    <operation name="ContactListUpsert">
+      <soap:operation soapAction="document/http://wservice.cerner.com/:ContactListUpsert"/>
+      <input>
+        <soap:body use="literal"/>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+  </binding>
+  <binding name="ContactListQuery" type="tns:ContactListQuery">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/jms"/>
+    <operation name="ContactListQuery">
+      <soap:operation soapAction="document/http://wservice.cerner.com/:ContactListQuery"/>
+      <input>
+        <soap:body use="literal"/>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+  </binding>
+  <binding name="ContactListDelete" type="tns:ContactListDelete">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/jms"/>
+    <operation name="ContactListDelete">
+      <soap:operation soapAction="document/http://wservice.cerner.com/:ContactListDelete"/>
+      <input>
+        <soap:body use="literal"/>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+  </binding>
+  <service name="Contact_spcList_spcWPS_spcCERN">
+    <port binding="tns:ContactListUpsert" name="ContactListUpsert">
+      <soap:address location="jms:/queue?destination=jms/WSRQ&amp;connectionFactory=jms/WSCFContactListUpsert&amp;targetService=ContactListUpsert"/>
+    </port>
+    <port binding="tns:ContactListQuery" name="ContactListQuery">
+      <soap:address location="jms:/queue?destination=jms/WSRQ&amp;connectionFactory=jms/WSCFContactListQuery&amp;targetService=ContactListQuery"/>
+    </port>
+    <port binding="tns:ContactListDelete" name="ContactListDelete">
+      <soap:address location="jms:/queue?destination=jms/WSRQ&amp;connectionFactory=jms/WSCFContactListDelete&amp;targetService=ContactListDelete"/>
+    </port>
+  </service>
+</definitions>

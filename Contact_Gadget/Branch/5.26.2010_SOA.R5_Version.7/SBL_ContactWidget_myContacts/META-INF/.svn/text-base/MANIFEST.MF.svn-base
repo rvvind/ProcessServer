@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Class-Path: SBL_ContactWidget_myContacts_Lib.jar 
+ JAXWS_Security.jar
+Created-By: 1.5.0 (IBM Corporation)
+

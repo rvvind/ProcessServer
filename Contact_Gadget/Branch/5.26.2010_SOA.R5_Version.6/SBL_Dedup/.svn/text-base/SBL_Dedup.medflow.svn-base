@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:Input.mednode="mednode://mednodes/Input.mednode/Input" xmlns:InputFault.mednode="mednode://mednodes/InputFault.mednode/InputFault" xmlns:InputResponse.mednode="mednode://mednodes/InputResponse.mednode/InputResponse" xmlns:MessageLogger.mednode="mednode://mednodes/MessageLogger.mednode/MessageLogger" xmlns:SBL_Dedup.medflow="SBL_Dedup.medflow" xmlns:ServiceInvoke.mednode="mednode://mednodes/ServiceInvoke.mednode/ServiceInvoke" xmlns:XSLTransformation.mednode="mednode://mednodes/XSLTransformation.mednode/XSLTransformation" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:eflow2="http://www.ibm.com/2006/eflow" xmlns:type="http://www.ibm.com/2006/eflow/type" xmlns:utility="http://www.ibm.com/2006/eflow/utility" name="root" nsURI="SBL_Dedup.medflow" nsPrefix="SBL_Dedup.medflow">
+  <eClassifiers xmi:type="eflow2:FCMComposite" name="root_I_11">
+    <eSuperTypes href="http://www.ibm.com/2006/eflow#//FCMBlock"/>
+    <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="Property.name" name="name" lowerBound="1" defaultValueLiteral="">
+      <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <composition>
+      <type xmi:type="type:CompositeType" xmi:id="CompositeType_1">
+        <elements id="message">
+          <type xmi:type="type:WSDLMessageType" wsdlMessage="{http://SBL_Dedup_Lib/Invoke}DedupRequestMsg"/>
+        </elements>
+      </type>
+      <type xmi:type="type:CompositeType" xmi:id="CompositeType_2">
+        <elements id="message">
+          <type xmi:type="type:WSDLMessageType" wsdlMessage="{http://SBL_Dedup_Lib/Invoke}DedupResponseMsg"/>
+        </elements>
+      </type>
+      <type xmi:type="type:CompositeType" xmi:id="CompositeType_3">
+        <elements id="message">
+          <type xmi:type="type:WSDLMessageType" wsdlMessage="{http://SBL_Dedup_Lib/Invoke}Dedup_fault1Msg"/>
+        </elements>
+      </type>
+      <type xmi:type="type:CompositeType" xmi:id="CompositeType_4">
+        <elements id="message">
+          <type xmi:type="type:WSDLMessageType" wsdlMessage="{http://wservice.cerner.com}Deduplication_spcProxy_spcCERN_Dedup_Output"/>
+        </elements>
+      </type>
+      <type xmi:type="type:CompositeType" xmi:id="CompositeType_5">
+        <elements id="message">
+          <type xmi:type="type:WSDLMessageType" wsdlMessage="{http://wservice.cerner.com}Deduplication_spcProxy_spcCERN_Dedup_Input"/>
+        </elements>
+      </type>
+      <nodes xmi:type="Input.mednode:Input" xmi:id="Input_1" name="Invoke_Dedup_Input">
+        <location x="8" y="31"/>
+        <outTerminals terminalNodeID="OutTerminal.out" explicitType="true" type="CompositeType_1"/>
+        <translation xmi:type="utility:ConstantString" string="Dedup : Invoke"/>
+      </nodes>
+      <nodes xmi:type="InputResponse.mednode:InputResponse" xmi:id="InputResponse_1" name="Invoke_Dedup_InputResponse">
+        <location x="753" y="39"/>
+        <inTerminals terminalNodeID="InTerminal.in" explicitType="true" type="CompositeType_2"/>
+        <translation xmi:type="utility:ConstantString" string="Dedup : Invoke"/>
+      </nodes>
+      <nodes xmi:type="InputFault.mednode:InputFault" xmi:id="InputFault_1" name="Invoke_Dedup_InputFault">
+        <location x="776" y="230"/>
+        <inTerminals terminalNodeID="InTerminal.dynamic:in:Dedup_fault1Msg" dynamic="true" explicitType="true" label="Dedup_fault1Msg" longDescription="" type="CompositeType_3"/>
+        <translation xmi:type="utility:ConstantString" string="Dedup : Invoke"/>
+      </nodes>
+      <nodes xmi:type="XSLTransformation.mednode:XSLTransformation" xmi:id="XSLTransformation_1" name="XSLTransformation2" root="/body" XMXMap="xslt/XSLTransformation2_req_1.map" associatedXSL="xslt/XSLTransformation2_req_1.xsl" XSLTransform="xslt/XSLTransformation2_req_1.xsl" SMOVersion="SMO61">
+        <location x="573" y="98"/>
+        <outTerminals terminalNodeID="OutTerminal.out" explicitType="true" type="CompositeType_2"/>
+        <outTerminals terminalNodeID="OutTerminal.Failure" type="CompositeType_4"/>
+        <inTerminals terminalNodeID="InTerminal.in" type="CompositeType_4"/>
+        <translation xmi:type="utility:ConstantString" string="XSLTransformation2"/>
+      </nodes>
+      <nodes xmi:type="XSLTransformation.mednode:XSLTransformation" xmi:id="XSLTransformation_2" name="XSLTransformation3" root="/" XMXMap="xslt/XSLTransformation3_req_1.map" associatedXSL="xslt/XSLTransformation3_req_1.xsl" XSLTransform="xslt/XSLTransformation3_req_1.xsl" SMOVersion="SMO61">
+        <location x="577" y="258"/>
+        <outTerminals terminalNodeID="OutTerminal.out" explicitType="true" type="CompositeType_3"/>
+        <outTerminals terminalNodeID="OutTerminal.Failure" type="CompositeType_5"/>
+        <inTerminals terminalNodeID="InTerminal.in" type="CompositeType_5"/>
+        <translation xmi:type="utility:ConstantString" string="XSLTransformation3"/>
+      </nodes>
+      <nodes xmi:type="MessageLogger.mednode:MessageLogger" xmi:id="MessageLogger_1" name="SBL_Dedup">
+        <location x="124" y="123"/>
+        <outTerminals terminalNodeID="OutTerminal.out" type="CompositeType_1"/>
+        <outTerminals terminalNodeID="OutTerminal.Failure" type="CompositeType_1"/>
+        <inTerminals terminalNodeID="InTerminal.in" type="CompositeType_1"/>
+        <translation xmi:type="utility:ConstantString" string="SBL_Dedup"/>
+      </nodes>
+      <nodes xmi:type="ServiceInvoke.mednode:ServiceInvoke" xmi:id="ServiceInvoke_1" name="ServiceInvoke1" referenceName="DedupPartner" operationName="Dedup">
+        <location x="398" y="178"/>
+        <outTerminals terminalNodeID="OutTerminal.timeout" explicitType="true" type="CompositeType_5"/>
+        <outTerminals terminalNodeID="OutTerminal.Failure" type="CompositeType_5"/>
+        <outTerminals terminalNodeID="OutTerminal.dynamic:out:out" dynamic="true" explicitType="true" label="out" longDescription="Propagates the updated message, if the service call is successful." type="CompositeType_4"/>
+        <inTerminals terminalNodeID="InTerminal.in" explicitType="true" type="CompositeType_5"/>
+        <translation xmi:type="utility:ConstantString" string="ServiceInvoke1"/>
+      </nodes>
+      <nodes xmi:type="XSLTransformation.mednode:XSLTransformation" xmi:id="XSLTransformation_3" name="XSLTransformation1" root="/body" XMXMap="xslt/XSLTransformation1_req_1.map" associatedXSL="xslt/XSLTransformation1_req_1.xsl" XSLTransform="xslt/XSLTransformation1_req_1.xsl" SMOVersion="SMO61">
+        <location x="245" y="157"/>
+        <outTerminals terminalNodeID="OutTerminal.out" explicitType="true" type="CompositeType_5"/>
+        <outTerminals terminalNodeID="OutTerminal.Failure" type="CompositeType_1"/>
+        <inTerminals terminalNodeID="InTerminal.in" type="CompositeType_1"/>
+        <translation xmi:type="utility:ConstantString" string="XSLTransformation1"/>
+      </nodes>
+      <connections xmi:type="eflow2:FCMConnection" xmi:id="FCMConnection_1" targetNode="MessageLogger_1" sourceNode="Input_1" sourceTerminalName="OutTerminal.out" targetTerminalName="InTerminal.in"/>
+      <connections xmi:type="eflow2:FCMConnection" xmi:id="FCMConnection_2" targetNode="InputResponse_1" sourceNode="XSLTransformation_1" sourceTerminalName="OutTerminal.out" targetTerminalName="InTerminal.in"/>
+      <connections xmi:type="eflow2:FCMConnection" xmi:id="FCMConnection_3" targetNode="InputFault_1" sourceNode="XSLTransformation_2" sourceTerminalName="OutTerminal.out" targetTerminalName="InTerminal.dynamic:in:Dedup_fault1Msg"/>
+      <connections xmi:type="eflow2:FCMConnection" xmi:id="FCMConnection_4" targetNode="XSLTransformation_3" sourceNode="MessageLogger_1" sourceTerminalName="OutTerminal.out" targetTerminalName="InTerminal.in"/>
+      <connections xmi:type="eflow2:FCMConnection" xmi:id="FCMConnection_5" targetNode="XSLTransformation_1" sourceNode="ServiceInvoke_1" sourceTerminalName="OutTerminal.dynamic:out:out" targetTerminalName="InTerminal.in"/>
+      <connections xmi:type="eflow2:FCMConnection" xmi:id="FCMConnection_6" targetNode="XSLTransformation_2" sourceNode="ServiceInvoke_1" sourceTerminalName="OutTerminal.timeout" targetTerminalName="InTerminal.in"/>
+      <connections xmi:type="eflow2:FCMConnection" xmi:id="FCMConnection_7" targetNode="XSLTransformation_2" sourceNode="ServiceInvoke_1" sourceTerminalName="OutTerminal.Failure" targetTerminalName="InTerminal.in"/>
+      <connections xmi:type="eflow2:FCMConnection" xmi:id="FCMConnection_8" targetNode="ServiceInvoke_1" sourceNode="XSLTransformation_3" sourceTerminalName="OutTerminal.out" targetTerminalName="InTerminal.in"/>
+    </composition>
+    <propertyOrganizer>
+      <propertyDescriptor describedAttribute="Property.name"/>
+    </propertyOrganizer>
+  </eClassifiers>
+  <eClassifiers xmi:type="eflow2:FCMComposite" name="root">
+    <eSuperTypes href="http://www.ibm.com/2006/eflow#//FCMBlock"/>
+    <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="Property.name" name="name" lowerBound="1" defaultValueLiteral="">
+      <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <composition>
+      <nodes xmi:type="SBL_Dedup.medflow:root_I_11" xmi:id="root_I_11_1" name="{http://SBL_Dedup_Lib/Invoke}Invoke:Dedup::request"/>
+    </composition>
+    <propertyOrganizer>
+      <propertyDescriptor describedAttribute="Property.name"/>
+    </propertyOrganizer>
+  </eClassifiers>
+</ecore:EPackage>

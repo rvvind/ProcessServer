@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scdl:component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mfc="http://www.ibm.com/xmlns/prod/websphere/scdl/mfc/6.0.0" xmlns:ns1="http://SBL_ContactWidget_Lib/Invoke" xmlns:ns2="http://wservice.cerner.com/" xmlns:ns3="http://wservice.cerner.com" xmlns:scdl="http://www.ibm.com/xmlns/prod/websphere/scdl/6.0.0" xmlns:wsdl="http://www.ibm.com/xmlns/prod/websphere/scdl/wsdl/6.0.0" displayName="SBL_ContactWidget" name="SBL_ContactWidget">
+  <interfaces>
+    <interface xsi:type="wsdl:WSDLPortType" portType="ns1:Invoke">
+      <scdl:interfaceQualifier xsi:type="scdl:JoinTransaction" value="true"/>
+    </interface>
+  </interfaces>
+  <references>
+    <reference name="Contact_spcWeb_spcAccess_spcQuery_spcWPS_spcCERNPartner">
+      <interface xsi:type="wsdl:WSDLPortType" portType="ns3:Contact_spcWeb_spcAccess_spcQuery_spcWPS_spcCERN"/>
+      <scdl:referenceQualifier xsi:type="scdl:SuspendTransaction" value="false"/>
+      <scdl:referenceQualifier xsi:type="scdl:Reliability"/>
+      <scdl:referenceQualifier xsi:type="scdl:DeliverAsyncAt" value="commit"/>
+      <wire target="Contact_spcWeb_spcAccess_spcQuery_spcWPS_spcCERNImport1"/>
+    </reference>
+    <reference name="ContactQueryPartner1">
+      <interface xsi:type="wsdl:WSDLPortType" portType="ns2:ContactQuery"/>
+      <scdl:referenceQualifier xsi:type="scdl:SuspendTransaction" value="false"/>
+      <scdl:referenceQualifier xsi:type="scdl:Reliability"/>
+      <scdl:referenceQualifier xsi:type="scdl:DeliverAsyncAt" value="commit"/>
+      <wire target="ContactQuery"/>
+    </reference>
+    <reference name="ContactUpsertPartner1">
+      <interface xsi:type="wsdl:WSDLPortType" portType="ns2:ContactUpsert"/>
+      <scdl:referenceQualifier xsi:type="scdl:SuspendTransaction" value="false"/>
+      <scdl:referenceQualifier xsi:type="scdl:Reliability"/>
+      <scdl:referenceQualifier xsi:type="scdl:DeliverAsyncAt" value="commit"/>
+      <wire target="ContactUpsert"/>
+    </reference>
+  </references>
+  <implementation xsi:type="mfc:MediationFlowImplementation" mfcFile="SBL_ContactWidget.mfc">
+    <scdl:implementationQualifier xsi:type="scdl:Transaction" value="global"/>
+  </implementation>
+</scdl:component>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map:businessObjectMap xmlns:ListOfAccount="http://www.siebel.com/xml/Contact%20WPS%20CERN" xmlns:ListOfAccount_1="http://www.siebel.com/xml/Contact%20WPS%20CERN_V3" xmlns:SubMapforAcct="http://SBL_ContactWidget" xmlns:map="http://www.ibm.com/xmlns/prod/websphere/wbiserver/map/6.0.0" targetNamespace="http://SBL_ContactWidget">
+  <map:name>SubMapforAcct</map:name>
+  <map:inputBusinessObjectVariable businessObjectRef="ListOfAccount_1:ListOfAccount" name="ListOfAccount"/>
+  <map:outputBusinessObjectVariable businessObjectRef="ListOfAccount:ListOfAccount" name="ListOfAccount_1"/>
+  <map:propertyMap executionOrder="1">
+    <map:submap submapName="SubMapforAcct:SubMapforAcctDetails">
+      <map:input businessObjectVariableRef="ListOfAccount" property="Account" variableName="Account"/>
+      <map:output businessObjectVariableRef="ListOfAccount_1" property="Account" variableName="Account_1"/>
+    </map:submap>
+  </map:propertyMap>
+</map:businessObjectMap>

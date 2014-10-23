@@ -1,0 +1,347 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/5610/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/xslt
+END
+AccessQuery_In.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/5610/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/xslt/AccessQuery_In.xsl
+END
+SBL_ContactWidget_2.xsl.smap
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/5366/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/xslt/SBL_ContactWidget_2.xsl.smap
+END
+SBL_ContactWidget_4.xsl.smap
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/5366/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/xslt/SBL_ContactWidget_4.xsl.smap
+END
+SBL_ContactWidget_6.xsl.smap
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/5366/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/xslt/SBL_ContactWidget_6.xsl.smap
+END
+AccessQuery_Out.map
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/5610/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/xslt/AccessQuery_Out.map
+END
+XSLTransformation1_req_2.xsl.smap
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/5366/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/xslt/XSLTransformation1_req_2.xsl.smap
+END
+XSLTransformation2_req_1.xsl.smap
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/5366/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/xslt/XSLTransformation2_req_1.xsl.smap
+END
+XSLTransformation3_req_2.xsl.smap
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/5366/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/xslt/XSLTransformation3_req_2.xsl.smap
+END
+SBL_ContactWidget_1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/5366/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/xslt/SBL_ContactWidget_1.xml
+END
+AccessQuery_Fault1.map
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/5610/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/xslt/AccessQuery_Fault1.map
+END
+SBL_ContactWidget_2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/5366/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/xslt/SBL_ContactWidget_2.xml
+END
+SBL_ContactWidget_3.xml
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/5366/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/xslt/SBL_ContactWidget_3.xml
+END
+XSLTransformation1_req_1.map
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/5366/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/xslt/XSLTransformation1_req_1.map
+END
+SBL_ContactWidget_4.xml
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/5366/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/xslt/SBL_ContactWidget_4.xml
+END
+XSLTransformation1_req_2.map
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/5366/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/xslt/XSLTransformation1_req_2.map
+END
+XSLTransformation2_req_1.map
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/5366/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/xslt/XSLTransformation2_req_1.map
+END
+SBL_ContactWidget_5.xml
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/5366/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/xslt/SBL_ContactWidget_5.xml
+END
+SBL_ContactWidget_6.xml
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/5366/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/xslt/SBL_ContactWidget_6.xml
+END
+AccessQuery_Out.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/5610/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/xslt/AccessQuery_Out.xsl
+END
+SBL_ContactWidget_1-out.xml
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/5366/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/xslt/SBL_ContactWidget_1-out.xml
+END
+SBL_ContactWidget_1.xsl.smap
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/5366/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/xslt/SBL_ContactWidget_1.xsl.smap
+END
+XSLTransformation2_req_2.map
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/5366/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/xslt/XSLTransformation2_req_2.map
+END
+XSLTransformation3_req_1.map
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/5366/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/xslt/XSLTransformation3_req_1.map
+END
+SBL_ContactWidget_Lib.xml
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/5366/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/xslt/SBL_ContactWidget_Lib.xml
+END
+SBL_ContactWidget_2-out.xml
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/5366/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/xslt/SBL_ContactWidget_2-out.xml
+END
+XSLTransformation3_req_2.map
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/5366/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/xslt/XSLTransformation3_req_2.map
+END
+SBL_ContactWidget_3-out.xml
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/5366/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/xslt/SBL_ContactWidget_3-out.xml
+END
+SBL_ContactWidget_3.xsl.smap
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/5366/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/xslt/SBL_ContactWidget_3.xsl.smap
+END
+SBL_ContactWidget_4-out.xml
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/5366/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/xslt/SBL_ContactWidget_4-out.xml
+END
+SBL_ContactWidget_5.xsl.smap
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/5366/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/xslt/SBL_ContactWidget_5.xsl.smap
+END
+SBL_ContactWidget_5-out.xml
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/5366/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/xslt/SBL_ContactWidget_5-out.xml
+END
+SBL_ContactWidget_6-out.xml
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/5366/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/xslt/SBL_ContactWidget_6-out.xml
+END
+SBL_ContactWidget_Lib.xsl.smap
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/5366/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/xslt/SBL_ContactWidget_Lib.xsl.smap
+END
+SBL_ContactWidget_Lib-out.xml
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/5366/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/xslt/SBL_ContactWidget_Lib-out.xml
+END
+AccessQuery_In.map
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/5610/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/xslt/AccessQuery_In.map
+END
+XSLTransformation1_req_1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/5366/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/xslt/XSLTransformation1_req_1.xml
+END
+XSLTransformation1_req_2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/5366/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/xslt/XSLTransformation1_req_2.xml
+END
+XSLTransformation2_req_1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/5366/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/xslt/XSLTransformation2_req_1.xml
+END
+XSLTransformation2_req_2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/5366/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/xslt/XSLTransformation2_req_2.xml
+END
+XSLTransformation3_req_1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/5366/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/xslt/XSLTransformation3_req_1.xml
+END
+XSLTransformation3_req_2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/5366/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/xslt/XSLTransformation3_req_2.xml
+END
+AccessQuery_Fault1.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/5610/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/xslt/AccessQuery_Fault1.xsl
+END
+XSLTransformation1_req_1.xsl.smap
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/5366/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/xslt/XSLTransformation1_req_1.xsl.smap
+END
+XSLTransformation1_req_1-out.xml
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/5366/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/xslt/XSLTransformation1_req_1-out.xml
+END
+XSLTransformation1_req_1.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/5366/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/xslt/XSLTransformation1_req_1.xsl
+END
+XSLTransformation1_req_2-out.xml
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/5366/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/xslt/XSLTransformation1_req_2-out.xml
+END
+XSLTransformation2_req_1-out.xml
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/5366/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/xslt/XSLTransformation2_req_1-out.xml
+END
+XSLTransformation1_req_2.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/5366/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/xslt/XSLTransformation1_req_2.xsl
+END
+XSLTransformation2_req_1.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/5366/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/xslt/XSLTransformation2_req_1.xsl
+END
+XSLTransformation2_req_2-out.xml
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/5366/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/xslt/XSLTransformation2_req_2-out.xml
+END
+XSLTransformation2_req_2.xsl.smap
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/5366/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/xslt/XSLTransformation2_req_2.xsl.smap
+END
+XSLTransformation3_req_1-out.xml
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/5366/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/xslt/XSLTransformation3_req_1-out.xml
+END
+XSLTransformation3_req_1.xsl.smap
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/5366/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/xslt/XSLTransformation3_req_1.xsl.smap
+END
+XSLTransformation2_req_2.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/5366/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/xslt/XSLTransformation2_req_2.xsl
+END
+XSLTransformation3_req_1.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/5366/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/xslt/XSLTransformation3_req_1.xsl
+END
+XSLTransformation3_req_2-out.xml
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/5366/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/xslt/XSLTransformation3_req_2-out.xml
+END
+XSLTransformation3_req_2.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/5366/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/xslt/XSLTransformation3_req_2.xsl
+END

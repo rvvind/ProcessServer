@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<body xmlns:out3="wsdl.http://SBL_Dedup_Lib/Invoke" xmlns:io="http://www.siebel.com/xml/Deduplication%20External%20Output%20CERN" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:out2="http://SBL_Dedup_Lib/Invoke" xmlns:out="http://SBL_Dedup_Lib">
+  <out2:DedupResponse>
+    <Deduplication_spcProxy_spcCERN_Dedup_Output>
+      <MatchInfo xmlns:tns="http://wservice.cerner.com" xmlns:tns_1="wsdl.http://wservice.cerner.com" xmlns:xsdLocal1="http://www.siebel.com/xml/Deduplication%20External%20Output%20CERN" Account="" CellularPhoneNum="" City="" Country="" EmailAddress="" FirstName="" HomePhoneNum="" LastName="" MatcheeRowId="" MatcherRowId="" PostalCode="" Score="" State="" StreetAddress="" WorkPhoneNum=""/>
+    </Deduplication_spcProxy_spcCERN_Dedup_Output>
+  </out2:DedupResponse>
+</body>

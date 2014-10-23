@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<body xmlns:tns="http://SBL_ContactWidget_myContacts_Lib/Invoke" xmlns:tns1="http://wservice.cerner.com/" xmlns:tns_1="wsdl.http://SBL_ContactWidget_myContacts_Lib/Invoke" xmlns:xsdLocal1="http://www.siebel.com/xml/Contact%20List%20WPS%20CERN" xmlns:xsdLocal2="http://www.siebel.com/xml/MyContacts%20List%20WPS%20CERN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="foo.xsd" xsi:schemaLocation="wsdl.http://SBL_ContactWidget_myContacts_Lib/Invoke /name%3Dwsdl-body/correlationContext%3Dhttp%253A%252F%252FSBL_ContactWidget_myContacts_Lib%252FInvoke/message%3D%257Bhttp%253A%252F%252FSBL_ContactWidget_myContacts_Lib%252FInvoke%257DContactListDeleteRequestMsg/smo.xsd http://SBL_ContactWidget_myContacts_Lib/Invoke platform:/resource/SBL_ContactWidget_myContacts_Lib/Invoke.wsdl http://wservice.cerner.com/ platform:/resource/SBL_ContactWidget_myContacts_Lib/Contact_spcList_spcDelete_spcWPS_spcCERN_ContactListDelete_Output.xsd http://www.siebel.com/xml/MyContacts%20List%20WPS%20CERN platform:/resource/SBL_ContactWidget_myContacts_Lib/ListOfMycontactsListWpsCern.xsd http://www.siebel.com/xml/Contact%20List%20WPS%20CERN platform:/resource/SBL_ContactWidget_myContacts_Lib/ListOfContactListWpsCern.xsd ">
+  <tns:ContactListDelete>
+    <tns1:Contact_spcList_spcDelete_spcWPS_spcCERN_ContactListDelete_Input>
+      <tns1:ComplexSearchSpec>tns1:ComplexSearchSpec</tns1:ComplexSearchSpec>
+      <xsdLocal2:ListOfMycontactsListWpsCern>
+        <xsdLocal2:MycontactsListCern>
+          <xsdLocal2:ChildContactIdCERN>xsdLocal2:ChildContactIdCERN</xsdLocal2:ChildContactIdCERN>
+          <xsdLocal2:ParentContactIdCERN>xsdLocal2:ParentContactIdCERN</xsdLocal2:ParentContactIdCERN>
+        </xsdLocal2:MycontactsListCern>
+      </xsdLocal2:ListOfMycontactsListWpsCern>
+    </tns1:Contact_spcList_spcDelete_spcWPS_spcCERN_ContactListDelete_Input>
+  </tns:ContactListDelete>
+</body>

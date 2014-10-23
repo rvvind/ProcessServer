@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mfc:interfaceMediationFlow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Invoke="http://SBL_ContactWidget_Lib/Invoke" xmlns:mfc="http://www.ibm.com/xmlns/prod/websphere/wbiserver/mfc/6.0.0" xmlns:scdl="http://www.ibm.com/xmlns/prod/websphere/scdl/6.0.0" xmlns:wsdl="http://www.ibm.com/xmlns/prod/websphere/scdl/wsdl/6.0.0" xmlns:wservice.cerner.com="http://wservice.cerner.com/" xmlns:wservice.cerner.com_1="http://wservice.cerner.com" name="SBL_ContactWidget" targetNamespace="http://SBL_ContactWidget/SBL_ContactWidget">
+  <interfaces>
+    <interface xsi:type="wsdl:WSDLPortType" portType="Invoke:Invoke"/>
+  </interfaces>
+  <references>
+    <reference name="ContactQueryPartner">
+      <interface xsi:type="wsdl:WSDLPortType" portType="wservice.cerner.com:ContactQuery"/>
+      <scdl:referenceQualifier xsi:type="scdl:SuspendTransaction" value="false"/>
+      <scdl:referenceQualifier xsi:type="scdl:Reliability"/>
+      <scdl:referenceQualifier xsi:type="scdl:DeliverAsyncAt" value="commit"/>
+      <wire target="ContactQueryImport1"/>
+    </reference>
+    <reference name="ContactUpsertPartner">
+      <interface xsi:type="wsdl:WSDLPortType" portType="wservice.cerner.com:ContactUpsert"/>
+      <scdl:referenceQualifier xsi:type="scdl:SuspendTransaction" value="false"/>
+      <scdl:referenceQualifier xsi:type="scdl:Reliability"/>
+      <scdl:referenceQualifier xsi:type="scdl:DeliverAsyncAt" value="commit"/>
+      <wire target="ContactUpsertImport1"/>
+    </reference>
+    <reference name="Contact_spcWeb_spcAccess_spcQuery_spcWPS_spcCERNPartner">
+      <interface xsi:type="wsdl:WSDLPortType" portType="wservice.cerner.com_1:Contact_spcWeb_spcAccess_spcQuery_spcWPS_spcCERN"/>
+      <scdl:referenceQualifier xsi:type="scdl:SuspendTransaction" value="false"/>
+      <scdl:referenceQualifier xsi:type="scdl:Reliability"/>
+      <scdl:referenceQualifier xsi:type="scdl:DeliverAsyncAt" value="commit"/>
+      <wire target="Contact_spcWeb_spcAccess_spcQuery_spcWPS_spcCERNImport1"/>
+    </reference>
+  </references>
+  <extendedOperationBinding source="ContactUpsert" target="ContactUpsert" sourcePortType="Invoke:Invoke" targetReference="ContactUpsertPartner"/>
+  <extendedOperationBinding source="ContactQuery" target="ContactQuery" sourcePortType="Invoke:Invoke" targetReference="ContactQueryPartner"/>
+  <extendedOperationBinding source="ContactAccessQuery" target="CNTCT_WA_QRY" sourcePortType="Invoke:Invoke" targetReference="Contact_spcWeb_spcAccess_spcQuery_spcWPS_spcCERNPartner"/>
+  <operationFlow medflow="SBL_ContactWidget.medflow"/>
+</mfc:interfaceMediationFlow>

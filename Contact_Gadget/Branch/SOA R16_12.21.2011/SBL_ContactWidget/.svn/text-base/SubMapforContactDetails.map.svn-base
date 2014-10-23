@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map:businessObjectMap xmlns:Contact="http://www.siebel.com/xml/Contact%20WPS%20CERN" xmlns:Contact_1="http://www.siebel.com/xml/Contact%20WPS%20CERN_V3" xmlns:SubMapforContactDetails="http://SBL_ContactWidget" xmlns:map="http://www.ibm.com/xmlns/prod/websphere/wbiserver/map/6.0.0" targetNamespace="http://SBL_ContactWidget">
+  <map:name>SubMapforContactDetails</map:name>
+  <map:inputBusinessObjectVariable businessObjectRef="Contact_1:Contact" name="Contact"/>
+  <map:outputBusinessObjectVariable businessObjectRef="Contact:Contact" name="Contact_1"/>
+  <map:propertyMap executionOrder="1">
+    <map:move>
+      <map:input businessObjectVariableRef="Contact" property="Id"/>
+      <map:output businessObjectVariableRef="Contact_1" property="Id"/>
+    </map:move>
+  </map:propertyMap>
+  <map:propertyMap executionOrder="2">
+    <map:move>
+      <map:input businessObjectVariableRef="Contact" property="MobilePhoneNum"/>
+      <map:output businessObjectVariableRef="Contact_1" property="MobilePhoneNum"/>
+    </map:move>
+  </map:propertyMap>
+  <map:propertyMap executionOrder="3">
+    <map:move>
+      <map:input businessObjectVariableRef="Contact" property="PrimaryEmail"/>
+      <map:output businessObjectVariableRef="Contact_1" property="PrimaryEmail"/>
+    </map:move>
+  </map:propertyMap>
+  <map:propertyMap executionOrder="4">
+    <map:move>
+      <map:input businessObjectVariableRef="Contact" property="FirstName"/>
+      <map:output businessObjectVariableRef="Contact_1" property="FirstName"/>
+    </map:move>
+  </map:propertyMap>
+  <map:propertyMap executionOrder="5">
+    <map:move>
+      <map:input businessObjectVariableRef="Contact" property="HomePhoneNum"/>
+      <map:output businessObjectVariableRef="Contact_1" property="HomePhoneNum"/>
+    </map:move>
+  </map:propertyMap>
+  <map:propertyMap executionOrder="6">
+    <map:move>
+      <map:input businessObjectVariableRef="Contact" property="IntegrationId"/>
+      <map:output businessObjectVariableRef="Contact_1" property="IntegrationId"/>
+    </map:move>
+  </map:propertyMap>
+  <map:propertyMap executionOrder="7">
+    <map:move>
+      <map:input businessObjectVariableRef="Contact" property="JobTitle"/>
+      <map:output businessObjectVariableRef="Contact_1" property="JobTitle"/>
+    </map:move>
+  </map:propertyMap>
+  <map:propertyMap executionOrder="8">
+    <map:move>
+      <map:input businessObjectVariableRef="Contact" property="LastName"/>
+      <map:output businessObjectVariableRef="Contact_1" property="LastName"/>
+    </map:move>
+  </map:propertyMap>
+  <map:propertyMap executionOrder="9">
+    <map:move>
+      <map:input businessObjectVariableRef="Contact" property="LoginName"/>
+      <map:output businessObjectVariableRef="Contact_1" property="LoginName"/>
+    </map:move>
+  </map:propertyMap>
+  <map:propertyMap executionOrder="10">
+    <map:move>
+      <map:input businessObjectVariableRef="Contact" property="MrMs"/>
+      <map:output businessObjectVariableRef="Contact_1" property="MrMs"/>
+    </map:move>
+  </map:propertyMap>
+  <map:propertyMap executionOrder="11">
+    <map:move>
+      <map:input businessObjectVariableRef="Contact" property="Mnemonic"/>
+      <map:output businessObjectVariableRef="Contact_1" property="Mnemonic"/>
+    </map:move>
+  </map:propertyMap>
+  <map:propertyMap executionOrder="12">
+    <map:move>
+      <map:input businessObjectVariableRef="Contact" property="Role"/>
+      <map:output businessObjectVariableRef="Contact_1" property="Role"/>
+    </map:move>
+  </map:propertyMap>
+  <map:propertyMap executionOrder="13">
+    <map:move>
+      <map:input businessObjectVariableRef="Contact" property="WorkPhoneNum"/>
+      <map:output businessObjectVariableRef="Contact_1" property="WorkPhoneNum"/>
+    </map:move>
+  </map:propertyMap>
+  <map:propertyMap executionOrder="14">
+    <map:move>
+      <map:input businessObjectVariableRef="Contact" property="WorkPhoneExtension"/>
+      <map:output businessObjectVariableRef="Contact_1" property="WorkPhoneExtension"/>
+    </map:move>
+  </map:propertyMap>
+  <map:propertyMap executionOrder="15">
+    <map:submap submapName="SubMapforContactDetails:SubMapforCntAct">
+      <map:input businessObjectVariableRef="Contact" property="ListOfContact_Account" variableName="ListOfContact_Account"/>
+      <map:output businessObjectVariableRef="Contact_1" property="ListOfContact_Account" variableName="ListOfContact_Account_1"/>
+    </map:submap>
+  </map:propertyMap>
+  <map:propertyMap executionOrder="16">
+    <map:submap submapName="SubMapforContactDetails:SubMapforCntBusAdr">
+      <map:input businessObjectVariableRef="Contact" property="ListOfContact_BusinessAddress" variableName="ListOfContact_BusinessAddress"/>
+      <map:output businessObjectVariableRef="Contact_1" property="ListOfContact_BusinessAddress" variableName="ListOfContact_BusinessAddress_1"/>
+    </map:submap>
+  </map:propertyMap>
+  <map:propertyMap executionOrder="17">
+    <map:submap submapName="SubMapforContactDetails:SubMapforCntAltPhn">
+      <map:input businessObjectVariableRef="Contact" property="ListOfContact_AlternatePhone" variableName="ListOfContact_AlternatePhone"/>
+      <map:output businessObjectVariableRef="Contact_1" property="ListOfContact_AlternatePhone" variableName="ListOfContact_AlternatePhone_1"/>
+    </map:submap>
+  </map:propertyMap>
+  <map:propertyMap executionOrder="18">
+    <map:submap submapName="SubMapforContactDetails:SubMapforAcct">
+      <map:input businessObjectVariableRef="Contact" property="ListOfAccount" variableName="ListOfAccount"/>
+      <map:output businessObjectVariableRef="Contact_1" property="ListOfAccount" variableName="ListOfAccount_1"/>
+    </map:submap>
+  </map:propertyMap>
+</map:businessObjectMap>

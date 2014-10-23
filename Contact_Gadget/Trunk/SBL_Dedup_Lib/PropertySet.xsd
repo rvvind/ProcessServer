@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns="http://schemas.xmlsoap.org/wsdl/"
+	xmlns:xsdLocal1="http://www.siebel.com/xml/Deduplication%20External%20Output%20CERN"
+	attributeFormDefault="unqualified" elementFormDefault="qualified"
+	targetNamespace="http://www.siebel.com/xml/Deduplication%20External%20Output%20CERN">
+	<xsd:include schemaLocation="GenericSettings.xsd" />
+	<xsd:complexType name="PropertySet">
+		<xsd:sequence>
+			<xsd:element name="GenericSettings"
+				type="xsdLocal1:GenericSettings" />
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:element name="PropertySet" type="xsdLocal1:PropertySet" />
+</xsd:schema>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions name="Invoke_InvokeHttp_Service" targetNamespace="http://SBL_ContactWidget_myContacts_Lib/Invoke" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:this="http://SBL_ContactWidget_myContacts_Lib/Invoke" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:import location="Invoke.wsdl" namespace="http://SBL_ContactWidget_myContacts_Lib/Invoke"/>
+  <wsdl:binding name="Invoke_InvokeHttpBinding" type="this:Invoke">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="ContactListUpsert">
+      <soap:operation soapAction=""/>
+      <wsdl:input name="ContactListUpsertRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="ContactListUpsertResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="fault1">
+        <soap:fault name="fault1" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ContactListQuery">
+      <soap:operation soapAction=""/>
+      <wsdl:input name="ContactListQueryRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="ContactListQueryResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="fault1">
+        <soap:fault name="fault1" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ContactListDelete">
+      <soap:operation soapAction=""/>
+      <wsdl:input name="ContactListDeleteRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="ContactListDeleteResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="fault1">
+        <soap:fault name="fault1" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Invoke_InvokeHttpService">
+    <wsdl:port binding="this:Invoke_InvokeHttpBinding" name="Invoke_InvokeHttpPort">
+      <soap:address location="http://localhost:9080/SBL_ContactWidget_myContactsWeb/sca/Invoke"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/5364/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.6/SBL_Dedup_Lib
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/5364/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.6/SBL_Dedup_Lib/.classpath
+END
+PropertySetTopElmt.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/5364/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.6/SBL_Dedup_Lib/PropertySetTopElmt.xsd
+END
+Invoke.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/5364/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.6/SBL_Dedup_Lib/Invoke.wsdl
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/5364/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.6/SBL_Dedup_Lib/.project
+END
+SBL_Dedup_Invoke.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/5364/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.6/SBL_Dedup_Lib/SBL_Dedup_Invoke.wsdl
+END
+Deduplication_spcProxy_spcCERN_Dedup_Input.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/5364/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.6/SBL_Dedup_Lib/Deduplication_spcProxy_spcCERN_Dedup_Input.xsd
+END
+MatchInfo.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/5364/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.6/SBL_Dedup_Lib/MatchInfo.xsd
+END
+Deduplication_spcProxy_spcCERN_Dedup_Output.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/!svn/ver/5364/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.6/SBL_Dedup_Lib/Deduplication_spcProxy_spcCERN_Dedup_Output.xsd
+END
+http___wservice_Endpoint.cerner.com_Contact_Dedup_CERN.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/!svn/ver/5364/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.6/SBL_Dedup_Lib/http___wservice_Endpoint.cerner.com_Contact_Dedup_CERN.wsdl
+END
+http___wservice.cerner.com_Contact_Dedup_CERN.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/!svn/ver/5364/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.6/SBL_Dedup_Lib/http___wservice.cerner.com_Contact_Dedup_CERN.wsdl
+END
+GenericSettings.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/5364/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.6/SBL_Dedup_Lib/GenericSettings.xsd
+END
+PropertySet.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/5364/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.6/SBL_Dedup_Lib/PropertySet.xsd
+END
+DeDup_Input.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/5364/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.6/SBL_Dedup_Lib/DeDup_Input.xsd
+END
+DeDup_Output.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/5364/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.6/SBL_Dedup_Lib/DeDup_Output.xsd
+END

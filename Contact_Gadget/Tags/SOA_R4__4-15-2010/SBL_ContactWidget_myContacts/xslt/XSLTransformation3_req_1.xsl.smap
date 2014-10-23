@@ -1,0 +1,11 @@
+* SMAP
+XSLTransformation3_req_1.xsl
+XMLMAP
+*S XMLMAP
+*F
++ 1 XSLTransformation3_req_1.map
+/SBL_ContactWidget_myContacts/xslt/XSLTransformation3_req_1.map
+*L
+1:37,1
+2:45,3
+*E

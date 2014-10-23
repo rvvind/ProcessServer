@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><?Siebel-Property-Set EscapeNames="false"?><definitions targetNamespace="http://wservice.cerner.com/V2" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://wservice.cerner.com/V2">
+  <import location="http___wservice.cerner.com_V2_Contact_WPS_CERN.wsdl" namespace="http://wservice.cerner.com/V2"/>
+  <binding name="ContactUpsert" type="tns:ContactUpsert">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/jms"/>
+    <operation name="ContactUpsert">
+      <soap:operation soapAction="document/http://wservice.cerner.com/V2:ContactUpsert"/>
+      <input>
+        <soap:body use="literal"/>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+  </binding>
+  <binding name="ContactQuery" type="tns:ContactQuery">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/jms"/>
+    <operation name="ContactQuery">
+      <soap:operation soapAction="document/http://wservice.cerner.com/V2:ContactQuery"/>
+      <input>
+        <soap:body use="literal"/>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+  </binding>
+  <service name="Contact_spcWPS_spcCERN">
+    <port binding="tns:ContactUpsert" name="ContactUpsert">
+      <soap:address location="jms:/queue?destination=jms/WSRQ&amp;connectionFactory=jms/WSCF_ConUpsert&amp;targetService=SBL_ServiceRequestListJMSPort"/>
+    </port>
+    <port binding="tns:ContactQuery" name="ContactQuery">
+      <soap:address location="jms:/queue?destination=jms/WSRQ&amp;connectionFactory=jms/WSCF_ConQuery&amp;targetService=SBL_ServiceRequestListJMSPort"/>
+    </port>
+  </service>
+</definitions>

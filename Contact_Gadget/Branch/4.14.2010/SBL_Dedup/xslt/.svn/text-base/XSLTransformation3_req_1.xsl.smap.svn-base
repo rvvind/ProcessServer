@@ -1,0 +1,11 @@
+* SMAP
+XSLTransformation3_req_1.xsl
+XMLMAP
+*S XMLMAP
+*F
++ 1 XSLTransformation3_req_1.map
+/SBL_Dedup/xslt/XSLTransformation3_req_1.map
+*L
+1:36,1
+2:44,3
+*E

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema attributeFormDefault="unqualified"
+	elementFormDefault="qualified"
+	targetNamespace="http://www.siebel.com/xml/Contact%20WPS%20CERN_V2"
+	xmlns="http://schemas.xmlsoap.org/wsdl/"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:xsdLocal1="http://www.siebel.com/xml/Contact%20WPS%20CERN_V2">
+	<xsd:include schemaLocation="string30.xsd" />
+	<xsd:include schemaLocation="string50.xsd" />
+	<xsd:include schemaLocation="string200.xsd" />
+	<xsd:include schemaLocation="string100.xsd" />
+	<xsd:include schemaLocation="string10.xsd" />
+	<xsd:complexType name="Contact_BusinessAddress">
+		<xsd:sequence>
+			<xsd:element maxOccurs="1" minOccurs="0" name="City"
+				type="xsdLocal1:string50" />
+			<xsd:element maxOccurs="1" minOccurs="0" name="Country"
+				type="xsdLocal1:string30" />
+			<xsd:element maxOccurs="1" minOccurs="0"
+				name="ZIPPostalCode" type="xsdLocal1:string30" />
+			<xsd:element maxOccurs="1" minOccurs="0"
+				name="StateProvince" type="xsdLocal1:string10" />
+			<xsd:element maxOccurs="1" minOccurs="0"
+				name="ClientAddress" type="xsdLocal1:string200" />
+			<xsd:element maxOccurs="1" minOccurs="0" name="AddressLine2"
+				type="xsdLocal1:string100" />
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:schema>

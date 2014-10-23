@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/28714/SOA/Process%20Server/redirectResource/Branch/WSI_R34/redirectResource/build/classes/com/cerner/soa
+END
+db.properties
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/28714/SOA/Process%20Server/redirectResource/Branch/WSI_R34/redirectResource/build/classes/com/cerner/soa/db.properties
+END
+Redirect.class
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/28714/SOA/Process%20Server/redirectResource/Branch/WSI_R34/redirectResource/build/classes/com/cerner/soa/Redirect.class
+END
+ODSConnection.class
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/28714/SOA/Process%20Server/redirectResource/Branch/WSI_R34/redirectResource/build/classes/com/cerner/soa/ODSConnection.class
+END
+LookUpProperties.class
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/28714/SOA/Process%20Server/redirectResource/Branch/WSI_R34/redirectResource/build/classes/com/cerner/soa/LookUpProperties.class
+END
+DB2Connection.class
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/28714/SOA/Process%20Server/redirectResource/Branch/WSI_R34/redirectResource/build/classes/com/cerner/soa/DB2Connection.class
+END
+RedirectConfig.class
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/28714/SOA/Process%20Server/redirectResource/Branch/WSI_R34/redirectResource/build/classes/com/cerner/soa/RedirectConfig.class
+END
+Field_Mappings.properties
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/28714/SOA/Process%20Server/redirectResource/Branch/WSI_R34/redirectResource/build/classes/com/cerner/soa/Field_Mappings.properties
+END
+redirect.properties
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/28714/SOA/Process%20Server/redirectResource/Branch/WSI_R34/redirectResource/build/classes/com/cerner/soa/redirect.properties
+END

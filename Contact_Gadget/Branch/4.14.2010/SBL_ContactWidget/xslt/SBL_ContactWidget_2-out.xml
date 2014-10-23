@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<body xmlns:out2="wsdl.http://SBL_ContactWidget_Lib/Invoke" xmlns:io="http://www.siebel.com/xml/Contact%20WPS%20CERN" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:out="http://SBL_ContactWidget_Lib/Invoke" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <out:ContactUpsertResponse>
+    <ContactUpsertOutput>
+      <xsdLocal0:ListOfContactWpsCern xmlns:xsdLocal0="http://www.siebel.com/xml/Contact%20WPS%20CERN" xmlns:tns="http://wservice.cerner.com/" xmlns:tns_1="wsdl.http://wservice.cerner.com/">
+        <xsdLocal0:Contact>
+          <xsdLocal0:Id>xsdLocal0:Id</xsdLocal0:Id>
+          <xsdLocal0:MobilePhoneNum>xsdLocal0:MobilePhoneNum</xsdLocal0:MobilePhoneNum>
+          <xsdLocal0:Comment>xsdLocal0:Comment</xsdLocal0:Comment>
+          <xsdLocal0:PrimaryEmail>xsdLocal0:PrimaryEmail</xsdLocal0:PrimaryEmail>
+          <xsdLocal0:WorkFaxNum>xsdLocal0:WorkFaxNum</xsdLocal0:WorkFaxNum>
+          <xsdLocal0:FirstName>xsdLocal0:FirstName</xsdLocal0:FirstName>
+          <xsdLocal0:HomePhoneNum>xsdLocal0:HomePhoneNum</xsdLocal0:HomePhoneNum>
+          <xsdLocal0:IntegrationId>xsdLocal0:IntegrationId</xsdLocal0:IntegrationId>
+          <xsdLocal0:JobTitle>xsdLocal0:JobTitle</xsdLocal0:JobTitle>
+          <xsdLocal0:LastName>xsdLocal0:LastName</xsdLocal0:LastName>
+          <xsdLocal0:MrMs>xsdLocal0:MrMs</xsdLocal0:MrMs>
+          <xsdLocal0:Mnemonic>xsdLocal0:Mnemonic</xsdLocal0:Mnemonic>
+          <xsdLocal0:WorkPhoneNum>xsdLocal0:WorkPhoneNum</xsdLocal0:WorkPhoneNum>
+          <xsdLocal0:WorkPhoneExtension>xsdLocal0:WorkPhoneExtension</xsdLocal0:WorkPhoneExtension>
+          <xsdLocal0:ListOfContact_Account>
+            <xsdLocal0:Contact_Account IsPrimaryMVG="">
+              <xsdLocal0:AccountLocation>xsdLocal0:AccountLocation</xsdLocal0:AccountLocation>
+            </xsdLocal0:Contact_Account>
+          </xsdLocal0:ListOfContact_Account>
+          <xsdLocal0:ListOfContact_BusinessAddress>
+            <xsdLocal0:Contact_BusinessAddress IsPrimaryMVG="">
+              <xsdLocal0:City>xsdLocal0:City</xsdLocal0:City>
+              <xsdLocal0:Country>xsdLocal0:Country</xsdLocal0:Country>
+              <xsdLocal0:ZipPostalCode>xsdLocal0:ZipPostalCode</xsdLocal0:ZipPostalCode>
+              <xsdLocal0:StateProvince>xsdLocal0:StateProvince</xsdLocal0:StateProvince>
+              <xsdLocal0:ClientAddress>xsdLocal0:ClientAddress</xsdLocal0:ClientAddress>
+              <xsdLocal0:AddressLine2>xsdLocal0:AddressLine2</xsdLocal0:AddressLine2>
+            </xsdLocal0:Contact_BusinessAddress>
+          </xsdLocal0:ListOfContact_BusinessAddress>
+          <xsdLocal0:ListOfContact_AlternatePhone>
+            <xsdLocal0:Contact_AlternatePhone IsPrimaryMVG="">
+              <xsdLocal0:AlternatePhoneNum>xsdLocal0:AlternatePhoneNum</xsdLocal0:AlternatePhoneNum>
+            </xsdLocal0:Contact_AlternatePhone>
+          </xsdLocal0:ListOfContact_AlternatePhone>
+        </xsdLocal0:Contact>
+      </xsdLocal0:ListOfContactWpsCern>
+    </ContactUpsertOutput>
+  </out:ContactUpsertResponse>
+</body>

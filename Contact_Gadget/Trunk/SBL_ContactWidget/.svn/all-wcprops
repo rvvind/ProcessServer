@@ -1,0 +1,239 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/11910/SOA/Process%20Server/Contact_Gadget/Trunk/SBL_ContactWidget
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/11910/SOA/Process%20Server/Contact_Gadget/Trunk/SBL_ContactWidget/.project
+END
+SubMapforCntBusAdrDetails.map
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/11910/SOA/Process%20Server/Contact_Gadget/Trunk/SBL_ContactWidget/SubMapforCntBusAdrDetails.map
+END
+ContactUpsertV2OutputFromSBL.map
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/11910/SOA/Process%20Server/Contact_Gadget/Trunk/SBL_ContactWidget/ContactUpsertV2OutputFromSBL.map
+END
+sca.module
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/11910/SOA/Process%20Server/Contact_Gadget/Trunk/SBL_ContactWidget/sca.module
+END
+SubMapforCntAltPhnDetails.map
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/11910/SOA/Process%20Server/Contact_Gadget/Trunk/SBL_ContactWidget/SubMapforCntAltPhnDetails.map
+END
+SubMapforContactDetails.map
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/11910/SOA/Process%20Server/Contact_Gadget/Trunk/SBL_ContactWidget/SubMapforContactDetails.map
+END
+SubMapforCntBusAdrDetails_V2.map
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/11910/SOA/Process%20Server/Contact_Gadget/Trunk/SBL_ContactWidget/SubMapforCntBusAdrDetails_V2.map
+END
+ContactUpsertFromSBL.map
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/11910/SOA/Process%20Server/Contact_Gadget/Trunk/SBL_ContactWidget/ContactUpsertFromSBL.map
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/11910/SOA/Process%20Server/Contact_Gadget/Trunk/SBL_ContactWidget/.classpath
+END
+SubMapforCntAltPhnDetails_V2.map
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/11910/SOA/Process%20Server/Contact_Gadget/Trunk/SBL_ContactWidget/SubMapforCntAltPhnDetails_V2.map
+END
+ContactQueryOutputFromSBL.map
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/11910/SOA/Process%20Server/Contact_Gadget/Trunk/SBL_ContactWidget/ContactQueryOutputFromSBL.map
+END
+SubMapforContactDetails_V2.map
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/11910/SOA/Process%20Server/Contact_Gadget/Trunk/SBL_ContactWidget/SubMapforContactDetails_V2.map
+END
+ContactQueryImport1.import
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/11910/SOA/Process%20Server/Contact_Gadget/Trunk/SBL_ContactWidget/ContactQueryImport1.import
+END
+Invoke.export
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/11910/SOA/Process%20Server/Contact_Gadget/Trunk/SBL_ContactWidget/Invoke.export
+END
+ContactQueryV2OutputFromSBL.map
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/11910/SOA/Process%20Server/Contact_Gadget/Trunk/SBL_ContactWidget/ContactQueryV2OutputFromSBL.map
+END
+SubMapforAcct_V2.map
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/11910/SOA/Process%20Server/Contact_Gadget/Trunk/SBL_ContactWidget/SubMapforAcct_V2.map
+END
+ibm-deploy.scaj2ee
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/11910/SOA/Process%20Server/Contact_Gadget/Trunk/SBL_ContactWidget/ibm-deploy.scaj2ee
+END
+SubMapforCntAct_V2.map
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/11910/SOA/Process%20Server/Contact_Gadget/Trunk/SBL_ContactWidget/SubMapforCntAct_V2.map
+END
+sca.module.attributes
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/11910/SOA/Process%20Server/Contact_Gadget/Trunk/SBL_ContactWidget/sca.module.attributes
+END
+SubMapforCntBusAdr.map
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/11910/SOA/Process%20Server/Contact_Gadget/Trunk/SBL_ContactWidget/SubMapforCntBusAdr.map
+END
+SubMapforAcctDetails_V2.map
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/11910/SOA/Process%20Server/Contact_Gadget/Trunk/SBL_ContactWidget/SubMapforAcctDetails_V2.map
+END
+sca.modulex
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/11910/SOA/Process%20Server/Contact_Gadget/Trunk/SBL_ContactWidget/sca.modulex
+END
+ContactUpsertImport1.import
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/11910/SOA/Process%20Server/Contact_Gadget/Trunk/SBL_ContactWidget/ContactUpsertImport1.import
+END
+SubMapforCntActDetails_V2.map
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/11910/SOA/Process%20Server/Contact_Gadget/Trunk/SBL_ContactWidget/SubMapforCntActDetails_V2.map
+END
+SubMapforCntAltPhn.map
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/11910/SOA/Process%20Server/Contact_Gadget/Trunk/SBL_ContactWidget/SubMapforCntAltPhn.map
+END
+ContactQueryV3_Output.map
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/11910/SOA/Process%20Server/Contact_Gadget/Trunk/SBL_ContactWidget/ContactQueryV3_Output.map
+END
+SubMapforContact.map
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/11910/SOA/Process%20Server/Contact_Gadget/Trunk/SBL_ContactWidget/SubMapforContact.map
+END
+SubMapforCntBusAdr_V2.map
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/11910/SOA/Process%20Server/Contact_Gadget/Trunk/SBL_ContactWidget/SubMapforCntBusAdr_V2.map
+END
+SBL_ContactWidget.medflow
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/11910/SOA/Process%20Server/Contact_Gadget/Trunk/SBL_ContactWidget/SBL_ContactWidget.medflow
+END
+SubMapforContact_V2.map
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/11910/SOA/Process%20Server/Contact_Gadget/Trunk/SBL_ContactWidget/SubMapforContact_V2.map
+END
+SubMapforCntAltPhn_V2.map
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/11910/SOA/Process%20Server/Contact_Gadget/Trunk/SBL_ContactWidget/SubMapforCntAltPhn_V2.map
+END
+SBL_ContactWidget.mfcex
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/11910/SOA/Process%20Server/Contact_Gadget/Trunk/SBL_ContactWidget/SBL_ContactWidget.mfcex
+END
+SBL_ContactWidget.component
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/11910/SOA/Process%20Server/Contact_Gadget/Trunk/SBL_ContactWidget/SBL_ContactWidget.component
+END
+.factorypath
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/11910/SOA/Process%20Server/Contact_Gadget/Trunk/SBL_ContactWidget/.factorypath
+END
+SBL_ContactWidget.mfc
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/11910/SOA/Process%20Server/Contact_Gadget/Trunk/SBL_ContactWidget/SBL_ContactWidget.mfc
+END
+SubMapforAcct.map
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/11910/SOA/Process%20Server/Contact_Gadget/Trunk/SBL_ContactWidget/SubMapforAcct.map
+END
+SubMapforCntAct.map
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/11910/SOA/Process%20Server/Contact_Gadget/Trunk/SBL_ContactWidget/SubMapforCntAct.map
+END
+SubMapforAcctDetails.map
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/11910/SOA/Process%20Server/Contact_Gadget/Trunk/SBL_ContactWidget/SubMapforAcctDetails.map
+END
+SubMapforCntActDetails.map
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/11910/SOA/Process%20Server/Contact_Gadget/Trunk/SBL_ContactWidget/SubMapforCntActDetails.map
+END

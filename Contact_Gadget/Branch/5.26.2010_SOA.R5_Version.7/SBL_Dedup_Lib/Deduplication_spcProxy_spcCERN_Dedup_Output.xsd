@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns="http://schemas.xmlsoap.org/wsdl/"
+	xmlns:tns="http://wservice.cerner.com"
+	xmlns:xsdLocal1="http://www.siebel.com/xml/Deduplication%20External%20Output%20CERN"
+	attributeFormDefault="unqualified" elementFormDefault="qualified"
+	targetNamespace="http://wservice.cerner.com">
+	<xsd:import
+		namespace="http://www.siebel.com/xml/Deduplication%20External%20Output%20CERN"
+		schemaLocation="PropertySet.xsd" />
+	<xsd:element name="Deduplication_spcProxy_spcCERN_Dedup_Output">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="xsdLocal1:PropertySet" />
+				<xsd:element name="_XML_spcString" type="xsd:string" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

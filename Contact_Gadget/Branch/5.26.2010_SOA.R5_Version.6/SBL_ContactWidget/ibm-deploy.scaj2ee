@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scaj2ee:IntegrationModuleDeploymentConfiguration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:scaj2ee="http://www.ibm.com/xmlns/prod/websphere/sca/j2ee/6.0.2">
+  <appProject>
+    <authorizationTable>
+      <authorizations role="//@appProject/@securityrole.0"/>
+    </authorizationTable>
+    <securityrole description="" roleName="SBL_ContactWidget"/>
+  </appProject>
+  <wsImports>
+    <componentScopedRefsBindings>
+      <componentScopedRefs componentNameLink="Module">
+        <serviceRefs serviceRefLink="sca/import/ContactQueryImport1">
+          <portQnameBindings portQnameLocalNameLink="ContactQuery" overriddenEndpointURI="jms:/queue?destination=jms/WSRQ&amp;connectionFactory=jms/WSCF&amp;targetService=ContactQuery"/>
+        </serviceRefs>
+        <serviceRefs serviceRefLink="sca/import/ContactUpsertImport1">
+          <portQnameBindings portQnameLocalNameLink="ContactUpsert" overriddenEndpointURI="jms:/queue?destination=jms/WSRQ&amp;connectionFactory=jms/WSCF&amp;targetService=ContactUpsert"/>
+        </serviceRefs>
+      </componentScopedRefs>
+    </componentScopedRefsBindings>
+    <componentScopedRefsExtensions>
+      <componentScopedRefs componentNameLink="Module">
+        <serviceRefs serviceRefLink="sca/import/ContactQueryImport1">
+          <portQnameBindings portQnameLocalNameLink="ContactQuery"/>
+        </serviceRefs>
+        <serviceRefs serviceRefLink="sca/import/ContactUpsertImport1">
+          <portQnameBindings portQnameLocalNameLink="ContactUpsert"/>
+        </serviceRefs>
+      </componentScopedRefs>
+    </componentScopedRefsExtensions>
+  </wsImports>
+  <wsExports>
+    <wsDescExtensions>
+      <wsDescExt wsDescNameLink="Invoke_InvokeHttpService">
+        <pcBinding pcNameLink="Invoke_InvokeHttpPort">
+          <serverServiceConfig>
+            <securityRequestConsumerServiceConfig>
+              <caller name="callerPart" part="" uri="" localName="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#UsernameToken"/>
+              <requiredSecurityToken name="SBL_ContactWidget" uri="" localName="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#UsernameToken" usage="Required"/>
+            </securityRequestConsumerServiceConfig>
+          </serverServiceConfig>
+        </pcBinding>
+      </wsDescExt>
+    </wsDescExtensions>
+    <wsDescBindings>
+      <wsdescBindings wsDescNameLink="Invoke_InvokeHttpService">
+        <pcBindings pcNameLink="Invoke_InvokeHttpPort">
+          <securityRequestConsumerBindingConfig>
+            <tokenConsumer classname="com.ibm.wsspi.wssecurity.token.UsernameTokenConsumer" name="userTokenCon">
+              <valueType localName="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#UsernameToken" uri="" name="Username Token"/>
+              <jAASConfig configName="system.wssecurity.UsernameToken"/>
+              <partReference part="SBL_ContactWidget"/>
+            </tokenConsumer>
+          </securityRequestConsumerBindingConfig>
+        </pcBindings>
+      </wsdescBindings>
+    </wsDescBindings>
+  </wsExports>
+</scaj2ee:IntegrationModuleDeploymentConfiguration>

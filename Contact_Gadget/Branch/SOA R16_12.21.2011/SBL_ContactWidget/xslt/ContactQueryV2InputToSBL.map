@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><mappingRoot domainID="com.ibm.msl.mapping.xml" targetNamespace="http://SBL_ContactWidget/xslt/ContactQueryV2InputToSBL" version="7.0.401" xmlns="http://www.ibm.com/2008/ccl/Mapping" xmlns:map="http://SBL_ContactWidget/xslt/ContactQueryV2InputToSBL">
+    <input path="smo://smo/name%3Dwsdl-primary/message%3D%257Bhttp%253A%252F%252FSBL_ContactWidget_Lib%252FInvoke%257DContactQueryV2RequestMsg/xpath%3D%252Fbody/smo.xsd"/>
+    <output path="smo://smo/name%3Dwsdl-primary/message%3D%257Bhttp%253A%252F%252Fwservice.cerner.com%252FV3%257DContact_spcQuery_spcWPS_spcCERN_ContactQuery_Input/xpath%3D%252Fbody/smo.xsd"/>
+    <mappingDeclaration name="ContactQueryV2InputToSBL">
+        <input path="body"/>
+        <output path="body"/>
+        <move>
+            <input path="ContactQueryV2/Contact_spcQuery_spcWPS_spcCERN_ContactQuery_Input/ComplexSearchSpec"/>
+            <output path="Contact_spcQuery_spcWPS_spcCERN_ContactQuery_Input/ComplexSearchSpec"/>
+        </move>
+        <local>
+            <input path="ContactQueryV2/Contact_spcQuery_spcWPS_spcCERN_ContactQuery_Input/ListOfContactWpsCern"/>
+            <output path="Contact_spcQuery_spcWPS_spcCERN_ContactQuery_Input/ListOfContactWpsCern"/>
+            <foreach>
+                <input path="Contact"/>
+                <output path="Contact"/>
+                <move>
+                    <input path="Id"/>
+                    <output path="Id"/>
+                </move>
+                <move>
+                    <input path="MobilePhoneNum"/>
+                    <output path="MobilePhoneNum"/>
+                </move>
+                <move>
+                    <input path="PrimaryEmail"/>
+                    <output path="PrimaryEmail"/>
+                </move>
+                <move>
+                    <input path="FirstName"/>
+                    <output path="FirstName"/>
+                </move>
+                <move>
+                    <input path="HomePhoneNum"/>
+                    <output path="HomePhoneNum"/>
+                </move>
+                <move>
+                    <input path="IntegrationId"/>
+                    <output path="IntegrationId"/>
+                </move>
+                <move>
+                    <input path="JobTitle"/>
+                    <output path="JobTitle"/>
+                </move>
+                <move>
+                    <input path="LastName"/>
+                    <output path="LastName"/>
+                </move>
+                <move>
+                    <input path="LoginName"/>
+                    <output path="LoginName"/>
+                </move>
+                <move>
+                    <input path="MrMs"/>
+                    <output path="MrMs"/>
+                </move>
+                <move>
+                    <input path="Mnemonic"/>
+                    <output path="Mnemonic"/>
+                </move>
+                <move>
+                    <input path="Role"/>
+                    <output path="Role"/>
+                </move>
+                <move>
+                    <input path="NeverEmail"/>
+                    <output path="NeverEmail"/>
+                </move>
+                <move>
+                    <input path="WorkPhoneNum"/>
+                    <output path="WorkPhoneNum"/>
+                </move>
+                <move>
+                    <input path="WorkPhoneExtension"/>
+                    <output path="WorkPhoneExtension"/>
+                </move>
+                <local>
+                    <input path="ListOfContact_Account"/>
+                    <output path="ListOfContact_Account"/>
+                    <foreach>
+                        <input path="Contact_Account"/>
+                        <output path="Contact_Account"/>
+                        <move>
+                            <input path="Account"/>
+                            <output path="Account"/>
+                        </move>
+                        <move>
+                            <input path="AccountLocation"/>
+                            <output path="AccountLocation"/>
+                        </move>
+                        <move>
+                            <input path="AccountStatus"/>
+                            <output path="AccountStatus"/>
+                        </move>
+                    </foreach>
+                </local>
+                <local>
+                    <input path="ListOfContact_BusinessAddress"/>
+                    <output path="ListOfContact_BusinessAddress"/>
+                    <foreach>
+                        <input path="Contact_BusinessAddress"/>
+                        <output path="Contact_BusinessAddress"/>
+                        <move>
+                            <input path="City"/>
+                            <output path="City"/>
+                        </move>
+                        <move>
+                            <input path="Country"/>
+                            <output path="Country"/>
+                        </move>
+                        <move>
+                            <input path="ZIPPostalCode"/>
+                            <output path="ZIPPostalCode"/>
+                        </move>
+                        <move>
+                            <input path="StateProvince"/>
+                            <output path="StateProvince"/>
+                        </move>
+                        <move>
+                            <input path="ClientAddress"/>
+                            <output path="ClientAddress"/>
+                        </move>
+                        <move>
+                            <input path="AddressLine2"/>
+                            <output path="AddressLine2"/>
+                        </move>
+                    </foreach>
+                </local>
+                <local>
+                    <input path="ListOfContact_AlternatePhone"/>
+                    <output path="ListOfContact_AlternatePhone"/>
+                    <foreach>
+                        <input path="Contact_AlternatePhone"/>
+                        <output path="Contact_AlternatePhone"/>
+                        <move>
+                            <input path="AlternatePhoneNum"/>
+                            <output path="AlternatePhoneNum"/>
+                        </move>
+                    </foreach>
+                </local>
+                <local>
+                    <input path="ListOfAccount"/>
+                    <output path="ListOfAccount"/>
+                    <foreach>
+                        <input path="Account"/>
+                        <output path="Account"/>
+                        <move>
+                            <input path="StatusofAffiliation"/>
+                            <output path="StatusofAffiliation"/>
+                        </move>
+                        <move>
+                            <input path="JobTitle"/>
+                            <output path="JobTitle"/>
+                        </move>
+                        <move>
+                            <input path="Role"/>
+                            <output path="Role"/>
+                        </move>
+                        <move>
+                            <input path="Mnemonic"/>
+                            <output path="Mnemonic"/>
+                        </move>
+                    </foreach>
+                </local>
+            </foreach>
+        </local>
+    </mappingDeclaration>
+</mappingRoot>

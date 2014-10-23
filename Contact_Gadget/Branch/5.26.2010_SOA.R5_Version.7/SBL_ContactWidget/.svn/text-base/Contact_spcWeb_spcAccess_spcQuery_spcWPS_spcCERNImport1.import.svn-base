@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scdl:import xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns1="http://wservice.cerner.com" xmlns:scdl="http://www.ibm.com/xmlns/prod/websphere/scdl/6.0.0" xmlns:webservice="http://www.ibm.com/xmlns/prod/websphere/scdl/webservice/6.0.0" xmlns:wsdl="http://www.ibm.com/xmlns/prod/websphere/scdl/wsdl/6.0.0" displayName="Contact_spcWeb_spcAccess_spcQuery_spcWPS_spcCERNImport1" name="Contact_spcWeb_spcAccess_spcQuery_spcWPS_spcCERNImport1">
+  <interfaces>
+    <interface xsi:type="wsdl:WSDLPortType" preferredInteractionStyle="sync" portType="ns1:Contact_spcWeb_spcAccess_spcQuery_spcWPS_spcCERN">
+      <scdl:interfaceQualifier xsi:type="scdl:JoinTransaction" value="false"/>
+    </interface>
+  </interfaces>
+  <esbBinding xsi:type="webservice:WebServiceImportBinding" endpoint="jms:/queue?destination=jms/UpdateExport1&amp;connectionFactory=jms/UpdateExport1QCF&amp;targetService=UpdateExport1_UpdateJmsPort" port="ns1:Contact_spcWeb_spcAccess_spcQuery_spcWPS_spcCERN" service="ns1:Contact_spcWeb_spcAccess_spcQuery_spcWPS_spcCERN"/>
+</scdl:import>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<body xmlns:tns="http://wservice.cerner.com/" xmlns:tns_1="wsdl.http://wservice.cerner.com/" xmlns:xsdLocal2="http://www.siebel.com/xml/MyContacts%20List%20WPS%20CERN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="foo.xsd" xsi:schemaLocation="wsdl.http://wservice.cerner.com/ /name%3Dwsdl-body/correlationContext%3Dhttp%253A%252F%252Fwservice.cerner.com%252F/message%3D%257Bhttp%253A%252F%252Fwservice.cerner.com%252F%257DContact_spcList_spcDelete_spcWPS_spcCERN_ContactListDelete_Output/smo.xsd http://wservice.cerner.com/ platform:/resource/SBL_ContactWidget_myContacts_Lib/Contact_spcList_spcDelete_spcWPS_spcCERN_ContactListDelete_Output.xsd http://www.siebel.com/xml/MyContacts%20List%20WPS%20CERN platform:/resource/SBL_ContactWidget_myContacts_Lib/ListOfMycontactsListWpsCern.xsd ">
+  <tns:Contact_spcList_spcDelete_spcWPS_spcCERN_ContactListDelete_Output>
+    <tns:Error_spcCode>tns:Error_spcCode</tns:Error_spcCode>
+    <tns:Error_spcMessage>tns:Error_spcMessage</tns:Error_spcMessage>
+    <xsdLocal2:ListOfMycontactsListWpsCern>
+      <xsdLocal2:MycontactsListCern>
+        <xsdLocal2:ChildContactIdCERN>xsdLocal2:ChildContactIdCERN</xsdLocal2:ChildContactIdCERN>
+        <xsdLocal2:ParentContactIdCERN>xsdLocal2:ParentContactIdCERN</xsdLocal2:ParentContactIdCERN>
+      </xsdLocal2:MycontactsListCern>
+    </xsdLocal2:ListOfMycontactsListWpsCern>
+  </tns:Contact_spcList_spcDelete_spcWPS_spcCERN_ContactListDelete_Output>
+</body>

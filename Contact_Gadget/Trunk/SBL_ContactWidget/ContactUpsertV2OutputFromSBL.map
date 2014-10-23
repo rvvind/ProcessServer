@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map:businessObjectMap xmlns:ContactUpsertV2OutputFromSBL="http://SBL_ContactWidget" xmlns:ContactUpsertV2ResponseMsg="smo://smo/name%3Dwsdl-body/message%3D%257Bhttp%253A%252F%252FSBL_ContactWidget_Lib%252FInvoke%257DContactUpsertV2ResponseMsg/xpath%3D%252Fbody/namespace%3DBOMap/smo.xsd" xmlns:Contact_spcUpsert_spcWPS_spcCERN_ContactUpsert_Output="smo://smo/name%3Dwsdl-body/message%3D%257Bhttp%253A%252F%252Fwservice.cerner.com%252FV3%257DContact_spcUpsert_spcWPS_spcCERN_ContactUpsert_Output/xpath%3D%252Fbody/namespace%3DBOMap/smo.xsd" xmlns:map="http://www.ibm.com/xmlns/prod/websphere/wbiserver/map/6.0.0" targetNamespace="http://SBL_ContactWidget">
+  <map:name>ContactUpsertV2OutputFromSBL</map:name>
+  <map:inputBusinessObjectVariable businessObjectRef="Contact_spcUpsert_spcWPS_spcCERN_ContactUpsert_Output:Contact_spcUpsert_spcWPS_spcCERN_ContactUpsert_Output" name="Contact_spcUpsert_spcWPS_spcCERN_ContactUpsert_Output"/>
+  <map:outputBusinessObjectVariable businessObjectRef="ContactUpsertV2ResponseMsg:ContactUpsertV2ResponseMsg" name="ContactUpsertV2ResponseMsg"/>
+  <map:propertyMap executionOrder="1">
+    <map:submap submapName="ContactUpsertV2OutputFromSBL:SubMapforContact_V2">
+      <map:input businessObjectVariableRef="Contact_spcUpsert_spcWPS_spcCERN_ContactUpsert_Output" property="Contact_spcUpsert_spcWPS_spcCERN_ContactUpsert_Output/ListOfContactWpsCern" variableName="ListOfContactWpsCern"/>
+      <map:output businessObjectVariableRef="ContactUpsertV2ResponseMsg" property="ContactUpsertV2Response/Contact_spcUpsert_spcWPS_spcCERN_ContactUpsert_Output/ListOfContactWpsCern" variableName="ListOfContactWpsCern_1"/>
+    </map:submap>
+  </map:propertyMap>
+</map:businessObjectMap>

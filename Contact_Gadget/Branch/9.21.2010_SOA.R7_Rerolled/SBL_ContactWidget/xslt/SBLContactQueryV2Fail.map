@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><mappingRoot domainID="com.ibm.msl.mapping.xml" targetNamespace="http://SBL_ContactWidget/xslt/SBLContactQueryV2Fail" version="7.0.200" xmlns="http://www.ibm.com/2008/ccl/Mapping" xmlns:map="http://SBL_ContactWidget/xslt/SBLContactQueryV2Fail">
+    <input path="smo://smo/name%3Dwsdl-primary/message%3D%257Bhttp%253A%252F%252Fwservice.cerner.com%252FV2%257DContact_spcQuery_spcWPS_spcCERN_ContactQuery_Input/xpath%3D%252F/smo.xsd"/>
+    <output path="smo://smo/name%3Dwsdl-primary/message%3D%257Bhttp%253A%252F%252FSBL_ContactWidget_Lib%252FInvoke%257DContactQueryV2_ContactQueryV2Fault1Msg/xpath%3D%252F/smo.xsd"/>
+    <mappingDeclaration name="SBLContactQueryV2Fail">
+        <input path="smo"/>
+        <output path="smo"/>
+        <move>
+            <input path="context/failInfo/failureString"/>
+            <output path="body/ContactQueryV2Fault1"/>
+        </move>
+    </mappingDeclaration>
+</mappingRoot>

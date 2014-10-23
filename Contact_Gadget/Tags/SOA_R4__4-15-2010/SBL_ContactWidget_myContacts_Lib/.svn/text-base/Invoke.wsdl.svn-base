@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:bons1="http://wservice.cerner.com/" xmlns:tns="http://SBL_ContactWidget_myContacts_Lib/Invoke" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Invoke" targetNamespace="http://SBL_ContactWidget_myContacts_Lib/Invoke">
+    <wsdl:types>
+    <xsd:schema targetNamespace="http://SBL_ContactWidget_myContacts_Lib/Invoke" xmlns:bons1="http://wservice.cerner.com/" xmlns:tns="http://SBL_ContactWidget_myContacts_Lib/Invoke" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+            <xsd:import namespace="http://wservice.cerner.com/" schemaLocation="Contact_spcList_spcDelete_spcWPS_spcCERN_ContactListDelete_Output.xsd"/>
+            <xsd:import namespace="http://wservice.cerner.com/" schemaLocation="Contact_spcList_spcDelete_spcWPS_spcCERN_ContactListDelete_Input.xsd"/>
+            <xsd:import namespace="http://wservice.cerner.com/" schemaLocation="Contact_spcList_spcQuery_spcWPS_spcCERN_ContactListQuery_Output.xsd"/>
+            <xsd:import namespace="http://wservice.cerner.com/" schemaLocation="Contact_spcList_spcQuery_spcWPS_spcCERN_ContactListQuery_Input.xsd"/>
+            <xsd:import namespace="http://wservice.cerner.com/" schemaLocation="Contact_spcList_spcUpsert_spcWPS_spcCERN_ContactListUpsert_Output.xsd"/>
+            <xsd:import namespace="http://wservice.cerner.com/" schemaLocation="Contact_spcList_spcUpsert_spcWPS_spcCERN_ContactListUpsert_Input.xsd"/>
+      <xsd:element name="ContactListUpsert">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element ref="bons1:Contact_spcList_spcUpsert_spcWPS_spcCERN_ContactListUpsert_Input"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="ContactListUpsertResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element ref="bons1:Contact_spcList_spcUpsert_spcWPS_spcCERN_ContactListUpsert_Output"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="string_element" nillable="true" type="xsd:string"/>
+      <xsd:element name="ContactListQuery">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element ref="bons1:Contact_spcList_spcQuery_spcWPS_spcCERN_ContactListQuery_Input"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="ContactListQueryResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element ref="bons1:Contact_spcList_spcQuery_spcWPS_spcCERN_ContactListQuery_Output"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+            <xsd:element name="ContactListDelete">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element ref="bons1:Contact_spcList_spcDelete_spcWPS_spcCERN_ContactListDelete_Input"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+            <xsd:element name="ContactListDeleteResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element ref="bons1:Contact_spcList_spcDelete_spcWPS_spcCERN_ContactListDelete_Output"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+        </xsd:schema>
+  </wsdl:types>
+    <wsdl:message name="ContactListUpsertRequestMsg">
+    <wsdl:part element="tns:ContactListUpsert" name="ContactListUpsertParameters"/>
+  </wsdl:message>
+    <wsdl:message name="ContactListUpsertResponseMsg">
+    <wsdl:part element="tns:ContactListUpsertResponse" name="ContactListUpsertResult"/>
+  </wsdl:message>
+    <wsdl:message name="ContactListUpsert_fault1Msg">
+    <wsdl:part element="tns:string_element" name="fault1"/>
+  </wsdl:message>
+    <wsdl:message name="ContactListQueryRequestMsg">
+    <wsdl:part element="tns:ContactListQuery" name="ContactListQueryParameters"/>
+  </wsdl:message>
+    <wsdl:message name="ContactListQueryResponseMsg">
+    <wsdl:part element="tns:ContactListQueryResponse" name="ContactListQueryResult"/>
+  </wsdl:message>
+    <wsdl:message name="ContactListQuery_fault1Msg">
+    <wsdl:part element="tns:string_element" name="fault1"/>
+  </wsdl:message>
+    <wsdl:message name="ContactListDeleteRequestMsg">
+    <wsdl:part element="tns:ContactListDelete" name="ContactListDeleteParameters"/>
+  </wsdl:message>
+    <wsdl:message name="ContactListDeleteResponseMsg">
+    <wsdl:part element="tns:ContactListDeleteResponse" name="ContactListDeleteResult"/>
+  </wsdl:message>
+    <wsdl:message name="ContactListDelete_fault1Msg">
+    <wsdl:part element="tns:string_element" name="fault1"/>
+  </wsdl:message>
+    <wsdl:portType name="Invoke">
+    <wsdl:operation name="ContactListUpsert">
+      <wsdl:input message="tns:ContactListUpsertRequestMsg" name="ContactListUpsertRequest"/>
+      <wsdl:output message="tns:ContactListUpsertResponseMsg" name="ContactListUpsertResponse"/>
+      <wsdl:fault message="tns:ContactListUpsert_fault1Msg" name="fault1"/>
+    </wsdl:operation>
+    <wsdl:operation name="ContactListQuery">
+      <wsdl:input message="tns:ContactListQueryRequestMsg" name="ContactListQueryRequest"/>
+      <wsdl:output message="tns:ContactListQueryResponseMsg" name="ContactListQueryResponse"/>
+      <wsdl:fault message="tns:ContactListQuery_fault1Msg" name="fault1"/>
+    </wsdl:operation>
+        <wsdl:operation name="ContactListDelete">
+      <wsdl:input message="tns:ContactListDeleteRequestMsg" name="ContactListDeleteRequest"/>
+      <wsdl:output message="tns:ContactListDeleteResponseMsg" name="ContactListDeleteResponse"/>
+      <wsdl:fault message="tns:ContactListDelete_fault1Msg" name="fault1"/>
+    </wsdl:operation>
+    </wsdl:portType>
+</wsdl:definitions>

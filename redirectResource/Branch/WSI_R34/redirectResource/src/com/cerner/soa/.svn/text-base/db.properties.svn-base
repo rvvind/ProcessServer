@@ -1,0 +1,9 @@
+#Database connection information
+
+dbName = BPMPRD
+userName = soasvc
+password = $vcSOAcrt
+port = 50050
+clientSourceQuery = select distinct row_id as id from dbo.R3_S_ORG_EXT where ? = ? 
+odscrm = jdbc:sqlserver://cesodsdbcrt:1433;databaseName=ODSCRM
+remedyintegration = jdbc:sqlserver://cesodsdbcrt:1433;databaseName=RemedyIntegration

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<body xmlns:tns="http://SBL_ContactWidget_myContacts_Lib/Invoke" xmlns:tns1="http://wservice.cerner.com/" xmlns:tns_1="wsdl.http://SBL_ContactWidget_myContacts_Lib/Invoke" xmlns:xsdLocal1="http://www.siebel.com/xml/Contact%20List%20WPS%20CERN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="foo.xsd" xsi:schemaLocation="wsdl.http://SBL_ContactWidget_myContacts_Lib/Invoke /name%3Dwsdl-body/correlationContext%3Dhttp%253A%252F%252FSBL_ContactWidget_myContacts_Lib%252FInvoke/message%3D%257Bhttp%253A%252F%252FSBL_ContactWidget_myContacts_Lib%252FInvoke%257DContactListUpsertRequestMsg/smo.xsd http://SBL_ContactWidget_myContacts_Lib/Invoke platform:/resource/SBL_ContactWidget_myContacts_Lib/Invoke.wsdl http://wservice.cerner.com/ platform:/resource/SBL_ContactWidget_myContacts_Lib/Contact_spcList_spcUpdate_spcWPS_spcCERN_ContactListUpdate_Output.xsd http://www.siebel.com/xml/Contact%20List%20WPS%20CERN platform:/resource/SBL_ContactWidget_myContacts_Lib/ListOfContactListWpsCern.xsd ">
+  <tns:ContactListUpsert>
+    <tns1:Contact_spcList_spcUpsert_spcWPS_spcCERN_ContactListUpsert_Input>
+      <xsdLocal1:ListOfContactListWpsCern>
+        <xsdLocal1:ContactListCern>
+          <xsdLocal1:Id>xsdLocal1:Id</xsdLocal1:Id>
+          <xsdLocal1:FirstName>xsdLocal1:FirstName</xsdLocal1:FirstName>
+          <xsdLocal1:LastName>xsdLocal1:LastName</xsdLocal1:LastName>
+          <xsdLocal1:ListOfContact>
+            <xsdLocal1:Contact>
+              <xsdLocal1:Id>xsdLocal1:Id</xsdLocal1:Id>
+              <xsdLocal1:FirstName>xsdLocal1:FirstName</xsdLocal1:FirstName>
+              <xsdLocal1:IntegrationId>xsdLocal1:IntegrationId</xsdLocal1:IntegrationId>
+              <xsdLocal1:JobTitle>xsdLocal1:JobTitle</xsdLocal1:JobTitle>
+              <xsdLocal1:LastName>xsdLocal1:LastName</xsdLocal1:LastName>
+              <xsdLocal1:MM>xsdLocal1:MM</xsdLocal1:MM>
+              <xsdLocal1:MnemonicCERN>xsdLocal1:MnemonicCERN</xsdLocal1:MnemonicCERN>
+              <xsdLocal1:WorkPhone>xsdLocal1:WorkPhone</xsdLocal1:WorkPhone>
+              <xsdLocal1:ListOfContact_BusinessAddress>
+                <xsdLocal1:Contact_BusinessAddress IsPrimaryMVG="">
+                  <xsdLocal1:City>xsdLocal1:City</xsdLocal1:City>
+                  <xsdLocal1:Country>xsdLocal1:Country</xsdLocal1:Country>
+                  <xsdLocal1:ZIPPostalCode>xsdLocal1:ZIPPostalCode</xsdLocal1:ZIPPostalCode>
+                  <xsdLocal1:State>xsdLocal1:State</xsdLocal1:State>
+                  <xsdLocal1:ClientAddress>xsdLocal1:ClientAddress</xsdLocal1:ClientAddress>
+                  <xsdLocal1:AddressLine2>xsdLocal1:AddressLine2</xsdLocal1:AddressLine2>
+                </xsdLocal1:Contact_BusinessAddress>
+              </xsdLocal1:ListOfContact_BusinessAddress>
+            </xsdLocal1:Contact>
+          </xsdLocal1:ListOfContact>
+        </xsdLocal1:ContactListCern>
+      </xsdLocal1:ListOfContactListWpsCern>
+    </tns1:Contact_spcList_spcUpsert_spcWPS_spcCERN_ContactListUpsert_Input>
+  </tns:ContactListUpsert>
+</body>

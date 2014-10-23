@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<io2:smo xmlns:io2="http://www.ibm.com/websphere/sibx/smo/v6.0.1" xmlns:io4="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:io3="http://www.ibm.com/xmlns/prod/websphere/mq/sca/6.0.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:out="wsdl.http://SBL_ContactWidget_myContacts_Lib/Invoke" xmlns:out2="http://SBL_ContactWidget_myContacts_Lib/Invoke" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:io="http://www.ibm.com/xmlns/prod/websphere/http/sca/6.1.0">
+  <body>
+    <out2:string_element>failureString</out2:string_element>
+  </body>
+</io2:smo>

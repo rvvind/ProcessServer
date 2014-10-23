@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map:businessObjectMap xmlns:ContactUpsertV2OutputFromSBL_SubCntAct1="http://SBL_ContactWidget" xmlns:Contact_Account="http://www.siebel.com/xml/Contact%20WPS%20CERN_V2" xmlns:Contact_Account_1="http://www.siebel.com/xml/Contact%20WPS%20CERN_V3" xmlns:map="http://www.ibm.com/xmlns/prod/websphere/wbiserver/map/6.0.0" targetNamespace="http://SBL_ContactWidget">
+  <map:name>SubMapforCntActDetails_V2</map:name>
+  <map:inputBusinessObjectVariable businessObjectRef="Contact_Account_1:Contact_Account" name="Contact_Account"/>
+  <map:outputBusinessObjectVariable businessObjectRef="Contact_Account:Contact_Account" name="Contact_Account_1"/>
+  <map:propertyMap executionOrder="1">
+    <map:move>
+      <map:input businessObjectVariableRef="Contact_Account" property="Account"/>
+      <map:output businessObjectVariableRef="Contact_Account_1" property="Account"/>
+    </map:move>
+  </map:propertyMap>
+  <map:propertyMap executionOrder="2">
+    <map:move>
+      <map:input businessObjectVariableRef="Contact_Account" property="AccountLocation"/>
+      <map:output businessObjectVariableRef="Contact_Account_1" property="AccountLocation"/>
+    </map:move>
+  </map:propertyMap>
+  <map:propertyMap executionOrder="3">
+    <map:move>
+      <map:input businessObjectVariableRef="Contact_Account" property="AccountStatus"/>
+      <map:output businessObjectVariableRef="Contact_Account_1" property="AccountStatus"/>
+    </map:move>
+  </map:propertyMap>
+  <map:propertyMap executionOrder="4">
+    <map:move>
+      <map:input businessObjectVariableRef="Contact_Account" property="@IsPrimaryMVG"/>
+      <map:output businessObjectVariableRef="Contact_Account_1" property="@IsPrimaryMVG"/>
+    </map:move>
+  </map:propertyMap>
+</map:businessObjectMap>

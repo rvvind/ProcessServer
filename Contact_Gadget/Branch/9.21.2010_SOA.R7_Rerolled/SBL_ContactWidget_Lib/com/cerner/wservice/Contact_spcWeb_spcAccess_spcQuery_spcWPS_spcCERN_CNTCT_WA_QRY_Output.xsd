@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><xsd:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://wservice.cerner.com" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://wservice.cerner.com" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsdLocal1="http://www.siebel.com/xml/Contact%20Web%20Access%20WPS%20CERN">
+  <xsd:import namespace="http://www.siebel.com/xml/Contact%20Web%20Access%20WPS%20CERN" schemaLocation="../../siebel/ListOfContactWebAccessWpsCern.xsd"/>
+  <xsd:element name="Contact_spcWeb_spcAccess_spcQuery_spcWPS_spcCERN_CNTCT_WA_QRY_Output">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="Error_spcCode" type="xsd:string"/>
+        <xsd:element name="Error_spcMessage" type="xsd:string"/>
+        <xsd:element ref="xsdLocal1:ListOfContactWebAccessWpsCern"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

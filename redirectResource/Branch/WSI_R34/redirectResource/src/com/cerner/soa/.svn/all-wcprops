@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/28714/SOA/Process%20Server/redirectResource/Branch/WSI_R34/redirectResource/src/com/cerner/soa
+END
+db.properties
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/28714/SOA/Process%20Server/redirectResource/Branch/WSI_R34/redirectResource/src/com/cerner/soa/db.properties
+END
+Redirect.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/28714/SOA/Process%20Server/redirectResource/Branch/WSI_R34/redirectResource/src/com/cerner/soa/Redirect.java
+END
+ODSConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/28714/SOA/Process%20Server/redirectResource/Branch/WSI_R34/redirectResource/src/com/cerner/soa/ODSConnection.java
+END
+LookUpProperties.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/28714/SOA/Process%20Server/redirectResource/Branch/WSI_R34/redirectResource/src/com/cerner/soa/LookUpProperties.java
+END
+DB2Connection.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/28714/SOA/Process%20Server/redirectResource/Branch/WSI_R34/redirectResource/src/com/cerner/soa/DB2Connection.java
+END
+RedirectConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/28714/SOA/Process%20Server/redirectResource/Branch/WSI_R34/redirectResource/src/com/cerner/soa/RedirectConfig.java
+END
+Field_Mappings.properties
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/28714/SOA/Process%20Server/redirectResource/Branch/WSI_R34/redirectResource/src/com/cerner/soa/Field_Mappings.properties
+END
+redirect.properties
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/28714/SOA/Process%20Server/redirectResource/Branch/WSI_R34/redirectResource/src/com/cerner/soa/redirect.properties
+END

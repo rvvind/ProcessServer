@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions name="Invoke" targetNamespace="http://SBL_ContactWidget_Lib/Invoke" xmlns:bons1="http://wservice.cerner.com/" xmlns:bons2="http://wservice.cerner.com" xmlns:bons3="http://wservice.cerner.com/V2" xmlns:bons4="http://wservice.cerner.com/V3" xmlns:tns="http://SBL_ContactWidget_Lib/Invoke" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <wsdl:types>
+    <xsd:schema targetNamespace="http://SBL_ContactWidget_Lib/Invoke">
+            <xsd:import namespace="http://wservice.cerner.com/V2" schemaLocation="Contact_V2/Contact_spcUpsert_spcWPS_spcCERN_ContactUpsert_Output.xsd"/>
+            <xsd:import namespace="http://wservice.cerner.com/V2" schemaLocation="Contact_V2/Contact_spcUpsert_spcWPS_spcCERN_ContactUpsert_Input.xsd"/>
+            <xsd:import namespace="http://wservice.cerner.com/V2" schemaLocation="Contact_V2/Contact_spcQuery_spcWPS_spcCERN_ContactQuery_Output.xsd"/>
+            <xsd:import namespace="http://wservice.cerner.com/V2" schemaLocation="Contact_V2/Contact_spcQuery_spcWPS_spcCERN_ContactQuery_Input.xsd"/>
+            <xsd:import namespace="http://wservice.cerner.com/" schemaLocation="Contact_spcQuery_spcWPS_spcCERN_ContactQuery_Output.xsd"/>
+            <xsd:import namespace="http://wservice.cerner.com/" schemaLocation="Contact_spcQuery_spcWPS_spcCERN_ContactQuery_Input.xsd"/>
+            <xsd:import namespace="http://wservice.cerner.com/" schemaLocation="Contact_spcUpsert_spcWPS_spcCERN_ContactUpsert_Output.xsd"/>
+            <xsd:import namespace="http://wservice.cerner.com/" schemaLocation="Contact_spcUpsert_spcWPS_spcCERN_ContactUpsert_Input.xsd"/>
+            <xsd:import namespace="http://wservice.cerner.com/V3" schemaLocation="Contact_V3/Contact_spcQuery_spcWPS_spcCERN_ContactQuery_Output.xsd"/>
+            <xsd:import namespace="http://wservice.cerner.com/V3" schemaLocation="Contact_V3/Contact_spcQuery_spcWPS_spcCERN_ContactQuery_Input.xsd"/>
+      <xsd:element name="ContactUpsert">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element ref="bons1:Contact_spcUpsert_spcWPS_spcCERN_ContactUpsert_Input"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="ContactUpsertResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element ref="bons1:Contact_spcUpsert_spcWPS_spcCERN_ContactUpsert_Output"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+            <xsd:element name="string_element" nillable="true" type="xsd:string"/>
+            <xsd:element name="ContactQuery">
+        <xsd:complexType>
+          <xsd:sequence>
+                        <xsd:element ref="bons1:Contact_spcQuery_spcWPS_spcCERN_ContactQuery_Input"/>
+                    </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+            <xsd:element name="ContactQueryResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+                        <xsd:element ref="bons1:Contact_spcQuery_spcWPS_spcCERN_ContactQuery_Output"/>
+                    </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+            <xsd:element name="ContactQueryV2">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element ref="bons3:Contact_spcQuery_spcWPS_spcCERN_ContactQuery_Input"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+            <xsd:element name="ContactQueryV2Response">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element ref="bons3:Contact_spcQuery_spcWPS_spcCERN_ContactQuery_Output"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+            <xsd:element name="ContactQueryV2Fault1" nillable="true" type="xsd:string"/>
+            <xsd:element name="ContactUpsertV2">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element ref="bons3:Contact_spcUpsert_spcWPS_spcCERN_ContactUpsert_Input"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+            <xsd:element name="ContactUpsertV2Response">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element ref="bons3:Contact_spcUpsert_spcWPS_spcCERN_ContactUpsert_Output"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+            <xsd:element name="ContactUpsertV2Fault1" nillable="true" type="xsd:string"/>
+            <xsd:element name="ContactQueryV3">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element ref="bons4:Contact_spcQuery_spcWPS_spcCERN_ContactQuery_Input"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+            <xsd:element name="ContactQueryV3Response">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element ref="bons4:Contact_spcQuery_spcWPS_spcCERN_ContactQuery_Output"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+            <xsd:element name="ContactQueryV3Fault1" nillable="true" type="xsd:string"/>
+        </xsd:schema>
+  </wsdl:types>
+    <wsdl:message name="ContactUpsertRequestMsg">
+    <wsdl:part element="tns:ContactUpsert" name="ContactUpsertParameters"/>
+  </wsdl:message>
+    <wsdl:message name="ContactUpsertResponseMsg">
+    <wsdl:part element="tns:ContactUpsertResponse" name="ContactUpsertResult"/>
+  </wsdl:message>
+    <wsdl:message name="ContactUpsert_fault1Msg">
+    <wsdl:part element="tns:string_element" name="fault1"/>
+  </wsdl:message>
+    <wsdl:message name="ContactQueryRequestMsg">
+    <wsdl:part element="tns:ContactQuery" name="ContactQueryParameters"/>
+  </wsdl:message>
+    <wsdl:message name="ContactQueryResponseMsg">
+    <wsdl:part element="tns:ContactQueryResponse" name="ContactQueryResult"/>
+  </wsdl:message>
+    <wsdl:message name="ContactQuery_fault1Msg">
+    <wsdl:part element="tns:string_element" name="fault1"/>
+  </wsdl:message>
+    <wsdl:message name="ContactQueryV2RequestMsg">
+    <wsdl:part element="tns:ContactQueryV2" name="ContactQueryV2Parameters"/>
+  </wsdl:message>
+    <wsdl:message name="ContactQueryV2ResponseMsg">
+    <wsdl:part element="tns:ContactQueryV2Response" name="ContactQueryV2Result"/>
+  </wsdl:message>
+    <wsdl:message name="ContactQueryV2_ContactQueryV2Fault1Msg">
+    <wsdl:part element="tns:ContactQueryV2Fault1" name="ContactQueryV2Fault1"/>
+  </wsdl:message>
+    <wsdl:message name="ContactUpsertV2RequestMsg">
+    <wsdl:part element="tns:ContactUpsertV2" name="ContactUpsertV2Parameters"/>
+  </wsdl:message>
+    <wsdl:message name="ContactUpsertV2ResponseMsg">
+    <wsdl:part element="tns:ContactUpsertV2Response" name="ContactUpsertV2Result"/>
+  </wsdl:message>
+    <wsdl:message name="ContactUpsertV2_ContactUpsertV2Fault1Msg">
+    <wsdl:part element="tns:ContactUpsertV2Fault1" name="ContactUpsertV2Fault1"/>
+  </wsdl:message>
+  <wsdl:message name="ContactQueryV3RequestMsg">
+    <wsdl:part element="tns:ContactQueryV3" name="ContactQueryV3Parameters"/>
+  </wsdl:message>
+    <wsdl:message name="ContactQueryV3ResponseMsg">
+    <wsdl:part element="tns:ContactQueryV3Response" name="ContactQueryV3Result"/>
+  </wsdl:message>
+    <wsdl:message name="ContactQueryV3_ContactQueryV3Fault1Msg">
+    <wsdl:part element="tns:ContactQueryV3Fault1" name="ContactQueryV3Fault1"/>
+  </wsdl:message>
+    <wsdl:portType name="Invoke">
+    <wsdl:operation name="ContactUpsert">
+      <wsdl:input message="tns:ContactUpsertRequestMsg" name="ContactUpsertRequest"/>
+      <wsdl:output message="tns:ContactUpsertResponseMsg" name="ContactUpsertResponse"/>
+            <wsdl:fault message="tns:ContactUpsert_fault1Msg" name="fault1"/>
+        </wsdl:operation>
+        <wsdl:operation name="ContactQuery">
+            <wsdl:input message="tns:ContactQueryRequestMsg" name="ContactQueryRequest"/>
+            <wsdl:output message="tns:ContactQueryResponseMsg" name="ContactQueryResponse"/>
+            <wsdl:fault message="tns:ContactQuery_fault1Msg" name="fault1"/>
+    </wsdl:operation>
+        <wsdl:operation name="ContactQueryV2">
+      <wsdl:input message="tns:ContactQueryV2RequestMsg" name="ContactQueryV2Request"/>
+      <wsdl:output message="tns:ContactQueryV2ResponseMsg" name="ContactQueryV2Response"/>
+            <wsdl:fault message="tns:ContactQueryV2_ContactQueryV2Fault1Msg" name="ContactQueryV2Fault1"/>
+        </wsdl:operation>
+        <wsdl:operation name="ContactUpsertV2">
+      <wsdl:input message="tns:ContactUpsertV2RequestMsg" name="ContactUpsertV2Request"/>
+      <wsdl:output message="tns:ContactUpsertV2ResponseMsg" name="ContactUpsertV2Response"/>
+      <wsdl:fault message="tns:ContactUpsertV2_ContactUpsertV2Fault1Msg" name="ContactUpsertV2Fault1"/>
+    </wsdl:operation>
+          <wsdl:operation name="ContactQueryV3">
+      <wsdl:input message="tns:ContactQueryV3RequestMsg" name="ContactQueryV3Request"/>
+      <wsdl:output message="tns:ContactQueryV3ResponseMsg" name="ContactQueryV3Response"/>
+      <wsdl:fault message="tns:ContactQueryV3_ContactQueryV3Fault1Msg" name="ContactQueryV3Fault1"/>
+      </wsdl:operation>
+    </wsdl:portType>
+</wsdl:definitions>

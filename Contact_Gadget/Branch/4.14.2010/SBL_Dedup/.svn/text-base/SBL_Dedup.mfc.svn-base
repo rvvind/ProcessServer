@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mfc:interfaceMediationFlow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Invoke="http://SBL_Dedup_Lib/Invoke" xmlns:mfc="http://www.ibm.com/xmlns/prod/websphere/wbiserver/mfc/6.0.0" xmlns:wsdl="http://www.ibm.com/xmlns/prod/websphere/scdl/wsdl/6.0.0" xmlns:wservice.cerner.com="http://wservice.cerner.com" name="SBL_Dedup" targetNamespace="http://SBL_Dedup/SBL_Dedup">
+  <interfaces>
+    <interface xsi:type="wsdl:WSDLPortType" portType="Invoke:Invoke"/>
+  </interfaces>
+  <references>
+    <reference name="DedupPartner">
+      <interface xsi:type="wsdl:WSDLPortType" portType="wservice.cerner.com:Dedup"/>
+    </reference>
+  </references>
+  <operationFlow medflow="SBL_Dedup.medflow"/>
+</mfc:interfaceMediationFlow>

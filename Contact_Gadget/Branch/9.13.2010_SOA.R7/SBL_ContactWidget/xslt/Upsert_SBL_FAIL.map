@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><mappingRoot domainID="com.ibm.msl.mapping.xml" targetNamespace="http://SBL_ContactWidget/xslt/XSLTransformation3_req_2" version="7.0.200" xmlns="http://www.ibm.com/2008/ccl/Mapping" xmlns:map="http://SBL_ContactWidget/xslt/XSLTransformation3_req_2">
+    <input path="smo://smo/name%3Dwsdl-primary/message%3D%257Bhttp%253A%252F%252Fwservice.cerner.com%252F%257DContact_spcUpsert_spcWPS_spcCERN_ContactUpsert_Input/xpath%3D%252F/smo.xsd"/>
+    <output path="smo://smo/name%3Dwsdl-primary/message%3D%257Bhttp%253A%252F%252FSBL_ContactWidget_Lib%252FInvoke%257DContactUpsert_fault1Msg/xpath%3D%252F/smo.xsd"/>
+    <imports>
+        <import kind="xml" location="XSLTransformation3_req_2.xml"/>
+    </imports>
+    <mappingDeclaration name="Upsert_SBL_FAIL">
+        <input path="smo"/>
+        <output path="smo"/>
+        <move>
+            <input path="context/failInfo/failureString"/>
+            <output path="body/string_element"/>
+        </move>
+    </mappingDeclaration>
+</mappingRoot>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?Siebel-Property-Set EscapeNames="false"?>
+
+<definitions xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://wservice.cerner.com" targetNamespace="http://wservice.cerner.com">
+  <import location="http___wservice.cerner.com_Contact_Dedup_CERN.wsdl" namespace="http://wservice.cerner.com"/>
+  <binding name="Dedup" type="tns:Dedup">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/jms"/>
+    <operation name="Dedup">
+      <soap:operation soapAction="document/http://wservice.cerner.com:Dedup"/>
+      <input>
+        <soap:body use="literal"/>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+  </binding>
+  <service name="Contact_spcDedup_spcCERN">
+    <port binding="tns:Dedup" name="Dedup">
+      <soap:address location="jms:/queue?destination=jms/WSRQ&amp;connectionFactory=jms/WSCF&amp;targetService=Dedup"/>
+    </port>
+  </service>
+</definitions>

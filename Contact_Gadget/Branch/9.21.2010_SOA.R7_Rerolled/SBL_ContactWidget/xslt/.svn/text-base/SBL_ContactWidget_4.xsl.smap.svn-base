@@ -1,0 +1,13 @@
+* SMAP
+SBL_ContactWidget_4.xsl
+XMLMAP
+*S XMLMAP
+*F
++ 1 SBL_ContactWidget_4.map
+/SBL_ContactWidget/xslt/SBL_ContactWidget_4.map
+*L
+3:46,4
+4:50,1
+1:33,1
+2:42,4
+*E

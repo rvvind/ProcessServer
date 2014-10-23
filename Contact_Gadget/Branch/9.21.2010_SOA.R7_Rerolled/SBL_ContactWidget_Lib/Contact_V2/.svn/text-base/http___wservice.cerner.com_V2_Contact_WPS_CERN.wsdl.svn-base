@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><?Siebel-Property-Set EscapeNames="false"?><definitions targetNamespace="http://wservice.cerner.com/V2" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://wservice.cerner.com/V2" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsdLocal1="http://www.siebel.com/xml/Contact%20WPS%20CERN_V2">
+  <types>
+    <xsd:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.siebel.com/xml/Contact%20WPS%20CERN_V2">
+      <xsd:include schemaLocation="string200.xsd"/>
+      <xsd:include schemaLocation="string75.xsd"/>
+      <xsd:include schemaLocation="Contact_Account.xsd"/>
+      <xsd:include schemaLocation="ListOfContact_Account.xsd"/>
+      <xsd:include schemaLocation="Contact_BusinessAddress.xsd"/>
+      <xsd:include schemaLocation="ListOfContact_AlternatePhone.xsd"/>
+      <xsd:include schemaLocation="Contact.xsd"/>
+      <xsd:include schemaLocation="ListOfAccount.xsd"/>
+      <xsd:include schemaLocation="string30.xsd"/>
+      <xsd:include schemaLocation="ListOfContactWpsCern.xsd"/>
+      <xsd:include schemaLocation="Contact_AlternatePhone.xsd"/>
+      <xsd:include schemaLocation="string15.xsd"/>
+      <xsd:include schemaLocation="string50.xsd"/>
+      <xsd:include schemaLocation="string100.xsd"/>
+      <xsd:include schemaLocation="ListOfContactWpsCernTopElmt.xsd"/>
+      <xsd:include schemaLocation="string10.xsd"/>
+      <xsd:include schemaLocation="ListOfContact_BusinessAddress.xsd"/>
+      <xsd:include schemaLocation="Account.xsd"/>
+      <xsd:annotation>
+        <xsd:documentation>Copyright (C) 2001-2004 Siebel Systems, Inc. All rights reserved. Siebel XSD Generation</xsd:documentation>
+      </xsd:annotation>
+    </xsd:schema>
+    <xsd:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://wservice.cerner.com/V2">
+      <xsd:import namespace="http://www.siebel.com/xml/Contact%20WPS%20CERN_V2"/>
+      <xsd:include schemaLocation="Contact_spcQuery_spcWPS_spcCERN_ContactQuery_Output.xsd"/>
+      <xsd:include schemaLocation="Contact_spcUpsert_spcWPS_spcCERN_ContactUpsert_Input.xsd"/>
+      <xsd:include schemaLocation="Contact_spcUpsert_spcWPS_spcCERN_ContactUpsert_Output.xsd"/>
+      <xsd:include schemaLocation="Contact_spcQuery_spcWPS_spcCERN_ContactQuery_Input.xsd"/>
+    </xsd:schema>
+  </types>
+  <message name="Contact_spcUpsert_spcWPS_spcCERN_ContactUpsert_Input">
+    <part element="tns:Contact_spcUpsert_spcWPS_spcCERN_ContactUpsert_Input" name="Contact_spcUpsert_spcWPS_spcCERN_ContactUpsert_Input"/>
+  </message>
+  <message name="Contact_spcUpsert_spcWPS_spcCERN_ContactUpsert_Output">
+    <part element="tns:Contact_spcUpsert_spcWPS_spcCERN_ContactUpsert_Output" name="Contact_spcUpsert_spcWPS_spcCERN_ContactUpsert_Output"/>
+  </message>
+  <message name="Contact_spcQuery_spcWPS_spcCERN_ContactQuery_Input">
+    <part element="tns:Contact_spcQuery_spcWPS_spcCERN_ContactQuery_Input" name="Contact_spcQuery_spcWPS_spcCERN_ContactQuery_Input"/>
+  </message>
+  <message name="Contact_spcQuery_spcWPS_spcCERN_ContactQuery_Output">
+    <part element="tns:Contact_spcQuery_spcWPS_spcCERN_ContactQuery_Output" name="Contact_spcQuery_spcWPS_spcCERN_ContactQuery_Output"/>
+  </message>
+  <portType name="ContactUpsert">
+    <operation name="ContactUpsert">
+      <input message="tns:Contact_spcUpsert_spcWPS_spcCERN_ContactUpsert_Input"/>
+      <output message="tns:Contact_spcUpsert_spcWPS_spcCERN_ContactUpsert_Output"/>
+    </operation>
+  </portType>
+  <portType name="ContactQuery">
+    <operation name="ContactQuery">
+      <input message="tns:Contact_spcQuery_spcWPS_spcCERN_ContactQuery_Input"/>
+      <output message="tns:Contact_spcQuery_spcWPS_spcCERN_ContactQuery_Output"/>
+    </operation>
+  </portType>
+</definitions>

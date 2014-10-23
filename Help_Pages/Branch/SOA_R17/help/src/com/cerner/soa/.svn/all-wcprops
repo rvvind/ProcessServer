@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/12396/SOA/Process%20Server/Help_Pages/Branch/SOA_R17/help/src/com/cerner/soa
+END
+db.properties
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/12396/SOA/Process%20Server/Help_Pages/Branch/SOA_R17/help/src/com/cerner/soa/db.properties
+END
+ItemDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/12214/SOA/Process%20Server/Help_Pages/Branch/SOA_R17/help/src/com/cerner/soa/ItemDao.java
+END
+help.properties
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/12214/SOA/Process%20Server/Help_Pages/Branch/SOA_R17/help/src/com/cerner/soa/help.properties
+END
+LookUpProperties.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/12214/SOA/Process%20Server/Help_Pages/Branch/SOA_R17/help/src/com/cerner/soa/LookUpProperties.java
+END
+DB2Connection.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/12214/SOA/Process%20Server/Help_Pages/Branch/SOA_R17/help/src/com/cerner/soa/DB2Connection.java
+END
+Help.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/12396/SOA/Process%20Server/Help_Pages/Branch/SOA_R17/help/src/com/cerner/soa/Help.java
+END
+oauth_toke.properties
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/12214/SOA/Process%20Server/Help_Pages/Branch/SOA_R17/help/src/com/cerner/soa/oauth_toke.properties
+END
+HelpConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/12214/SOA/Process%20Server/Help_Pages/Branch/SOA_R17/help/src/com/cerner/soa/HelpConfig.java
+END
+Item.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/12214/SOA/Process%20Server/Help_Pages/Branch/SOA_R17/help/src/com/cerner/soa/Item.java
+END

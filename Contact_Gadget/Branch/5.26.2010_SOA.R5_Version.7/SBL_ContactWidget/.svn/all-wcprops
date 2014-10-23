@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/5610/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget
+END
+sca.module.attributes
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/5580/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/sca.module.attributes
+END
+Contact_spcWeb_spcAccess_spcQuery_spcWPS_spcCERNImport1.import
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/!svn/ver/5610/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/Contact_spcWeb_spcAccess_spcQuery_spcWPS_spcCERNImport1.import
+END
+sca.modulex
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/5610/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/sca.modulex
+END
+ContactUpsertImport1.import
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/5366/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/ContactUpsertImport1.import
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/5580/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/.project
+END
+sca.module
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/5366/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/sca.module
+END
+SBL_ContactWidget.medflow
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/5610/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/SBL_ContactWidget.medflow
+END
+SBL_ContactWidget.mfcex
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/5610/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/SBL_ContactWidget.mfcex
+END
+SBL_ContactWidget.component
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/5610/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/SBL_ContactWidget.component
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/5580/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/.classpath
+END
+.factorypath
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/5366/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/.factorypath
+END
+SBL_ContactWidget.mfc
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/5610/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/SBL_ContactWidget.mfc
+END
+ContactQueryImport1.import
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/5366/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/ContactQueryImport1.import
+END
+Invoke.export
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/5580/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/Invoke.export
+END
+ibm-deploy.scaj2ee
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/5366/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget/ibm-deploy.scaj2ee
+END

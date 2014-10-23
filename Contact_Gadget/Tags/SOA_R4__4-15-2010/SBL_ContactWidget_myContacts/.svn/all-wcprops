@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/4901/SOA/Process%20Server/Contact_Gadget/Tags/SOA_R4__4-15-2010/SBL_ContactWidget_myContacts
+END
+ContactListUpsertImport1.import
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/4901/SOA/Process%20Server/Contact_Gadget/Tags/SOA_R4__4-15-2010/SBL_ContactWidget_myContacts/ContactListUpsertImport1.import
+END
+ContactListDeleteImport1.import
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/4901/SOA/Process%20Server/Contact_Gadget/Tags/SOA_R4__4-15-2010/SBL_ContactWidget_myContacts/ContactListDeleteImport1.import
+END
+SBL_ContactWidget_myContacts.medflow
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/4901/SOA/Process%20Server/Contact_Gadget/Tags/SOA_R4__4-15-2010/SBL_ContactWidget_myContacts/SBL_ContactWidget_myContacts.medflow
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/4901/SOA/Process%20Server/Contact_Gadget/Tags/SOA_R4__4-15-2010/SBL_ContactWidget_myContacts/.classpath
+END
+sca.modulex
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/4901/SOA/Process%20Server/Contact_Gadget/Tags/SOA_R4__4-15-2010/SBL_ContactWidget_myContacts/sca.modulex
+END
+ContactListQueryImport1.import
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/4901/SOA/Process%20Server/Contact_Gadget/Tags/SOA_R4__4-15-2010/SBL_ContactWidget_myContacts/ContactListQueryImport1.import
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/4901/SOA/Process%20Server/Contact_Gadget/Tags/SOA_R4__4-15-2010/SBL_ContactWidget_myContacts/.project
+END
+SBL_ContactWidget_myContacts.component
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/4901/SOA/Process%20Server/Contact_Gadget/Tags/SOA_R4__4-15-2010/SBL_ContactWidget_myContacts/SBL_ContactWidget_myContacts.component
+END
+SBL_ContactWidget_myContacts.mfcex
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/4901/SOA/Process%20Server/Contact_Gadget/Tags/SOA_R4__4-15-2010/SBL_ContactWidget_myContacts/SBL_ContactWidget_myContacts.mfcex
+END
+SBL_ContactWidget_myContacts.mfc
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/4901/SOA/Process%20Server/Contact_Gadget/Tags/SOA_R4__4-15-2010/SBL_ContactWidget_myContacts/SBL_ContactWidget_myContacts.mfc
+END
+sca.module
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/4901/SOA/Process%20Server/Contact_Gadget/Tags/SOA_R4__4-15-2010/SBL_ContactWidget_myContacts/sca.module
+END
+Invoke.export
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/4901/SOA/Process%20Server/Contact_Gadget/Tags/SOA_R4__4-15-2010/SBL_ContactWidget_myContacts/Invoke.export
+END
+ibm-deploy.scaj2ee
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/4901/SOA/Process%20Server/Contact_Gadget/Tags/SOA_R4__4-15-2010/SBL_ContactWidget_myContacts/ibm-deploy.scaj2ee
+END

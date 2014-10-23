@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map:businessObjectMap xmlns:Account="http://www.siebel.com/xml/Contact%20WPS%20CERN" xmlns:Account_1="http://www.siebel.com/xml/Contact%20WPS%20CERN_V3" xmlns:SubMapforAcctDetails="http://SBL_ContactWidget" xmlns:map="http://www.ibm.com/xmlns/prod/websphere/wbiserver/map/6.0.0" targetNamespace="http://SBL_ContactWidget">
+  <map:name>SubMapforAcctDetails</map:name>
+  <map:inputBusinessObjectVariable businessObjectRef="Account_1:Account" name="Account"/>
+  <map:outputBusinessObjectVariable businessObjectRef="Account:Account" name="Account_1"/>
+  <map:propertyMap executionOrder="1">
+    <map:move>
+      <map:input businessObjectVariableRef="Account" property="StatusofAffiliation"/>
+      <map:output businessObjectVariableRef="Account_1" property="StatusofAffiliation"/>
+    </map:move>
+  </map:propertyMap>
+  <map:propertyMap executionOrder="2">
+    <map:move>
+      <map:input businessObjectVariableRef="Account" property="JobTitle"/>
+      <map:output businessObjectVariableRef="Account_1" property="JobTitle"/>
+    </map:move>
+  </map:propertyMap>
+  <map:propertyMap executionOrder="3">
+    <map:move>
+      <map:input businessObjectVariableRef="Account" property="Role"/>
+      <map:output businessObjectVariableRef="Account_1" property="Role"/>
+    </map:move>
+  </map:propertyMap>
+  <map:propertyMap executionOrder="4">
+    <map:move>
+      <map:input businessObjectVariableRef="Account" property="Mnemonic"/>
+      <map:output businessObjectVariableRef="Account_1" property="Mnemonic"/>
+    </map:move>
+  </map:propertyMap>
+</map:businessObjectMap>

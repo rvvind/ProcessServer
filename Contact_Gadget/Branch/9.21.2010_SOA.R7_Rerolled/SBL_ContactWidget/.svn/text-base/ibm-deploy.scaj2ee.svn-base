@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scaj2ee:IntegrationModuleDeploymentConfiguration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:scaj2ee="http://www.ibm.com/xmlns/prod/websphere/sca/j2ee/6.0.2">
+  <appProject>
+    <authorizationTable>
+      <authorizations role="//@appProject/@securityrole.0"/>
+    </authorizationTable>
+    <securityrole description="" roleName="SBL_ContactWidget"/>
+  </appProject>
+  <wsImports>
+    <componentScopedRefsBindings>
+      <componentScopedRefs componentNameLink="Module">
+        <serviceRefs serviceRefLink="sca/import/ContactQueryImport1">
+          <portQnameBindings portQnameLocalNameLink="ContactQuery" overriddenEndpointURI="jms:/queue?destination=jms/WSRQ&amp;connectionFactory=jms/WSCF&amp;targetService=ContactQuery"/>
+        </serviceRefs>
+        <serviceRefs serviceRefLink="sca/import/ContactUpsertImport1">
+          <portQnameBindings portQnameLocalNameLink="ContactUpsert" overriddenEndpointURI="jms:/queue?destination=jms/WSRQ&amp;connectionFactory=jms/WSCF&amp;targetService=ContactUpsert"/>
+        </serviceRefs>
+      </componentScopedRefs>
+    </componentScopedRefsBindings>
+    <componentScopedRefsExtensions>
+      <componentScopedRefs componentNameLink="Module">
+        <serviceRefs serviceRefLink="sca/import/ContactQueryImport1">
+          <portQnameBindings portQnameLocalNameLink="ContactQuery"/>
+        </serviceRefs>
+        <serviceRefs serviceRefLink="sca/import/ContactUpsertImport1">
+          <portQnameBindings portQnameLocalNameLink="ContactUpsert"/>
+        </serviceRefs>
+      </componentScopedRefs>
+    </componentScopedRefsExtensions>
+  </wsImports>
+  <wsExports>
+    <wsDescExtensions>
+      
+    </wsDescExtensions>
+    <wsDescBindings>
+      
+    </wsDescBindings>
+  </wsExports>
+</scaj2ee:IntegrationModuleDeploymentConfiguration>

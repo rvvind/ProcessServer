@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappingRoot xmlns="http://www.ibm.com/2006/ccl/Mapping" xmlns:map="http://SBL_Dedup/xslt/XSLTransformation1_req_1" domainID="com.ibm.ccl.mapping.codegen.xslt.domain" targetNamespace="http://SBL_Dedup/xslt/XSLTransformation1_req_1">
+    <input path="smo://smo/name%3Dwsdl-primary/message%3D%257Bhttp%253A%252F%252FSBL_Dedup_Lib%252FInvoke%257DDedupRequestMsg/xpath%3D%252Fbody/smo.xsd"/>
+    <output path="smo://smo/name%3Dwsdl-primary/message%3D%257Bhttp%253A%252F%252Fwservice.cerner.com%257DDeduplication_spcProxy_spcCERN_Dedup_Input/xpath%3D%252Fbody/smo.xsd"/>
+    <annotation key="@testSourceLocation" value="XSLTransformation1_req_1.xml"/>
+    <mappingDeclaration name="XSLTransformation1_req_1">
+        <input path="body"/>
+        <output path="body"/>
+        <mapping>
+            <input path="Dedup/Deduplication_spcProxy_spcCERN_Dedup_Input/FirstName"/>
+            <output path="Deduplication_spcProxy_spcCERN_Dedup_Input/FirstName"/>
+        </mapping>
+        <mapping>
+            <input path="Dedup/Deduplication_spcProxy_spcCERN_Dedup_Input/WorkPhoneNum"/>
+            <output path="Deduplication_spcProxy_spcCERN_Dedup_Input/WorkPhoneNum"/>
+        </mapping>
+        <mapping>
+            <input path="Dedup/Deduplication_spcProxy_spcCERN_Dedup_Input/Account"/>
+            <output path="Deduplication_spcProxy_spcCERN_Dedup_Input/Account"/>
+        </mapping>
+        <mapping>
+            <input path="Dedup/Deduplication_spcProxy_spcCERN_Dedup_Input/_XML_spcString"/>
+            <output path="Deduplication_spcProxy_spcCERN_Dedup_Input/_XML_spcString"/>
+        </mapping>
+        <mapping>
+            <input path="Dedup/Deduplication_spcProxy_spcCERN_Dedup_Input/EmailAddress"/>
+            <output path="Deduplication_spcProxy_spcCERN_Dedup_Input/EmailAddress"/>
+        </mapping>
+        <mapping>
+            <input path="Dedup/Deduplication_spcProxy_spcCERN_Dedup_Input/LastName"/>
+            <output path="Deduplication_spcProxy_spcCERN_Dedup_Input/LastName"/>
+        </mapping>
+    </mappingDeclaration>
+</mappingRoot>

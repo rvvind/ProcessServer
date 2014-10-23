@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<body xmlns:io2="http://wservice.cerner.com/" xmlns:io="http://www.siebel.com/xml/Contact%20WPS%20CERN" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:out="wsdl.http://wservice.cerner.com/">
+  <io2:Contact_spcUpsert_spcWPS_spcCERN_ContactUpsert_Input>
+    <xsdLocal1:ListOfContactWpsCern xmlns:xsdLocal1="http://www.siebel.com/xml/Contact%20WPS%20CERN" xmlns:tns="http://SBL_ContactWidget_Lib/Invoke" xmlns:tns1="http://wservice.cerner.com/" xmlns:tns_1="wsdl.http://SBL_ContactWidget_Lib/Invoke">
+      <xsdLocal1:Contact>
+        <xsdLocal1:Id>xsdLocal1:Id</xsdLocal1:Id>
+        <xsdLocal1:MobilePhoneNum>xsdLocal1:MobilePhoneNum</xsdLocal1:MobilePhoneNum>
+        <xsdLocal1:PrimaryEmail>xsdLocal1:PrimaryEmail</xsdLocal1:PrimaryEmail>
+        <xsdLocal1:FirstName>xsdLocal1:FirstName</xsdLocal1:FirstName>
+        <xsdLocal1:HomePhoneNum>xsdLocal1:HomePhoneNum</xsdLocal1:HomePhoneNum>
+        <xsdLocal1:IntegrationId>xsdLocal1:IntegrationId</xsdLocal1:IntegrationId>
+        <xsdLocal1:JobTitle>xsdLocal1:JobTitle</xsdLocal1:JobTitle>
+        <xsdLocal1:LastName>xsdLocal1:LastName</xsdLocal1:LastName>
+        <xsdLocal1:LoginName>xsdLocal1:LoginName</xsdLocal1:LoginName>
+        <xsdLocal1:MrMs>xsdLocal1:MrMs</xsdLocal1:MrMs>
+        <xsdLocal1:Mnemonic>xsdLocal1:Mnemonic</xsdLocal1:Mnemonic>
+        <xsdLocal1:Role>xsdLocal1:Role</xsdLocal1:Role>
+        <xsdLocal1:WorkPhoneNum>xsdLocal1:WorkPhoneNum</xsdLocal1:WorkPhoneNum>
+        <xsdLocal1:WorkPhoneExtension>xsdLocal1:WorkPhoneExtension</xsdLocal1:WorkPhoneExtension>
+        <xsdLocal1:ListOfContact_Account>
+          <xsdLocal1:Contact_Account IsPrimaryMVG="">
+            <xsdLocal1:Account>xsdLocal1:Account</xsdLocal1:Account>
+            <xsdLocal1:AccountLocation>xsdLocal1:AccountLocation</xsdLocal1:AccountLocation>
+            <xsdLocal1:AccountStatus>xsdLocal1:AccountStatus</xsdLocal1:AccountStatus>
+          </xsdLocal1:Contact_Account>
+        </xsdLocal1:ListOfContact_Account>
+        <xsdLocal1:ListOfContact_BusinessAddress>
+          <xsdLocal1:Contact_BusinessAddress IsPrimaryMVG="">
+            <xsdLocal1:City>xsdLocal1:City</xsdLocal1:City>
+            <xsdLocal1:Country>xsdLocal1:Country</xsdLocal1:Country>
+            <xsdLocal1:ZIPPostalCode>xsdLocal1:ZIPPostalCode</xsdLocal1:ZIPPostalCode>
+            <xsdLocal1:StateProvince>xsdLocal1:StateProvince</xsdLocal1:StateProvince>
+            <xsdLocal1:ClientAddress>xsdLocal1:ClientAddress</xsdLocal1:ClientAddress>
+            <xsdLocal1:AddressLine2>xsdLocal1:AddressLine2</xsdLocal1:AddressLine2>
+          </xsdLocal1:Contact_BusinessAddress>
+        </xsdLocal1:ListOfContact_BusinessAddress>
+        <xsdLocal1:ListOfContact_AlternatePhone>
+          <xsdLocal1:Contact_AlternatePhone IsPrimaryMVG="">
+            <xsdLocal1:AlternatePhoneNum>xsdLocal1:AlternatePhoneNum</xsdLocal1:AlternatePhoneNum>
+          </xsdLocal1:Contact_AlternatePhone>
+        </xsdLocal1:ListOfContact_AlternatePhone>
+        <xsdLocal1:ListOfAccount>
+          <xsdLocal1:Account>
+            <xsdLocal1:StatusofAffiliation>xsdLocal1:StatusofAffiliation</xsdLocal1:StatusofAffiliation>
+            <xsdLocal1:Mnemonic>xsdLocal1:Mnemonic</xsdLocal1:Mnemonic>
+          </xsdLocal1:Account>
+        </xsdLocal1:ListOfAccount>
+      </xsdLocal1:Contact>
+    </xsdLocal1:ListOfContactWpsCern>
+  </io2:Contact_spcUpsert_spcWPS_spcCERN_ContactUpsert_Input>
+</body>

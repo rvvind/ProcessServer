@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scdl:import xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns1="http://wservice.cerner.com/V2" xmlns:scdl="http://www.ibm.com/xmlns/prod/websphere/scdl/6.0.0" xmlns:webservice="http://www.ibm.com/xmlns/prod/websphere/scdl/webservice/6.0.0" xmlns:wsdl="http://www.ibm.com/xmlns/prod/websphere/scdl/wsdl/6.0.0" displayName="ContactUpsertImport1" name="ContactUpsertImport1">
+  <interfaces>
+    <interface xsi:type="wsdl:WSDLPortType" preferredInteractionStyle="sync" portType="ns1:ContactUpsert">
+      <scdl:interfaceQualifier xsi:type="scdl:JoinTransaction" value="false"/>
+    </interface>
+  </interfaces>
+  <esbBinding xsi:type="webservice:WebServiceImportBinding" endpoint="jms:/queue?destination=jms/WSRQ&amp;connectionFactory=jms/WSCF&amp;targetService=SBL_ServiceRequestListJMSPort" port="ns1:ContactUpsert" service="ns1:Contact_spcWPS_spcCERN"/>
+</scdl:import>

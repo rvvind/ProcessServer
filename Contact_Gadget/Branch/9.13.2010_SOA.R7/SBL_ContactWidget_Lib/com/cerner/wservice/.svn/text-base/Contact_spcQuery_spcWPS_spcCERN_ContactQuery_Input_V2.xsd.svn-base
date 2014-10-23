@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><xsd:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://wservice.cerner.com/" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://wservice.cerner.com/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsdLocal1="http://www.siebel.com/xml/Contact%20WPS%20CERN_V2">
+    <xsd:import namespace="http://www.siebel.com/xml/Contact%20WPS%20CERN_V2" schemaLocation="ListOfContactWpsCern.xsd"/>
+	<xsd:element name="Contact_spcQuery_spcWPS_spcCERN_ContactQuery_Input_V2">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="ComplexSearchSpec" type="xsd:string"/>
+				<xsd:element ref="xsdLocal1:ListOfContactWpsCern"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

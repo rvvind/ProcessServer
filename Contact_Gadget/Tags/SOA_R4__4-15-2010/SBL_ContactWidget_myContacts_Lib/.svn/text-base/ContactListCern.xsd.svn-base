@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns="http://schemas.xmlsoap.org/wsdl/"
+	xmlns:xsdLocal1="http://www.siebel.com/xml/Contact%20List%20WPS%20CERN"
+	attributeFormDefault="unqualified" elementFormDefault="qualified"
+	targetNamespace="http://www.siebel.com/xml/Contact%20List%20WPS%20CERN">
+	<xsd:include schemaLocation="string30.xsd" />
+	<xsd:include schemaLocation="ListOfContact.xsd" />
+	<xsd:include schemaLocation="string50.xsd" />
+	<xsd:complexType name="ContactListCern">
+		<xsd:sequence>
+			<xsd:element maxOccurs="1" minOccurs="0" name="Id"
+				type="xsdLocal1:string30" />
+			<xsd:element maxOccurs="1" minOccurs="0" name="FirstName"
+				type="xsdLocal1:string50" />
+			<xsd:element maxOccurs="1" minOccurs="0" name="LastName"
+				type="xsdLocal1:string50" />
+			<xsd:element maxOccurs="1" minOccurs="0"
+				name="ListOfContact" type="xsdLocal1:ListOfContact" />
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:schema>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappingRoot xmlns="http://www.ibm.com/2006/ccl/Mapping" xmlns:map="http://SBL_ContactWidget_myContacts/xslt/XSLTransformation1_req_3" domainID="com.ibm.ccl.mapping.codegen.xslt.domain" targetNamespace="http://SBL_ContactWidget_myContacts/xslt/XSLTransformation1_req_3">
+    <input path="smo://smo/name%3Dwsdl-primary/message%3D%257Bhttp%253A%252F%252FSBL_ContactWidget_myContacts_Lib%252FInvoke%257DContactListDeleteRequestMsg/xpath%3D%252Fbody/smo.xsd"/>
+    <output path="smo://smo/name%3Dwsdl-primary/message%3D%257Bhttp%253A%252F%252Fwservice.cerner.com%252F%257DContact_spcList_spcDelete_spcWPS_spcCERN_ContactListDelete_Input/xpath%3D%252Fbody/smo.xsd"/>
+    <annotation key="@testSourceLocation" value="XSLTransformation1_req_3.xml"/>
+    <mappingDeclaration name="XSLTransformation1_req_3">
+        <input path="body"/>
+        <output path="body"/>
+        <mapping>
+            <input path="ContactListDelete/Contact_spcList_spcDelete_spcWPS_spcCERN_ContactListDelete_Input/ComplexSearchSpec"/>
+            <output path="Contact_spcList_spcDelete_spcWPS_spcCERN_ContactListDelete_Input/ComplexSearchSpec"/>
+        </mapping>
+        <mapping>
+            <input path="ContactListDelete/Contact_spcList_spcDelete_spcWPS_spcCERN_ContactListDelete_Input/ListOfMycontactsListWpsCern"/>
+            <output path="Contact_spcList_spcDelete_spcWPS_spcCERN_ContactListDelete_Input/ListOfMycontactsListWpsCern"/>
+        </mapping>
+    </mappingDeclaration>
+</mappingRoot>

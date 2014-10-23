@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema attributeFormDefault="unqualified"
+	elementFormDefault="qualified"
+	targetNamespace="http://www.siebel.com/xml/Contact%20WPS%20CERN_V3"
+	xmlns="http://schemas.xmlsoap.org/wsdl/"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:xsdLocal1="http://www.siebel.com/xml/Contact%20WPS%20CERN_V3">
+	<xsd:include schemaLocation="string50.xsd" />
+	<xsd:include schemaLocation="string4095.xsd" />
+	<xsd:complexType name="ContactNote">
+		<xsd:sequence>
+			<xsd:element maxOccurs="1" minOccurs="0" name="NoteType"
+				type="xsd:string" />
+			<xsd:element maxOccurs="1" minOccurs="0" name="Note"
+				type="xsdLocal1:string4095" />
+			<xsd:element maxOccurs="1" minOccurs="0" name="CreatedDate"
+				type="xsd:string" />
+			<xsd:element maxOccurs="1" minOccurs="0"
+				name="CreatedByName" type="xsdLocal1:string50" />
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:schema>

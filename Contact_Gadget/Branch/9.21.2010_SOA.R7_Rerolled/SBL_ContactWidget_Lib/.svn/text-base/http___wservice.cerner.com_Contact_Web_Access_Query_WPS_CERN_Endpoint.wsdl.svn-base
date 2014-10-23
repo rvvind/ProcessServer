@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><?Siebel-Property-Set EscapeNames="false"?><definitions targetNamespace="http://wservice.cerner.com" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://wservice.cerner.com">
+    <import location="http___wservice.cerner.com_Contact_Web_Access_Query_WPS_CERN.wsdl" namespace="http://wservice.cerner.com"/>
+  <binding name="Contact_spcWeb_spcAccess_spcQuery_spcWPS_spcCERN" type="tns:Contact_spcWeb_spcAccess_spcQuery_spcWPS_spcCERN">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/jms"/>
+    <operation name="CNTCT_WA_QRY">
+      <soap:operation soapAction="document/http://wservice.cerner.com:CNTCT_WA_QRY"/>
+      <input>
+        <soap:body use="literal"/>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+  </binding>
+  <service name="Contact_spcWeb_spcAccess_spcQuery_spcWPS_spcCERN">
+    <port binding="tns:Contact_spcWeb_spcAccess_spcQuery_spcWPS_spcCERN" name="Contact_spcWeb_spcAccess_spcQuery_spcWPS_spcCERN">
+      <soap:address location="jms:/queue?destination=jms/UpdateExport1&amp;connectionFactory=jms/UpdateExport1QCF&amp;targetService=UpdateExport1_UpdateJmsPort"/>
+    </port>
+  </service>
+</definitions>

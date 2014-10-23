@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappingRoot xmlns="http://www.ibm.com/2006/ccl/Mapping" xmlns:map="http://SBL_ContactWidget_myContacts/xslt/XSLTransformation2_req_3" domainID="com.ibm.ccl.mapping.codegen.xslt.domain" targetNamespace="http://SBL_ContactWidget_myContacts/xslt/XSLTransformation2_req_3">
+    <input path="smo://smo/name%3Dwsdl-primary/message%3D%257Bhttp%253A%252F%252Fwservice.cerner.com%252F%257DContact_spcList_spcDelete_spcWPS_spcCERN_ContactListDelete_Output/xpath%3D%252Fbody/smo.xsd"/>
+    <output path="smo://smo/name%3Dwsdl-primary/message%3D%257Bhttp%253A%252F%252FSBL_ContactWidget_myContacts_Lib%252FInvoke%257DContactListDeleteResponseMsg/xpath%3D%252Fbody/smo.xsd"/>
+    <annotation key="@testSourceLocation" value="XSLTransformation2_req_3.xml"/>
+    <mappingDeclaration name="XSLTransformation2_req_3">
+        <input path="body"/>
+        <output path="body"/>
+        <mapping>
+            <input path="Contact_spcList_spcDelete_spcWPS_spcCERN_ContactListDelete_Output/Error_spcCode"/>
+            <output path="ContactListDeleteResponse/Contact_spcList_spcDelete_spcWPS_spcCERN_ContactListDelete_Output/Error_spcCode"/>
+        </mapping>
+        <mapping>
+            <input path="Contact_spcList_spcDelete_spcWPS_spcCERN_ContactListDelete_Output/Error_spcMessage"/>
+            <output path="ContactListDeleteResponse/Contact_spcList_spcDelete_spcWPS_spcCERN_ContactListDelete_Output/Error_spcMessage"/>
+        </mapping>
+        <mapping>
+            <input path="Contact_spcList_spcDelete_spcWPS_spcCERN_ContactListDelete_Output/ListOfMycontactsListWpsCern"/>
+            <output path="ContactListDeleteResponse/Contact_spcList_spcDelete_spcWPS_spcCERN_ContactListDelete_Output/ListOfMycontactsListWpsCern"/>
+        </mapping>
+    </mappingDeclaration>
+</mappingRoot>

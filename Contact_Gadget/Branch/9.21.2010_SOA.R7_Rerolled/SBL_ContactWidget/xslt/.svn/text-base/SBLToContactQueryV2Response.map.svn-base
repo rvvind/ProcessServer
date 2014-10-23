@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><mappingRoot domainID="com.ibm.msl.mapping.xml" targetNamespace="http://SBL_ContactWidget/xslt/SBLToContactQueryV2Response" version="7.0.200" xmlns="http://www.ibm.com/2008/ccl/Mapping" xmlns:map="http://SBL_ContactWidget/xslt/SBLToContactQueryV2Response">
+    <input path="smo://smo/name%3Dwsdl-primary/message%3D%257Bhttp%253A%252F%252Fwservice.cerner.com%252FV2%257DContact_spcQuery_spcWPS_spcCERN_ContactQuery_Output/xpath%3D%252Fbody/smo.xsd"/>
+    <output path="smo://smo/name%3Dwsdl-primary/message%3D%257Bhttp%253A%252F%252FSBL_ContactWidget_Lib%252FInvoke%257DContactQueryV2ResponseMsg/xpath%3D%252Fbody/smo.xsd"/>
+    <mappingDeclaration name="SBLToContactQueryV2Response">
+        <input path="body"/>
+        <output path="body"/>
+        <move>
+            <input path="Contact_spcQuery_spcWPS_spcCERN_ContactQuery_Output/Error_spcCode"/>
+            <output path="ContactQueryV2Response/Contact_spcQuery_spcWPS_spcCERN_ContactQuery_Output/Error_spcCode"/>
+        </move>
+        <move>
+            <input path="Contact_spcQuery_spcWPS_spcCERN_ContactQuery_Output/Error_spcMessage"/>
+            <output path="ContactQueryV2Response/Contact_spcQuery_spcWPS_spcCERN_ContactQuery_Output/Error_spcMessage"/>
+        </move>
+        <move>
+            <input path="Contact_spcQuery_spcWPS_spcCERN_ContactQuery_Output/ListOfContactWpsCern"/>
+            <output path="ContactQueryV2Response/Contact_spcQuery_spcWPS_spcCERN_ContactQuery_Output/ListOfContactWpsCern"/>
+        </move>
+    </mappingDeclaration>
+</mappingRoot>

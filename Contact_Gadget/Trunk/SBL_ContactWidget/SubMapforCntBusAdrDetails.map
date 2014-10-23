@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map:businessObjectMap xmlns:Contact_BusinessAddress="http://www.siebel.com/xml/Contact%20WPS%20CERN" xmlns:Contact_BusinessAddress_1="http://www.siebel.com/xml/Contact%20WPS%20CERN_V3" xmlns:SubMapforCntBusAdrDetails="http://SBL_ContactWidget" xmlns:map="http://www.ibm.com/xmlns/prod/websphere/wbiserver/map/6.0.0" targetNamespace="http://SBL_ContactWidget">
+  <map:name>SubMapforCntBusAdrDetails</map:name>
+  <map:inputBusinessObjectVariable businessObjectRef="Contact_BusinessAddress_1:Contact_BusinessAddress" name="Contact_BusinessAddress"/>
+  <map:outputBusinessObjectVariable businessObjectRef="Contact_BusinessAddress:Contact_BusinessAddress" name="Contact_BusinessAddress_1"/>
+  <map:propertyMap executionOrder="1">
+    <map:move>
+      <map:input businessObjectVariableRef="Contact_BusinessAddress" property="@IsPrimaryMVG"/>
+      <map:output businessObjectVariableRef="Contact_BusinessAddress_1" property="@IsPrimaryMVG"/>
+    </map:move>
+  </map:propertyMap>
+  <map:propertyMap executionOrder="2">
+    <map:move>
+      <map:input businessObjectVariableRef="Contact_BusinessAddress" property="City"/>
+      <map:output businessObjectVariableRef="Contact_BusinessAddress_1" property="City"/>
+    </map:move>
+  </map:propertyMap>
+  <map:propertyMap executionOrder="3">
+    <map:move>
+      <map:input businessObjectVariableRef="Contact_BusinessAddress" property="Country"/>
+      <map:output businessObjectVariableRef="Contact_BusinessAddress_1" property="Country"/>
+    </map:move>
+  </map:propertyMap>
+  <map:propertyMap executionOrder="4">
+    <map:move>
+      <map:input businessObjectVariableRef="Contact_BusinessAddress" property="ZIPPostalCode"/>
+      <map:output businessObjectVariableRef="Contact_BusinessAddress_1" property="ZIPPostalCode"/>
+    </map:move>
+  </map:propertyMap>
+  <map:propertyMap executionOrder="5">
+    <map:move>
+      <map:input businessObjectVariableRef="Contact_BusinessAddress" property="StateProvince"/>
+      <map:output businessObjectVariableRef="Contact_BusinessAddress_1" property="StateProvince"/>
+    </map:move>
+  </map:propertyMap>
+  <map:propertyMap executionOrder="6">
+    <map:move>
+      <map:input businessObjectVariableRef="Contact_BusinessAddress" property="ClientAddress"/>
+      <map:output businessObjectVariableRef="Contact_BusinessAddress_1" property="ClientAddress"/>
+    </map:move>
+  </map:propertyMap>
+  <map:propertyMap executionOrder="7">
+    <map:move>
+      <map:input businessObjectVariableRef="Contact_BusinessAddress" property="AddressLine2"/>
+      <map:output businessObjectVariableRef="Contact_BusinessAddress_1" property="AddressLine2"/>
+    </map:move>
+  </map:propertyMap>
+</map:businessObjectMap>

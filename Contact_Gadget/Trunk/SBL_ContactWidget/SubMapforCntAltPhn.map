@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map:businessObjectMap xmlns:ListOfContact_AlternatePhone="http://www.siebel.com/xml/Contact%20WPS%20CERN" xmlns:ListOfContact_AlternatePhone_1="http://www.siebel.com/xml/Contact%20WPS%20CERN_V3" xmlns:SubMapforCntAltPhn="http://SBL_ContactWidget" xmlns:map="http://www.ibm.com/xmlns/prod/websphere/wbiserver/map/6.0.0" targetNamespace="http://SBL_ContactWidget">
+  <map:name>SubMapforCntAltPhn</map:name>
+  <map:inputBusinessObjectVariable businessObjectRef="ListOfContact_AlternatePhone_1:ListOfContact_AlternatePhone" name="ListOfContact_AlternatePhone"/>
+  <map:outputBusinessObjectVariable businessObjectRef="ListOfContact_AlternatePhone:ListOfContact_AlternatePhone" name="ListOfContact_AlternatePhone_1"/>
+  <map:propertyMap executionOrder="1">
+    <map:submap submapName="SubMapforCntAltPhn:SubMapforCntAltPhnDetails">
+      <map:input businessObjectVariableRef="ListOfContact_AlternatePhone" property="Contact_AlternatePhone" variableName="Contact_AlternatePhone"/>
+      <map:output businessObjectVariableRef="ListOfContact_AlternatePhone_1" property="Contact_AlternatePhone" variableName="Contact_AlternatePhone_1"/>
+    </map:submap>
+  </map:propertyMap>
+</map:businessObjectMap>

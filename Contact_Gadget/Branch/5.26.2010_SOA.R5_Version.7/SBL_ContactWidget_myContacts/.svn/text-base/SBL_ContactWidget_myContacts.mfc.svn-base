@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mfc:interfaceMediationFlow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Invoke="http://SBL_ContactWidget_myContacts_Lib/Invoke" xmlns:mfc="http://www.ibm.com/xmlns/prod/websphere/wbiserver/mfc/6.0.0" xmlns:scdl="http://www.ibm.com/xmlns/prod/websphere/scdl/6.0.0" xmlns:wsdl="http://www.ibm.com/xmlns/prod/websphere/scdl/wsdl/6.0.0" xmlns:wservice.cerner.com="http://wservice.cerner.com/" name="SBL_ContactWidget_myContacts" targetNamespace="http://SBL_ContactWidget_myContacts/SBL_ContactWidget_myContacts">
+  <interfaces>
+    <interface xsi:type="wsdl:WSDLPortType" portType="Invoke:Invoke"/>
+  </interfaces>
+  <references>
+    <reference name="ContactListUpsertPartner">
+      <interface xsi:type="wsdl:WSDLPortType" portType="wservice.cerner.com:ContactListUpsert"/>
+    </reference>
+    <reference name="ContactListQueryPartner">
+      <interface xsi:type="wsdl:WSDLPortType" portType="wservice.cerner.com:ContactListQuery"/>
+    </reference>
+    <reference name="ContactListDeletePartner">
+      <interface xsi:type="wsdl:WSDLPortType" portType="wservice.cerner.com:ContactListDelete"/>
+      <scdl:referenceQualifier xsi:type="scdl:SuspendTransaction" value="false"/>
+      <scdl:referenceQualifier xsi:type="scdl:Reliability"/>
+      <scdl:referenceQualifier xsi:type="scdl:DeliverAsyncAt" value="commit"/>
+      <wire target="ContactListDeleteImport1"/>
+    </reference>
+  </references>
+  <extendedOperationBinding source="ContactListUpsert" target="ContactListUpsert" sourcePortType="Invoke:Invoke" targetReference="ContactListUpsertPartner"/>
+  <extendedOperationBinding source="ContactListQuery" target="ContactListQuery" sourcePortType="Invoke:Invoke" targetReference="ContactListQueryPartner"/>
+  <extendedOperationBinding source="ContactListDelete" target="ContactListDelete" sourcePortType="Invoke:Invoke" targetReference="ContactListDeletePartner"/>
+  <operationFlow medflow="SBL_ContactWidget_myContacts.medflow"/>
+</mfc:interfaceMediationFlow>

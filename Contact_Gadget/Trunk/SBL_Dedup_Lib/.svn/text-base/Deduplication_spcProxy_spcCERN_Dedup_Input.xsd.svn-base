@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns="http://schemas.xmlsoap.org/wsdl/"
+	xmlns:tns="http://wservice.cerner.com"
+	attributeFormDefault="unqualified" elementFormDefault="qualified"
+	targetNamespace="http://wservice.cerner.com">
+	<xsd:element name="Deduplication_spcProxy_spcCERN_Dedup_Input">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="FirstName" type="xsd:string" />
+				<xsd:element name="WorkPhoneNum" type="xsd:string" />
+				<xsd:element name="Account" type="xsd:string" />
+				<xsd:element name="_XML_spcString" type="xsd:string" />
+				<xsd:element name="EmailAddress" type="xsd:string" />
+				<xsd:element name="LastName" type="xsd:string" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

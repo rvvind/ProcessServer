@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:out2="http://wservice.cerner.com" xmlns:out="wsdl.http://wservice.cerner.com">
+  <out2:Deduplication_spcProxy_spcCERN_Dedup_Input>
+    <out2:FirstName>FirstName</out2:FirstName>
+    <out2:WorkPhoneNum>WorkPhoneNum</out2:WorkPhoneNum>
+    <out2:Account>Account</out2:Account>
+    <out2:_XML_spcString>_XML_spcString</out2:_XML_spcString>
+    <out2:EmailAddress>EmailAddress</out2:EmailAddress>
+    <out2:LastName>LastName</out2:LastName>
+  </out2:Deduplication_spcProxy_spcCERN_Dedup_Input>
+</body>

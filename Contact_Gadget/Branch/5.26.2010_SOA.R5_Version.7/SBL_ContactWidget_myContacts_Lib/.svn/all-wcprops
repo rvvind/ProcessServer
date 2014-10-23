@@ -1,0 +1,191 @@
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/5434/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget_myContacts_Lib
+END
+string100.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/5375/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget_myContacts_Lib/string100.xsd
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/5375/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget_myContacts_Lib/.project
+END
+string200.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/5375/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget_myContacts_Lib/string200.xsd
+END
+MycontactsListCern.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/5375/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget_myContacts_Lib/MycontactsListCern.xsd
+END
+ListOfContact_BusinessAddress.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/!svn/ver/5375/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget_myContacts_Lib/ListOfContact_BusinessAddress.xsd
+END
+ContactListCern.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/5375/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget_myContacts_Lib/ContactListCern.xsd
+END
+sca.library.attributes
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/5375/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget_myContacts_Lib/sca.library.attributes
+END
+ListOfMycontactsListWpsCern.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/!svn/ver/5375/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget_myContacts_Lib/ListOfMycontactsListWpsCern.xsd
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/5375/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget_myContacts_Lib/.classpath
+END
+string10.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/5375/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget_myContacts_Lib/string10.xsd
+END
+string30.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/5375/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget_myContacts_Lib/string30.xsd
+END
+Contact_spcList_spcDelete_spcWPS_spcCERN_ContactListDelete_Input.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 190
+/svn/!svn/ver/5375/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget_myContacts_Lib/Contact_spcList_spcDelete_spcWPS_spcCERN_ContactListDelete_Input.xsd
+END
+Contact_spcList_spcUpsert_spcWPS_spcCERN_ContactListUpsert_Output.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 191
+/svn/!svn/ver/5375/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget_myContacts_Lib/Contact_spcList_spcUpsert_spcWPS_spcCERN_ContactListUpsert_Output.xsd
+END
+ListOfContactListWpsCern.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/!svn/ver/5375/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget_myContacts_Lib/ListOfContactListWpsCern.xsd
+END
+string50.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/5375/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget_myContacts_Lib/string50.xsd
+END
+string15.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/5375/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget_myContacts_Lib/string15.xsd
+END
+Contact_BusinessAddress.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/5375/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget_myContacts_Lib/Contact_BusinessAddress.xsd
+END
+ListOfContact.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/5375/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget_myContacts_Lib/ListOfContact.xsd
+END
+ListOfContactListWpsCernTopElmt.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/!svn/ver/5375/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget_myContacts_Lib/ListOfContactListWpsCernTopElmt.xsd
+END
+Contact_spcList_spcQuery_spcWPS_spcCERN_ContactListQuery_Input.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 188
+/svn/!svn/ver/5375/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget_myContacts_Lib/Contact_spcList_spcQuery_spcWPS_spcCERN_ContactListQuery_Input.xsd
+END
+string75.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/5375/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget_myContacts_Lib/string75.xsd
+END
+SBL_ContactWidget_myContacts_Invoke.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/!svn/ver/5375/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget_myContacts_Lib/SBL_ContactWidget_myContacts_Invoke.wsdl
+END
+Contact.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/5375/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget_myContacts_Lib/Contact.xsd
+END
+http___wservice_Endpoint.cerner.com__Contact_List_WPS_CERN.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 185
+/svn/!svn/ver/5434/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget_myContacts_Lib/http___wservice_Endpoint.cerner.com__Contact_List_WPS_CERN.wsdl
+END
+http___wservice.cerner.com__Contact_List_WPS_CERN.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 176
+/svn/!svn/ver/5375/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget_myContacts_Lib/http___wservice.cerner.com__Contact_List_WPS_CERN.wsdl
+END
+.factorypath
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/5375/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget_myContacts_Lib/.factorypath
+END
+Invoke.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/5375/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget_myContacts_Lib/Invoke.wsdl
+END
+ListOfMycontactsListWpsCernTopElmt.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/!svn/ver/5375/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget_myContacts_Lib/ListOfMycontactsListWpsCernTopElmt.xsd
+END
+Contact_spcList_spcUpsert_spcWPS_spcCERN_ContactListUpsert_Input.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 190
+/svn/!svn/ver/5375/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget_myContacts_Lib/Contact_spcList_spcUpsert_spcWPS_spcCERN_ContactListUpsert_Input.xsd
+END
+Contact_spcList_spcDelete_spcWPS_spcCERN_ContactListDelete_Output.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 191
+/svn/!svn/ver/5375/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget_myContacts_Lib/Contact_spcList_spcDelete_spcWPS_spcCERN_ContactListDelete_Output.xsd
+END
+Contact_spcList_spcQuery_spcWPS_spcCERN_ContactListQuery_Output.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 189
+/svn/!svn/ver/5375/SOA/Process%20Server/Contact_Gadget/Branch/5.26.2010_SOA.R5_Version.7/SBL_ContactWidget_myContacts_Lib/Contact_spcList_spcQuery_spcWPS_spcCERN_ContactListQuery_Output.xsd
+END
